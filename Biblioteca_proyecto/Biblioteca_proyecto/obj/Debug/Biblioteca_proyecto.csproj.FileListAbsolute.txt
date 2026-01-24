@@ -11,3 +11,17 @@ C:\Users\misha\Biblioteca\Biblioteca_proyecto\Biblioteca_proyecto\obj\Debug\Bibl
 C:\Users\misha\Biblioteca\Biblioteca_proyecto\Biblioteca_proyecto\obj\Debug\Biblioteca_proyecto.FUsuarios.resources
 C:\Users\misha\Biblioteca\Biblioteca_proyecto\Biblioteca_proyecto\obj\Debug\Biblioteca_proyecto.FLibros.resources
 C:\Users\misha\Biblioteca\Biblioteca_proyecto\Biblioteca_proyecto\obj\Debug\Biblioteca_proyecto.FPrincipal.resources
+C:\Users\misha\Desktop\proyecto_Biblioteca\Biblioteca\Biblioteca_proyecto\Biblioteca_proyecto\bin\Debug\Biblioteca_proyecto.exe.config
+C:\Users\misha\Desktop\proyecto_Biblioteca\Biblioteca\Biblioteca_proyecto\Biblioteca_proyecto\bin\Debug\Biblioteca_proyecto.exe
+C:\Users\misha\Desktop\proyecto_Biblioteca\Biblioteca\Biblioteca_proyecto\Biblioteca_proyecto\bin\Debug\Biblioteca_proyecto.pdb
+C:\Users\misha\Desktop\proyecto_Biblioteca\Biblioteca\Biblioteca_proyecto\Biblioteca_proyecto\obj\Debug\Biblioteca_proyecto.csproj.AssemblyReference.cache
+C:\Users\misha\Desktop\proyecto_Biblioteca\Biblioteca\Biblioteca_proyecto\Biblioteca_proyecto\obj\Debug\Biblioteca_proyecto.exe.config
+C:\Users\misha\Desktop\proyecto_Biblioteca\Biblioteca\Biblioteca_proyecto\Biblioteca_proyecto\obj\Debug\Biblioteca_proyecto.FUsuarios.resources
+C:\Users\misha\Desktop\proyecto_Biblioteca\Biblioteca\Biblioteca_proyecto\Biblioteca_proyecto\obj\Debug\Biblioteca_proyecto.FLibros.resources
+C:\Users\misha\Desktop\proyecto_Biblioteca\Biblioteca\Biblioteca_proyecto\Biblioteca_proyecto\obj\Debug\Biblioteca_proyecto.FPrincipal.resources
+C:\Users\misha\Desktop\proyecto_Biblioteca\Biblioteca\Biblioteca_proyecto\Biblioteca_proyecto\obj\Debug\Biblioteca_proyecto.Properties.Resources.resources
+C:\Users\misha\Desktop\proyecto_Biblioteca\Biblioteca\Biblioteca_proyecto\Biblioteca_proyecto\obj\Debug\Biblioteca_proyecto.csproj.GenerateResource.cache
+C:\Users\misha\Desktop\proyecto_Biblioteca\Biblioteca\Biblioteca_proyecto\Biblioteca_proyecto\obj\Debug\Biblioteca_proyecto.csproj.CoreCompileInputs.cache
+C:\Users\misha\Desktop\proyecto_Biblioteca\Biblioteca\Biblioteca_proyecto\Biblioteca_proyecto\obj\Debug\Biblioteca_proyecto.exe
+C:\Users\misha\Desktop\proyecto_Biblioteca\Biblioteca\Biblioteca_proyecto\Biblioteca_proyecto\obj\Debug\Biblioteca_proyecto.pdb
+C:\Users\misha\Desktop\proyecto_Biblioteca\Biblioteca\Biblioteca_proyecto\Biblioteca_proyecto\obj\Debug\Biblioteca_proyecto.Vista.FNuevoUsuario.resources

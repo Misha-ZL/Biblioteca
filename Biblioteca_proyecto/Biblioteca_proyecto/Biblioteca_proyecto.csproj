@@ -68,34 +68,43 @@
     <Compile Include="Modelo\Libro.cs" />
     <Compile Include="Modelo\Prestamo.cs" />
     <Compile Include="Modelo\Usuario.cs" />
+    <Compile Include="Vista\NuevoUsuario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vista\NuevoUsuario.Designer.cs">
+      <DependentUpon>NuevoUsuario.cs</DependentUpon>
+    </Compile>
     <Compile Include="Vista\Usuarios.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Vista\Usuarios.Designer.cs">
       <DependentUpon>Usuarios.cs</DependentUpon>
     </Compile>
-    <Compile Include="Vista\Form2.cs">
+    <Compile Include="Vista\Libros.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Vista\Form2.Designer.cs">
-      <DependentUpon>Form2.cs</DependentUpon>
+    <Compile Include="Vista\Libros.Designer.cs">
+      <DependentUpon>Libros.cs</DependentUpon>
     </Compile>
-    <Compile Include="Vista\Form3.cs">
+    <Compile Include="Vista\Principal.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Vista\Form3.Designer.cs">
-      <DependentUpon>Form3.cs</DependentUpon>
+    <Compile Include="Vista\Principal.Designer.cs">
+      <DependentUpon>Principal.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Vista\NuevoUsuario.resx">
+      <DependentUpon>NuevoUsuario.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Vista\Usuarios.resx">
       <DependentUpon>Usuarios.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Vista\Form2.resx">
-      <DependentUpon>Form2.cs</DependentUpon>
+    <EmbeddedResource Include="Vista\Libros.resx">
+      <DependentUpon>Libros.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Vista\Form3.resx">
-      <DependentUpon>Form3.cs</DependentUpon>
+    <EmbeddedResource Include="Vista\Principal.resx">
+      <DependentUpon>Principal.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

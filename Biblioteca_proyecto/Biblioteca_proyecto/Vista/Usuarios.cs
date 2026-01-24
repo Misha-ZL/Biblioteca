@@ -16,5 +16,19 @@ namespace Biblioteca_proyecto
         {
             InitializeComponent();
         }
+
+    
+
+        private static FUsuarios formularioUsuario;
+
+        public static FUsuarios GetInstance()
+        {
+            if (formularioUsuario == null)
+            {
+                formularioUsuario = new FUsuarios();
+            }
+            return formularioUsuario;
+        }
+
     }
 }
