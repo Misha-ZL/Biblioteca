@@ -75,9 +75,16 @@
     <Compile Include="Controlador\MiControlador.cs" />
     <Compile Include="Modelo\Libro.cs" />
     <Compile Include="Modelo\Prestamo.cs" />
+    <Compile Include="Modelo\RepositorioLibro.cs" />
     <Compile Include="Modelo\RepositorioUsuario.cs" />
     <Compile Include="Modelo\SQLiteHelper.cs" />
     <Compile Include="Modelo\Usuario.cs" />
+    <Compile Include="Vista\NuevoLibro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vista\NuevoLibro.Designer.cs">
+      <DependentUpon>NuevoLibro.cs</DependentUpon>
+    </Compile>
     <Compile Include="Vista\NuevoUsuario.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -104,6 +111,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Vista\NuevoLibro.resx">
+      <DependentUpon>NuevoLibro.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Vista\NuevoUsuario.resx">
       <DependentUpon>NuevoUsuario.cs</DependentUpon>
     </EmbeddedResource>

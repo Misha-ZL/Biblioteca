@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace Biblioteca_proyecto.Modelo
 {
-    internal class Libro
+    public class Libro
     {
-        public Libro(string titulo, string escritor, int ano_Edicion, string sinopsis, int disponible)
+        public Libro(string titulo, string escritor, int ano_Edicion, string sinopsis, bool disponible)
         {
             Titulo = titulo;
             Escritor = escritor;
@@ -16,7 +16,7 @@ namespace Biblioteca_proyecto.Modelo
             Sinopsis = sinopsis;
             Disponible = disponible;
         }
-        public Libro(int id,string titulo, string escritor, int ano_Edicion, string sinopsis, int disponible)
+        public Libro(int id,string titulo, string escritor, int ano_Edicion, string sinopsis, bool disponible)
         {
             Titulo = titulo;
             Escritor = escritor;
@@ -32,7 +32,7 @@ namespace Biblioteca_proyecto.Modelo
         public int Ano_Edicion {get; set;}
         public String Sinopsis {get; set;}
 
-        public int Disponible { get; set;}
+        public Boolean Disponible { get; set;}
 
 
 

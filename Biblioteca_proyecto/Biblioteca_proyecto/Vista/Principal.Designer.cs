@@ -65,14 +65,14 @@
             // smiUsuariosListar
             // 
             this.smiUsuariosListar.Name = "smiUsuariosListar";
-            this.smiUsuariosListar.Size = new System.Drawing.Size(180, 22);
+            this.smiUsuariosListar.Size = new System.Drawing.Size(150, 22);
             this.smiUsuariosListar.Text = "Listar Usuarios";
             this.smiUsuariosListar.Click += new System.EventHandler(this.smiUsuariosListar_Click);
             // 
             // smiUsuariosNuevo
             // 
             this.smiUsuariosNuevo.Name = "smiUsuariosNuevo";
-            this.smiUsuariosNuevo.Size = new System.Drawing.Size(180, 22);
+            this.smiUsuariosNuevo.Size = new System.Drawing.Size(150, 22);
             this.smiUsuariosNuevo.Text = "Nuevo";
             this.smiUsuariosNuevo.Click += new System.EventHandler(this.smiUsuariosNuevo_Click);
             // 
@@ -95,8 +95,9 @@
             // smiLibrosNuevo
             // 
             this.smiLibrosNuevo.Name = "smiLibrosNuevo";
-            this.smiLibrosNuevo.Size = new System.Drawing.Size(137, 22);
+            this.smiLibrosNuevo.Size = new System.Drawing.Size(180, 22);
             this.smiLibrosNuevo.Text = "Nuevo";
+            this.smiLibrosNuevo.Click += new System.EventHandler(this.smiLibrosNuevo_Click);
             // 
             // smiPrestamos
             // 

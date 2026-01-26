@@ -28,3 +28,5 @@ C:\Users\misha\Desktop\proyecto_Biblioteca\Biblioteca\Biblioteca_proyecto\Biblio
 C:\Users\misha\Desktop\proyecto_Biblioteca\Biblioteca\Biblioteca_proyecto\Biblioteca_proyecto\obj\Debug\Bibliote.A832B796.Up2Date
 C:\Users\misha\Desktop\proyecto_Biblioteca\Biblioteca\Biblioteca_proyecto\Biblioteca_proyecto\obj\Debug\Biblioteca_proyecto.exe
 C:\Users\misha\Desktop\proyecto_Biblioteca\Biblioteca\Biblioteca_proyecto\Biblioteca_proyecto\obj\Debug\Biblioteca_proyecto.pdb
+C:\Users\misha\Desktop\proyecto_Biblioteca\Biblioteca\Biblioteca_proyecto\Biblioteca_proyecto\obj\Debug\Biblioteca_proyecto.exe.config
+C:\Users\misha\Desktop\proyecto_Biblioteca\Biblioteca\Biblioteca_proyecto\Biblioteca_proyecto\obj\Debug\Biblioteca_proyecto.Vista.NuevoLibro.resources

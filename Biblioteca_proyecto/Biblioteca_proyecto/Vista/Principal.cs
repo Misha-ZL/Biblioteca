@@ -56,5 +56,11 @@ namespace Biblioteca_proyecto
             var form = FLibros.GetInstance();
             InsertarFormulario(form);
         }
+
+        private void smiLibrosNuevo_Click(object sender, EventArgs e)
+        {
+            var form = NuevoLibro.GetInstance();
+            InsertarFormulario(form);
+        }
     }
 }
