@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Biblioteca_proyecto.Modelo
 {
-    internal class Usuario
+    public class Usuario
     {
         public Usuario(int id, string nombre, string apellido_1, String apellido_2, int telefono)
         {
