@@ -43,7 +43,7 @@ namespace Biblioteca_proyecto.Vista
         {
             try
             {
-                //Convierte el texto de TBTelefono a in si esta ok devuelve true
+                //Convierte el texto de TBTelefono a int, si esta ok devuelve true
                 bool ok = int.TryParse(TbTelefono.Text, out int TelefonoInt);
                
                 if (!ok)
@@ -52,13 +52,22 @@ namespace Biblioteca_proyecto.Vista
                 }
 
                 ControladorUsuario.NuevoUsuario(TbNombre.Text, TbAppellido1.Text, TbApellido2.Text,TelefonoInt);
-                this.Close();
+                
+                LimpiarFormularioUsuario();
 
             }
             catch (Exception ex)
             {
                 MessageBox.Show(ex.ToString());
             }
+        }
+
+        private void LimpiarFormularioUsuario()
+        {
+            TbNombre.Text = "";
+            TbAppellido1.Text = "";
+            TbApellido2.Text = "";
+            TbTelefono.Text = "";
         }
     }
 }

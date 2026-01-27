@@ -47,13 +47,22 @@ namespace Biblioteca_proyecto.Vista
                 }
 
                 ControladorLibro.NuevoLibro(TbTitulo.Text, TbEscritor.Text, TelefonoInt,TbSinopsis.Text, ChkDisponible.Checked);
-                this.Close();
-
+               
+                LimpiarFormularioLibro();
             }
             catch (Exception ex)
             {
                 MessageBox.Show(ex.ToString());
             }
+        }
+
+        private void LimpiarFormularioLibro()
+        {
+            TbTitulo.Text = "";
+            TbEscritor.Text = "";
+            TbAnoEdicion.Text = "";
+            TbSinopsis.Text = "";
+            ChkDisponible.Checked = false;
         }
     }
 }

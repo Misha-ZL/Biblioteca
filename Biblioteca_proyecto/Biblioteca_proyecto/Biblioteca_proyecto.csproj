@@ -76,6 +76,7 @@
     <Compile Include="Modelo\Libro.cs" />
     <Compile Include="Modelo\Prestamo.cs" />
     <Compile Include="Modelo\RepositorioLibro.cs" />
+    <Compile Include="Modelo\RepositorioPrestamo.cs" />
     <Compile Include="Modelo\RepositorioUsuario.cs" />
     <Compile Include="Modelo\SQLiteHelper.cs" />
     <Compile Include="Modelo\Usuario.cs" />

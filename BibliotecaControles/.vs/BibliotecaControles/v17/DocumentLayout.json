@@ -1,13 +1,13 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\frijo\\Desktop\\Biblioteca\\BibliotecaControles\\",
+  "WorkspaceRootPath": "C:\\Users\\misha\\Desktop\\proyecto_Biblioteca\\Biblioteca\\BibliotecaControles\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{55EE249A-2060-4E1F-8DFB-C9E3ED4F7CE8}|BibliotecaControles\\BibliotecaControles.csproj|c:\\users\\frijo\\desktop\\biblioteca\\bibliotecacontroles\\bibliotecacontroles\\verusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{55EE249A-2060-4E1F-8DFB-C9E3ED4F7CE8}|BibliotecaControles\\BibliotecaControles.csproj|c:\\users\\misha\\desktop\\proyecto_biblioteca\\biblioteca\\bibliotecacontroles\\bibliotecacontroles\\verusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{55EE249A-2060-4E1F-8DFB-C9E3ED4F7CE8}|BibliotecaControles\\BibliotecaControles.csproj|solutionrelative:bibliotecacontroles\\verusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{55EE249A-2060-4E1F-8DFB-C9E3ED4F7CE8}|BibliotecaControles\\BibliotecaControles.csproj|c:\\users\\frijo\\desktop\\biblioteca\\bibliotecacontroles\\bibliotecacontroles\\usercontrol1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{55EE249A-2060-4E1F-8DFB-C9E3ED4F7CE8}|BibliotecaControles\\BibliotecaControles.csproj|C:\\Users\\misha\\Desktop\\proyecto_Biblioteca\\Biblioteca\\BibliotecaControles\\bibliotecacontroles\\usercontrol1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{55EE249A-2060-4E1F-8DFB-C9E3ED4F7CE8}|BibliotecaControles\\BibliotecaControles.csproj|solutionrelative:bibliotecacontroles\\usercontrol1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
@@ -24,25 +24,28 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "verUsuario.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\frijo\\Desktop\\Biblioteca\\BibliotecaControles\\BibliotecaControles\\verUsuario.cs",
+              "DocumentMoniker": "C:\\Users\\misha\\Desktop\\proyecto_Biblioteca\\Biblioteca\\BibliotecaControles\\BibliotecaControles\\verUsuario.cs",
               "RelativeDocumentMoniker": "BibliotecaControles\\verUsuario.cs",
-              "ToolTip": "C:\\Users\\frijo\\Desktop\\Biblioteca\\BibliotecaControles\\BibliotecaControles\\verUsuario.cs [Dise\u00F1o]",
+              "ToolTip": "C:\\Users\\misha\\Desktop\\proyecto_Biblioteca\\Biblioteca\\BibliotecaControles\\BibliotecaControles\\verUsuario.cs [Dise\u00F1o]",
               "RelativeToolTip": "BibliotecaControles\\verUsuario.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-26T13:08:40.445Z",
               "EditorCaption": " [Dise\u00F1o]"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "UserControl1.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\frijo\\Desktop\\Biblioteca\\BibliotecaControles\\BibliotecaControles\\UserControl1.cs",
+              "DocumentMoniker": "C:\\Users\\misha\\Desktop\\proyecto_Biblioteca\\Biblioteca\\BibliotecaControles\\BibliotecaControles\\UserControl1.cs",
               "RelativeDocumentMoniker": "BibliotecaControles\\UserControl1.cs",
               "ToolTip": "C:\\Users\\frijo\\Desktop\\Biblioteca\\BibliotecaControles\\BibliotecaControles\\UserControl1.cs [Dise\u00F1o]",
-              "RelativeToolTip": "BibliotecaControles\\UserControl1.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\frijo\\Desktop\\Biblioteca\\BibliotecaControles\\BibliotecaControles\\UserControl1.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-26T13:08:37.296Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2026-01-26T13:08:37.296Z"
             },
             {
               "$type": "Bookmark",
