@@ -26,10 +26,13 @@ namespace Biblioteca_proyecto.Controlador
             if(Nombre == "" || Apellido_1 == "" || Telefono <= 0){
 
                 throw new Exception("Debes rellenar todos los datos");
+            } else
+            {
+                Usuario usuario = new Usuario(Nombre, Apellido_1, Apellido_2, Telefono);
+                repositorioUsuario.SumarUsuario(usuario);
             }
 
-            Usuario usuario =new Usuario(Nombre,Apellido_1,Apellido_2,Telefono);
-            repositorioUsuario.SumarUsuario(usuario);
+                
 
 
         }
@@ -38,10 +41,13 @@ namespace Biblioteca_proyecto.Controlador
             if(Titulo == "" || Escritor == "" || Ano <= 0 || Sinopsis == ""  ){
 
                 throw new Exception("Debes rellenar todos los datos");
+            } else 
+            {
+                Libro libro = new Libro(Titulo, Escritor, Ano, Sinopsis, Disponible);
+                repositorioLibro.SumarLibro(libro);
             }
 
-            Libro libro=new Libro(Titulo,Escritor,Ano,Sinopsis,Disponible);
-            repositorioLibro.SumarLibro(libro);
+            
 
 
         }
@@ -55,22 +61,20 @@ namespace Biblioteca_proyecto.Controlador
             if (!libroExiste)
             {
                 throw new Exception("El libro no existe");
-            }
-
-            if (!usuarioExiste) { throw new Exception("El usuario no existe"); 
-            
-            }
-
-            if ( fecha_fin == "" || fecha_fin == ""  ){
-
+            } else if (!usuarioExiste)
+            {
+                throw new Exception("El usuario no existe");
+            } else if (fecha_fin == "" || fecha_fin == "")
+            {
                 throw new Exception("Debes rellenar todos los datos");
+            } else
+            {
+                Prestamo prestamo = new Prestamo(Id_Libro, Id_Usuario, fecha_inicio, fecha_fin);
+                repositorioPrestamo.SumarPrestamo(prestamo);
+
             }
-
-            Prestamo prestamo=new Prestamo(Id_Libro,Id_Usuario,fecha_inicio,fecha_fin);
-            repositorioPrestamo.SumarPrestamo(prestamo);
-
-
          }
+
 
         //Eliminar por ID
         public void EliminarUsuario(int id)
