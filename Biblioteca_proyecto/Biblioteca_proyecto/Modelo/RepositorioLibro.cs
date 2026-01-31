@@ -59,19 +59,30 @@ namespace Biblioteca_proyecto.Modelo
             datos = SQLiteHelper.GetDataTable(Properties.Settings.Default.conexion, cmd);
             return datos;
         }
-
-
-        public DataTable BuscarLibroPorID(int id)
+        public DataTable CargarLibrosDisponibles()
         {
             DataTable datos = new DataTable();
-            string sql = $"SELECT * FROM Libros WHERE ID={id}";
+            string sql = "SELECT * FROM Libros Where Disponible = 1";
             SQLiteCommand cmd = new SQLiteCommand(sql);
             datos = SQLiteHelper.GetDataTable(Properties.Settings.Default.conexion, cmd);
             return datos;
         }
 
 
+        public DataTable BuscarLibroPorID(int id)
+        {
+            DataTable datos = new DataTable();
+            string sql = $"SELECT * FROM Libros WHERE ID=@id";
+            SQLiteCommand cmd = new SQLiteCommand(sql);
+            cmd.Parameters.Add("@id", DbType.Int32).Value = id;
+            datos = SQLiteHelper.GetDataTable(Properties.Settings.Default.conexion, cmd);
+            return datos;
+        }
+   
 
+
+
+       
 
 
     }

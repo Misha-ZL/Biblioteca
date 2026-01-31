@@ -30,3 +30,4 @@ C:\Users\misha\Desktop\proyecto_Biblioteca\Biblioteca\Biblioteca_proyecto\Biblio
 C:\Users\misha\Desktop\proyecto_Biblioteca\Biblioteca\Biblioteca_proyecto\Biblioteca_proyecto\obj\Debug\Biblioteca_proyecto.pdb
 C:\Users\misha\Desktop\proyecto_Biblioteca\Biblioteca\Biblioteca_proyecto\Biblioteca_proyecto\obj\Debug\Biblioteca_proyecto.exe.config
 C:\Users\misha\Desktop\proyecto_Biblioteca\Biblioteca\Biblioteca_proyecto\Biblioteca_proyecto\obj\Debug\Biblioteca_proyecto.Vista.NuevoLibro.resources
+C:\Users\misha\Desktop\proyecto_Biblioteca\Biblioteca\Biblioteca_proyecto\Biblioteca_proyecto\obj\Debug\Biblioteca_proyecto.Vista.NuevoPrestamo.resources

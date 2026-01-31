@@ -103,6 +103,11 @@ namespace Biblioteca_proyecto.Controlador
             return repositorioLibro.CargarLibrosTodo();
         }
 
+         public DataTable CargarLibrosDisponibles()
+        {
+            return repositorioLibro.CargarLibrosDisponibles();
+        }
+
         public DataTable CargarPrestamos()
         {
             return repositorioPrestamo.CargarPrestamosTodo();

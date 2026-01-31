@@ -88,14 +88,14 @@
             // smiLibrosListar
             // 
             this.smiLibrosListar.Name = "smiLibrosListar";
-            this.smiLibrosListar.Size = new System.Drawing.Size(180, 22);
+            this.smiLibrosListar.Size = new System.Drawing.Size(137, 22);
             this.smiLibrosListar.Text = "Listar Libros";
             this.smiLibrosListar.Click += new System.EventHandler(this.smiLibrosListar_Click);
             // 
             // smiLibrosNuevo
             // 
             this.smiLibrosNuevo.Name = "smiLibrosNuevo";
-            this.smiLibrosNuevo.Size = new System.Drawing.Size(180, 22);
+            this.smiLibrosNuevo.Size = new System.Drawing.Size(137, 22);
             this.smiLibrosNuevo.Text = "Nuevo";
             this.smiLibrosNuevo.Click += new System.EventHandler(this.smiLibrosNuevo_Click);
             // 
@@ -111,14 +111,15 @@
             // smiPrestamosListar
             // 
             this.smiPrestamosListar.Name = "smiPrestamosListar";
-            this.smiPrestamosListar.Size = new System.Drawing.Size(160, 22);
+            this.smiPrestamosListar.Size = new System.Drawing.Size(180, 22);
             this.smiPrestamosListar.Text = "Listar Prestamos";
             // 
             // smiPrestamosNuevo
             // 
             this.smiPrestamosNuevo.Name = "smiPrestamosNuevo";
-            this.smiPrestamosNuevo.Size = new System.Drawing.Size(160, 22);
+            this.smiPrestamosNuevo.Size = new System.Drawing.Size(180, 22);
             this.smiPrestamosNuevo.Text = "Nuevo";
+            this.smiPrestamosNuevo.Click += new System.EventHandler(this.smiPrestamosNuevo_Click);
             // 
             // FPrincipal
             // 

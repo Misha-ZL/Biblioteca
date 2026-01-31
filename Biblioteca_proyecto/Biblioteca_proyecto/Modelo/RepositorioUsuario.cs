@@ -53,12 +53,13 @@ namespace Biblioteca_proyecto.Modelo
 
         public DataTable BuscarUsuarioPorID(int id)
         {
-            DataTable datos = new DataTable();
-            string sql = $"SELECT * FROM Usuario WHERE ID={id}";
+            string sql = "SELECT * FROM Usuarios WHERE ID=@id";
             SQLiteCommand cmd = new SQLiteCommand(sql);
-            datos = SQLiteHelper.GetDataTable(Properties.Settings.Default.conexion, cmd);
-            return datos;
+            cmd.Parameters.Add("@id", DbType.Int32).Value = id;
+
+            return SQLiteHelper.GetDataTable(Properties.Settings.Default.conexion, cmd);
         }
+
 
 
 
