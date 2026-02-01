@@ -6,11 +6,12 @@ using System.Threading.Tasks;
 
 namespace Biblioteca_proyecto.Modelo
 {
+    /// <summary>
+    /// Representa un prestamo en el sistema de la biblioteca, con propiedades como Id, Id_Libro, Id_Usuario, Fecha_Inicio y Fecha_Fin.
+    /// </summary>
     public class Prestamo
 
-    
     { 
-        
         public Prestamo(int id, int id_libro, int id_usuario, String fecha_inicio, String fecha_fin)
         {
             Id = id;

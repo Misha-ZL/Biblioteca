@@ -11,9 +11,15 @@ using Biblioteca_proyecto.Controlador;
 
 namespace Biblioteca_proyecto.Vista
 {
+    /// <summary>
+    /// Representa el formulario para crear un nuevo prestamo en la biblioteca, asi como gestionar la interaccion con los usuarios y 
+    /// libros disponibles, en la interfaz grafica.
+    /// </summary>
     public partial class NuevoPrestamo : Form
     {
-
+        /// <summary>
+        /// Maneja la creacion de nuevos prestamos
+        /// </summary>
         public Controlador.MiControlador ControladorReserva = new MiControlador();
         public NuevoPrestamo()
         {
@@ -21,7 +27,9 @@ namespace Biblioteca_proyecto.Vista
             this.Load += NuevoPrestamo_Load;
         }
 
-
+        /// <summary>
+        /// Contiene una referencia a NuevoPrestamos para crear una nueva reserva
+        /// </summary>
         private static NuevoPrestamo FormNuevaReserva;
         public static NuevoPrestamo GetInstance()
         {
@@ -31,7 +39,9 @@ namespace Biblioteca_proyecto.Vista
             }
             return FormNuevaReserva;
         }
-
+        /// <summary>
+        /// Carga y muestra los datos de los libros disponibles y los usuarios en los respectivos DataGridViews.
+        /// </summary>
         public void CargarDatos()
         {
             DgvLibro.AutoGenerateColumns = true;
@@ -53,12 +63,21 @@ namespace Biblioteca_proyecto.Vista
 
 
         }
-
+        /// <summary>
+        /// Se encarga de cargar y visualizar los datos en el form.
+        /// </summary>
+        /// <param name="sender">Origen del evento.</param>
+        /// <param name="e">Datos del evento.</param>
         private void NuevoPrestamo_Load(object sender, EventArgs e)
         {
             CargarDatos();
         }
-
+        /// <summary>
+        /// Maneja el boton de agregar nueva reserva, creando un nuevo prestamo con los datos seleccionados 
+        /// del libro y usuario, ademas de refrescar el form y mostrar un mensaje de confirmacion
+        /// </summary>
+        /// <param name="sender">Origen del evento.</param>
+        /// <param name="e">Datos del evento.</param>
         private void BtnAddReserva_Click(object sender, EventArgs e)
         {
 
@@ -79,13 +98,13 @@ namespace Biblioteca_proyecto.Vista
             {
                 MessageBox.Show(ex.ToString());
             }
-
+           
             LimpiarFormulario();
         }
-    
-
-
-    private void LimpiarFormulario()
+        /// <summary>
+        /// Limpia los campos del formulario despues de agregar una nueva reserva, y deselecciona cualquier fila seleccionada en los DataGridViews.
+        /// </summary>
+        private void LimpiarFormulario()
         {
             TbIncio.Clear();
             TbFin.Clear();

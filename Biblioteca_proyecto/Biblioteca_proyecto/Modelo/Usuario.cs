@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace Biblioteca_proyecto.Modelo
 {
+    /// <summary>
+    /// Representa un usuario en el sistema de la biblioteca, con propiedades como Id, Nombre, Apellidos y Telefono.
+    /// </summary>
     public class Usuario
     {
         public Usuario(int id, string nombre, string apellido_1, String apellido_2, int telefono)

@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace Biblioteca_proyecto.Modelo
 {
+    /// <summary>
+    /// Representa un libro en el sistema de la biblioteca, con propiedades como Titulo, Escritor, Ano_Edicion, Sinopsis y Disponible.
+    /// </summary>
     public class Libro
     {
         public Libro(string titulo, string escritor, int ano_Edicion, string sinopsis, bool disponible)
