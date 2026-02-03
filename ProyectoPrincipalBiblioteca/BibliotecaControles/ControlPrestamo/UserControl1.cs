@@ -21,25 +21,38 @@ namespace ControlPrestamo2
             get => base.MinimumSize; 
             set => base.MinimumSize = new Size(800, 30);
         }
-
-        public string ID
+        private int prestamoID;
+        private int LibroID;
+        private int UsuarioID;
+        public int ID
         {  
-            get => LAB_ID.Text;
-            set => LAB_ID.Text = value; 
+            get => prestamoID;
+            set
+            {
+                prestamoID = value;
+                LAB_ID.Text = prestamoID.ToString();
+            }
         }
 
-        public string ISBN
+        public int ISBN
         {
-            get => LAB_ISBN.Text;
-            set => LAB_ISBN.Text = value;
+           get => LibroID;
+            set
+            {
+                LibroID = value;
+                LAB_ISBN.Text = LibroID.ToString(); 
+            }
         }
 
-        public string DNI
+        public int DNI
         {
-            get => LAB_DNI.Text;
-            set => LAB_DNI.Text = value;
+            get => UsuarioID;
+            set
+            {
+                UsuarioID = value;
+                LAB_DNI.Text = UsuarioID.ToString();
+            }
         }
-
 
 
         public string Prestamo
@@ -54,17 +67,58 @@ namespace ControlPrestamo2
             set => LAB_FDevolucion.Text = value;
         }
 
-        public event EventHandler<string> eliminarPrestamo;
+
+
+
         private void btnEliminar_Click(object sender, EventArgs e)
         {
-            eliminarPrestamo?.Invoke(this, ID);
+            BorrarPrestamo?.Invoke(this, new ClickarBotonIdEventArgs(prestamoID));
+
+
         }
 
-        public event EventHandler<string> editarPrestamo;
         private void btnEditar_Click(object sender, EventArgs e)
         {
-            editarPrestamo?.Invoke(this, ID);
+            DialogResult resultado = MessageBox.Show(
+                   "¿Estás seguro?",
+                   "Eliminar",
+                   MessageBoxButtons.OKCancel,
+                   MessageBoxIcon.Question);
+
+            if (resultado == DialogResult.OK)
+            {
+
+                EditarPrestamo?.Invoke(this, new ClickarBotonIdEventArgs(prestamoID));
+            }
+            else {
+                // lleavar a inicio si se hace IDK
+            }
         }
+
+        public event EventHandler<ClickarBotonIdEventArgs> BorrarPrestamo;
+
+        public event EventHandler<ClickarBotonIdEventArgs> EditarPrestamo;
+
+        public class ClickarBotonIdEventArgs : EventArgs
+        {
+            public int Id { get; }
+            public ClickarBotonIdEventArgs(int id)
+            {
+                Id = id;
+            }
+        }
+
+
+       
+        
+
+
+
+
+
+
+
+
     }
 }
 

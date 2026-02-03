@@ -41,7 +41,7 @@
             this.tlpUsuarios.Name = "tlpUsuarios";
             this.tlpUsuarios.RowCount = 1;
             this.tlpUsuarios.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tlpUsuarios.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.tlpUsuarios.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 494F));
             this.tlpUsuarios.Size = new System.Drawing.Size(1091, 494);
             this.tlpUsuarios.TabIndex = 0;
             // 

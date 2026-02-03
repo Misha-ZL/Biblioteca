@@ -113,6 +113,7 @@
             this.smiPrestamosListar.Name = "smiPrestamosListar";
             this.smiPrestamosListar.Size = new System.Drawing.Size(180, 22);
             this.smiPrestamosListar.Text = "Listar Prestamos";
+            this.smiPrestamosListar.Click += new System.EventHandler(this.smiPrestamosListar_Click);
             // 
             // smiPrestamosNuevo
             // 

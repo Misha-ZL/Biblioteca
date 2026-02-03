@@ -17,16 +17,21 @@ namespace BibliotecaControles
             InitializeComponent();
         }
 
-        public override Size MinimumSize { 
-            get => base.MinimumSize; 
-            set => base.MinimumSize = new Size(1060, 40); 
+        public override Size MinimumSize {
+            get => base.MinimumSize;
+            set => base.MinimumSize = new Size(1060, 40);
         }
 
-        public string idUsuario
+        public int idUsuario
         {
-            get => lblUserid.Text;
-            set => lblUserid.Text = value;
+            get => id;
+            set
+            {
+                id = value;
+                lblUserid.Text = id.ToString();
+            }
         }
+
 
         public string Apellido1
         {
@@ -46,23 +51,58 @@ namespace BibliotecaControles
             set => lblNombre.Text = value;
         }
 
-        public string Telefono
+        public int Telefono
         {
-            get => lblTelefono.Text;
-            set => lblTelefono.Text = value;
+            get => tel;
+            set
+            {
+                tel = value;
+                lblTelefono.Text = tel.ToString();
+            }
+
         }
 
-        public event EventHandler<string> editarUsuario;
+        private int id;
+        private int tel;
+
+
+
+        public event EventHandler<ClickarBotonIdEventArgs> BorrarUsuario;
+
+        public event EventHandler<ClickarBotonIdEventArgs> EditarUsuario;
 
         private void btnEditar_Click(object sender, EventArgs e)
         {
-            editarUsuario?.Invoke(this, idUsuario);
+            EditarUsuario?.Invoke(this, new ClickarBotonIdEventArgs(id));
         }
 
-        public event EventHandler<string> eliminarUsuario;
-        private void btnEliminar_Click(object sender, EventArgs e)
+        private void btnEliminar_Click(object sender, EventArgs e) { 
+        DialogResult resultado = MessageBox.Show(
+               "¿Estás seguro?",
+               "Eliminar",
+               MessageBoxButtons.OKCancel,
+               MessageBoxIcon.Question);
+
+            if (resultado == DialogResult.OK)
+            {
+        
+            BorrarUsuario?.Invoke(this, new ClickarBotonIdEventArgs(id));
+            }else{
+
+                // lleavar a inicio si se hace IDK
+
+            }
+
+        }
+
+        public class ClickarBotonIdEventArgs : EventArgs
         {
-            eliminarUsuario?.Invoke(this, idUsuario);
+            public int Id { get; }
+
+            public ClickarBotonIdEventArgs(int id)
+            {
+                Id = id;
+            }
         }
     }
 }

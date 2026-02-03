@@ -1,6 +1,4 @@
-﻿using Biblioteca_proyecto.Controlador;
-using BibliotecaControles;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -9,6 +7,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Biblioteca_proyecto.Controlador;
+using BibliotecaControles;
+using static BibliotecaControles.verUsuario;
 
 namespace Biblioteca_proyecto
 {
@@ -18,12 +19,21 @@ namespace Biblioteca_proyecto
         {
             InitializeComponent();
             this.WindowState = FormWindowState.Maximized;
+            this.Activated += FUsuarios_Load;
         }
 
     
         MiControlador ControladorUsuario= new MiControlador();
 
-       public void Cargar(DataTable datos) { 
+
+        private void FUsuarios_Load(object sender, EventArgs e)
+        {
+            
+            Cargar(ControladorUsuario.CargarUsuarios());
+
+        }
+
+        public void Cargar(DataTable datos) { 
 
 
 
@@ -33,20 +43,50 @@ namespace Biblioteca_proyecto
 
             foreach (DataRow fila in datos.Rows)
             {
-                verUsuario usuario1= new verUsuario();
+                verUsuario usuario= new verUsuario();
 
-                usuario1.idUsuario = fila.Field<string>("ID");
-                usuario1.Nombre = fila.Field<string>("Nombre");
-                usuario1.Apellido1 = fila.Field<string>("Apellido_1");
-                usuario1.Apellido2 = fila.Field<string>("Apellido_2");
-                usuario1.Telefono = fila.Field<string>("Telefono");
-               
+                usuario.idUsuario = Convert.ToInt32(fila["ID"]);
+                usuario.Nombre = fila.Field<string>("Nombre");
+                usuario.Apellido1 = fila.Field<string>("Apellido_1");
+                usuario.Apellido2 = fila.Field<string>("Apellido_2");
+                usuario.Telefono = Convert.ToInt32(fila["Telefono"]);
+
+                usuario.EditarUsuario += Control_EditarUsuario;
+                usuario.BorrarUsuario += Control_borrarEmpleado;
+
+                usuario.Dock = DockStyle.Fill;
+                tlpUsuarios.RowCount = tlpUsuarios.RowCount + 1;
+                tlpUsuarios.RowStyles.Insert(NuevaFila, new RowStyle(SizeType.AutoSize));
+                tlpUsuarios.Controls.Add(usuario, 0, NuevaFila);
+                NuevaFila++;
+
 
             }
         
 
         }
-     
+        private void Control_EditarUsuario(object sender, verUsuario.ClickarBotonIdEventArgs e)
+        {
+
+            Vista.EditarUsuario editarUsuarioForm = new Vista.EditarUsuario();
+            editarUsuarioForm.id = e.Id;
+            //Hay que poner en EditarUsuario el controlador nuevo que se genera en public para acceder a el
+            editarUsuarioForm.ControladorModUsuario = ControladorUsuario;
+            editarUsuarioForm.ShowDialog();
+
+            Cargar(ControladorUsuario.CargarUsuarios());
+
+        }
+
+        
+
+        private void Control_borrarEmpleado(object sender, ClickarBotonIdEventArgs e)
+        {
+            ControladorUsuario.EliminarUsuario(e.Id);
+            Cargar(ControladorUsuario.CargarUsuarios());
+        }
+
+
 
 
         private static FUsuarios formularioUsuario;
@@ -60,6 +100,9 @@ namespace Biblioteca_proyecto
             return formularioUsuario;
 
         }
+
+
+      
 
     }
 }

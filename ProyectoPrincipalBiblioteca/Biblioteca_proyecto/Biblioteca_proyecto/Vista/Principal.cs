@@ -99,5 +99,11 @@ namespace Biblioteca_proyecto
             var form = NuevoPrestamo.GetInstance();
             InsertarFormulario(form);
         }
+
+        private void smiPrestamosListar_Click(object sender, EventArgs e)
+        {
+            var form = Prestamos.GetInstance();
+            InsertarFormulario(form);
+        }
     }
 }

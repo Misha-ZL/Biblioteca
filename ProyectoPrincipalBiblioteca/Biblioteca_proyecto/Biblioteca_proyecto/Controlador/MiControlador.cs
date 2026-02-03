@@ -1,9 +1,10 @@
 ﻿using System;
-using System.Data;
 using System.Collections.Generic;
+using System.Data;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Forms;
 using Biblioteca_proyecto.Modelo;
 
 namespace Biblioteca_proyecto.Controlador
@@ -108,6 +109,7 @@ namespace Biblioteca_proyecto.Controlador
         /// <param name="id">ID del usuario a eliminar</param>
         public void EliminarUsuario(int id)
         {
+            MessageBox.Show("Borrando ID: " + id);
             repositorioUsuario.BorrarUsuario(id);
         }
         /// <summary>
@@ -213,7 +215,7 @@ namespace Biblioteca_proyecto.Controlador
 
 
 
-            Usuario usuario = new Usuario(Nombre, Apellido_1, Apellido_2, Telefono);
+            Usuario usuario = new Usuario(id,Nombre, Apellido_1, Apellido_2, Telefono);
             repositorioUsuario.ModificarUsuario(usuario);
 
 
@@ -242,7 +244,7 @@ namespace Biblioteca_proyecto.Controlador
                 throw new Exception("El libro no existe");
             }
 
-            Libro libro = new Libro(Titulo, Escritor, Ano, Sinopsis, Disponible);
+            Libro libro = new Libro(id,Titulo, Escritor, Ano, Sinopsis, Disponible);
             repositorioLibro.ModificarLibro(libro);
 
 
@@ -255,7 +257,7 @@ namespace Biblioteca_proyecto.Controlador
         /// <param name="fecha_inicio">Fecha inicial a modificar</param>
         /// <param name="fecha_fin">Fecha de termino a modificar</param>
         /// <exception cref="Exception"></exception>
-        public void ModificarPrestamo(int Id_Libro, int Id_Usuario, String fecha_inicio, String fecha_fin)
+        public void ModificarPrestamo(int id,int Id_Libro, int Id_Usuario, String fecha_inicio, String fecha_fin)
         {
 
 
@@ -279,7 +281,7 @@ namespace Biblioteca_proyecto.Controlador
                 throw new Exception("Debes rellenar todos los datos");
             }
 
-            Prestamo prestamo = new Prestamo(Id_Libro, Id_Usuario, fecha_inicio, fecha_fin);
+            Prestamo prestamo = new Prestamo(id,Id_Libro, Id_Usuario, fecha_inicio, fecha_fin);
             repositorioPrestamo.ModificarPrestamo(prestamo);
 
 
