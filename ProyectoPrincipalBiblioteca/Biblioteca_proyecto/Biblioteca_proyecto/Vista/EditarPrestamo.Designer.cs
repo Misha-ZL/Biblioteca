@@ -1,6 +1,6 @@
 ﻿namespace Biblioteca_proyecto.Vista
 {
-    partial class NuevoPrestamo
+    partial class EditarPrestamo
     {
         /// <summary>
         /// Required designer variable.
@@ -34,7 +34,7 @@
             this.lFechaFin = new System.Windows.Forms.Label();
             this.TbIncio = new System.Windows.Forms.TextBox();
             this.TbFin = new System.Windows.Forms.TextBox();
-            this.BtnEditarPrestamo = new System.Windows.Forms.Button();
+            this.BtnAddReserva = new System.Windows.Forms.Button();
             this.DgvLibro = new System.Windows.Forms.DataGridView();
             this.Llibros = new System.Windows.Forms.Label();
             this.lUsuario = new System.Windows.Forms.Label();
@@ -55,7 +55,7 @@
             this.tableLayoutPanel1.Controls.Add(this.lFechaFin, 1, 2);
             this.tableLayoutPanel1.Controls.Add(this.TbIncio, 2, 1);
             this.tableLayoutPanel1.Controls.Add(this.TbFin, 2, 2);
-            this.tableLayoutPanel1.Controls.Add(this.BtnEditarPrestamo, 2, 5);
+            this.tableLayoutPanel1.Controls.Add(this.BtnAddReserva, 2, 5);
             this.tableLayoutPanel1.Controls.Add(this.DgvLibro, 2, 3);
             this.tableLayoutPanel1.Controls.Add(this.Llibros, 1, 3);
             this.tableLayoutPanel1.Controls.Add(this.lUsuario, 1, 4);
@@ -70,7 +70,7 @@
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 42.85714F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle());
             this.tableLayoutPanel1.Size = new System.Drawing.Size(800, 450);
-            this.tableLayoutPanel1.TabIndex = 0;
+            this.tableLayoutPanel1.TabIndex = 1;
             // 
             // DgvUsuarios
             // 
@@ -123,16 +123,16 @@
             this.TbFin.Size = new System.Drawing.Size(680, 20);
             this.TbFin.TabIndex = 7;
             // 
-            // BtnEditarPrestamo
+            // BtnAddReserva
             // 
-            this.BtnEditarPrestamo.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.BtnEditarPrestamo.Location = new System.Drawing.Point(97, 358);
-            this.BtnEditarPrestamo.Name = "BtnEditarPrestamo";
-            this.BtnEditarPrestamo.Size = new System.Drawing.Size(680, 89);
-            this.BtnEditarPrestamo.TabIndex = 8;
-            this.BtnEditarPrestamo.Text = "AÑADIR";
-            this.BtnEditarPrestamo.UseVisualStyleBackColor = true;
-            this.BtnEditarPrestamo.Click += new System.EventHandler(this.BtnAddReserva_Click);
+            this.BtnAddReserva.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.BtnAddReserva.Location = new System.Drawing.Point(97, 358);
+            this.BtnAddReserva.Name = "BtnAddReserva";
+            this.BtnAddReserva.Size = new System.Drawing.Size(680, 89);
+            this.BtnAddReserva.TabIndex = 8;
+            this.BtnAddReserva.Text = "EDITAR";
+            this.BtnAddReserva.UseVisualStyleBackColor = true;
+            this.BtnAddReserva.Click += new System.EventHandler(this.BtnAddReserva_Click);
             // 
             // DgvLibro
             // 
@@ -169,15 +169,14 @@
             this.lUsuario.Text = "Usuarios";
             this.lUsuario.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
-            // NuevoPrestamo
+            // EditarPrestamo
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.tableLayoutPanel1);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "NuevoPrestamo";
-            this.Text = "NuevaReserve";
+            this.Name = "EditarPrestamo";
+            this.Text = "EditarPrestamo";
             this.tableLayoutPanel1.ResumeLayout(false);
             this.tableLayoutPanel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.DgvUsuarios)).EndInit();
@@ -194,7 +193,7 @@
         private System.Windows.Forms.Label lFechaFin;
         private System.Windows.Forms.TextBox TbIncio;
         private System.Windows.Forms.TextBox TbFin;
-        private System.Windows.Forms.Button BtnEditarPrestamo;
+        private System.Windows.Forms.Button BtnAddReserva;
         private System.Windows.Forms.DataGridView DgvLibro;
         private System.Windows.Forms.Label Llibros;
         private System.Windows.Forms.Label lUsuario;

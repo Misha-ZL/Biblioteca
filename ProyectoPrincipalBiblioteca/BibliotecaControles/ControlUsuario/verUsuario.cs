@@ -24,9 +24,10 @@ namespace BibliotecaControles
 
         public int idUsuario
         {
+            //get devuelve el valor en id
             get => id;
             set
-            {
+            {   //set cuando alguien cambia el valor de id  actualiza la etiqueta lblUserid para que muestre el nuevo valor
                 id = value;
                 lblUserid.Text = id.ToString();
             }
@@ -72,6 +73,8 @@ namespace BibliotecaControles
         public event EventHandler<ClickarBotonIdEventArgs> EditarUsuario;
 
         private void btnEditar_Click(object sender, EventArgs e)
+        // Dispara el evento EditarUsuario enviando como sender este UserControl
+        // y pasando el ID del usuario (id) dentro de ClickarBotonIdEventArgs para que el formulario sepa qué editar.
         {
             EditarUsuario?.Invoke(this, new ClickarBotonIdEventArgs(id));
         }
@@ -85,7 +88,9 @@ namespace BibliotecaControles
 
             if (resultado == DialogResult.OK)
             {
-        
+            
+                // Dispara el evento BorrarPrestamo enviando como sender este UserControl
+                // y pasando el ID del préstamo (prestamoID) dentro de ClickarBotonIdEventArgs para que el formulario sepa qué borrar.
             BorrarUsuario?.Invoke(this, new ClickarBotonIdEventArgs(id));
             }else{
 
@@ -97,8 +102,10 @@ namespace BibliotecaControles
 
         public class ClickarBotonIdEventArgs : EventArgs
         {
+            // Propiedad para obtener el ID asociado al evento
             public int Id { get; }
 
+            //al clcikar el boton se crea una instancia de ClickarBotonIdEventArgs pasando el id del usuario
             public ClickarBotonIdEventArgs(int id)
             {
                 Id = id;

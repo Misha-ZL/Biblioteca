@@ -24,12 +24,12 @@ namespace Biblioteca_proyecto.Vista
 
         public int id;
 
-
+       
         private void EditarUsuario_Load(object sender, EventArgs e)
         {
 
 
-
+            //Se carga la informacion del usuario en los textbox correspondientes
             DataTable data = ControladorModUsuario.BuscarUsuarioPorID(id);
             TbNombre.Text = data.Rows[0]["Nombre"].ToString();
             TbAppellido1.Text = data.Rows[0]["Apellido_1"].ToString();

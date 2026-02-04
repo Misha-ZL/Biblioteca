@@ -21,14 +21,21 @@ namespace ControlPrestamo2
             get => base.MinimumSize; 
             set => base.MinimumSize = new Size(800, 30);
         }
+
+        //Se guardan los ID reales para usarlos en los eventos de borrar y editar
         private int prestamoID;
         private int LibroID;
         private int UsuarioID;
+
+        //
+
+        
         public int ID
-        {  
+        {  //get devuelve el valor en prestamoID
             get => prestamoID;
             set
             {
+                //set cuando alguien cambia el valor de prestamoID  actualiza la etiqueta LAB_ID para que muestre el nuevo valor
                 prestamoID = value;
                 LAB_ID.Text = prestamoID.ToString();
             }
@@ -36,9 +43,10 @@ namespace ControlPrestamo2
 
         public int ISBN
         {
-           get => LibroID;
+            //get devuelve el valor en LibroID
+            get => LibroID;
             set
-            {
+            {   //set cuando alguien cambia el valor de LibroID  actualiza la etiqueta LAB_ISBN para que muestre el nuevo valor
                 LibroID = value;
                 LAB_ISBN.Text = LibroID.ToString(); 
             }
@@ -46,9 +54,11 @@ namespace ControlPrestamo2
 
         public int DNI
         {
+            //get devuelve el valor en UsuarioID
             get => UsuarioID;
             set
             {
+                //set cuando alguien cambia el valor de UsuarioID  actualiza la etiqueta LAB_DNI para que muestre el nuevo valor
                 UsuarioID = value;
                 LAB_DNI.Text = UsuarioID.ToString();
             }
@@ -72,27 +82,33 @@ namespace ControlPrestamo2
 
         private void btnEliminar_Click(object sender, EventArgs e)
         {
-            BorrarPrestamo?.Invoke(this, new ClickarBotonIdEventArgs(prestamoID));
 
+            //Mensaje de confirmación antes de borrar
 
-        }
-
-        private void btnEditar_Click(object sender, EventArgs e)
-        {
             DialogResult resultado = MessageBox.Show(
-                   "¿Estás seguro?",
-                   "Eliminar",
-                   MessageBoxButtons.OKCancel,
-                   MessageBoxIcon.Question);
+                  "¿Estás seguro?",
+                  "Eliminar",
+                  MessageBoxButtons.OKCancel,
+                  MessageBoxIcon.Question);
 
             if (resultado == DialogResult.OK)
             {
-
-                EditarPrestamo?.Invoke(this, new ClickarBotonIdEventArgs(prestamoID));
+                BorrarPrestamo?.Invoke(this, new ClickarBotonIdEventArgs(prestamoID));
             }
-            else {
+            else
+            {
                 // lleavar a inicio si se hace IDK
             }
+
+
+            }
+
+        private void btnEditar_Click(object sender, EventArgs e)
+        {
+           
+
+                EditarPrestamo?.Invoke(this, new ClickarBotonIdEventArgs(prestamoID));
+          
         }
 
         public event EventHandler<ClickarBotonIdEventArgs> BorrarPrestamo;
@@ -101,7 +117,9 @@ namespace ControlPrestamo2
 
         public class ClickarBotonIdEventArgs : EventArgs
         {
+            // Propiedad para almacenar el ID asociado al evento
             public int Id { get; }
+            //al clickar el boton se crea una nueva instancia de ClickarBotonIdEventArgs con el ID proporcionado
             public ClickarBotonIdEventArgs(int id)
             {
                 Id = id;

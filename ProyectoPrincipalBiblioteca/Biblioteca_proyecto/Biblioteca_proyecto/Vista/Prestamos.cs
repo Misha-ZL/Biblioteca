@@ -15,6 +15,8 @@ namespace Biblioteca_proyecto.Vista
 {
     public partial class Prestamos : Form
     {
+
+        //LLama al metodo FPrestamos_Load al iniciar el formulario
         public Prestamos()
         {
             InitializeComponent();
@@ -32,10 +34,13 @@ namespace Biblioteca_proyecto.Vista
         public void Cargar(DataTable datos)
         {
 
+            //Limia lo que habia antes en el TableLayoutPanel
+
             TlpPrestamos.Controls.Clear();
 
-            int NuevaFila = 0;  
+            int NuevaFila = 0;
 
+            // Recorre las filas del DataTable y crea un UserControl1 por cada fila
             foreach (DataRow fila in datos.Rows)
             {
                 UserControl1 prestamo = new UserControl1();
@@ -45,11 +50,16 @@ namespace Biblioteca_proyecto.Vista
                 prestamo.DNI = Convert.ToInt32(fila["ID_Usuario"]);
                 prestamo.Prestamo = fila.Field<string>("Fecha_Inicio");
                 prestamo.Devolucion = fila.Field<string>("Fecha_Fin");
+
+                //Se añaden los eventos de borrar y editar a los Botones del UserControl1
                 prestamo.BorrarPrestamo += Control_BorrarPrestamo;
+                prestamo.EditarPrestamo += Control_EditarPrestamo;
 
                 prestamo.Dock = DockStyle.Fill;
                 TlpPrestamos.RowCount = TlpPrestamos.RowCount + 1;
                 TlpPrestamos.RowStyles.Insert(NuevaFila, new RowStyle(SizeType.AutoSize));
+
+                //Se añade el UserControl1 al TableLayoutPanel como una nueva fila
                 TlpPrestamos.Controls.Add(prestamo, 0, NuevaFila);
                 NuevaFila++;
 
@@ -62,15 +72,18 @@ namespace Biblioteca_proyecto.Vista
 
         private void Control_EditarPrestamo(object sender, UserControl1.ClickarBotonIdEventArgs e)
         {
-            /*
-                        Vista.EditarUsuario editarUsuarioForm = new Vista.EditarUsuario();
-                        editarUsuarioForm.id = e.Id;
-                        //Hay que poner en EditarUsuario el controlador nuevo que se genera en public para acceder a el
-                        editarUsuarioForm.ControladorModUsuario = UserControl1.ControladorUsuario;
-                        editarUsuarioForm.ShowDialog();
 
-                        Cargar(ControladorUsuario.CargarUsuarios());
-            */
+            //Creacion de Formulario EditarPrestamo
+            EditarPrestamo editarPrestamo = new EditarPrestamo();
+            //Se le pasa el id del prestamo seleccionado al formulario EditarPrestamo
+            editarPrestamo.idPrestamo = e.Id;
+            //Hay que poner en EditarUsuario el controlador nuevo que se genera en public para acceder a el
+            //le pasa el controlador al formulario EditarPrestamo para que pueda usar sus metodos
+            editarPrestamo.ControladorEditarPrestamo = ControladorPrestamos;
+            //Se abre el formulario EditarPrestamo como un dialogo modal
+            editarPrestamo.ShowDialog();
+            //Despues de cerrar el formulario EditarPrestamo, se recarga la lista de prestamos
+            Cargar(ControladorPrestamos.CargarPrestamos());
         }
 
 
