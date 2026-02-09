@@ -1,5 +1,6 @@
 {
   "Version": 1,
+<<<<<<< HEAD
   "WorkspaceRootPath": "C:\\Users\\misha\\Biblioteca\\Biblioteca\\ProyectoPrincipalBiblioteca\\",
   "Documents": [
     {
@@ -140,6 +141,144 @@
     {
       "AbsoluteMoniker": "D:0:0:{1732FB76-A030-468F-82F3-BF942795D6E4}|Biblioteca_proyecto\\Biblioteca_proyecto\\Biblioteca_proyecto.csproj|c:\\users\\misha\\biblioteca\\biblioteca\\proyectoprincipalbiblioteca\\biblioteca_proyecto\\biblioteca_proyecto\\properties\\settings.settings||{6D2695F9-5365-4A78-89ED-F205C045BFE6}",
       "RelativeMoniker": "D:0:0:{1732FB76-A030-468F-82F3-BF942795D6E4}|Biblioteca_proyecto\\Biblioteca_proyecto\\Biblioteca_proyecto.csproj|solutionrelative:biblioteca_proyecto\\biblioteca_proyecto\\properties\\settings.settings||{6D2695F9-5365-4A78-89ED-F205C045BFE6}"
+=======
+  "WorkspaceRootPath": "C:\\Users\\148FA02\\Desktop\\Biblioteca\\Biblioteca\\ProyectoPrincipalBiblioteca\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1732FB76-A030-468F-82F3-BF942795D6E4}|Biblioteca_proyecto\\Biblioteca_proyecto\\Biblioteca_proyecto.csproj|C:\\Users\\148FA02\\Desktop\\Biblioteca\\Biblioteca\\ProyectoPrincipalBiblioteca\\biblioteca_proyecto\\biblioteca_proyecto\\vista\\nuevoprestamo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1732FB76-A030-468F-82F3-BF942795D6E4}|Biblioteca_proyecto\\Biblioteca_proyecto\\Biblioteca_proyecto.csproj|solutionrelative:biblioteca_proyecto\\biblioteca_proyecto\\vista\\nuevoprestamo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1732FB76-A030-468F-82F3-BF942795D6E4}|Biblioteca_proyecto\\Biblioteca_proyecto\\Biblioteca_proyecto.csproj|C:\\Users\\148FA02\\Desktop\\Biblioteca\\Biblioteca\\ProyectoPrincipalBiblioteca\\biblioteca_proyecto\\biblioteca_proyecto\\modelo\\repositorioprestamo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1732FB76-A030-468F-82F3-BF942795D6E4}|Biblioteca_proyecto\\Biblioteca_proyecto\\Biblioteca_proyecto.csproj|solutionrelative:biblioteca_proyecto\\biblioteca_proyecto\\modelo\\repositorioprestamo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBC8E1E7-13F3-4A2E-8EBE-D0D78169D5B5}|BibliotecaControles\\ControlPrestamo\\ControlPrestamo2.csproj|C:\\Users\\148FA02\\Desktop\\Biblioteca\\Biblioteca\\ProyectoPrincipalBiblioteca\\bibliotecacontroles\\controlprestamo\\properties\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBC8E1E7-13F3-4A2E-8EBE-D0D78169D5B5}|BibliotecaControles\\ControlPrestamo\\ControlPrestamo2.csproj|solutionrelative:bibliotecacontroles\\controlprestamo\\properties\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBC8E1E7-13F3-4A2E-8EBE-D0D78169D5B5}|BibliotecaControles\\ControlPrestamo\\ControlPrestamo2.csproj|C:\\Users\\148FA02\\Desktop\\Biblioteca\\Biblioteca\\ProyectoPrincipalBiblioteca\\bibliotecacontroles\\controlprestamo\\properties\\resources.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBC8E1E7-13F3-4A2E-8EBE-D0D78169D5B5}|BibliotecaControles\\ControlPrestamo\\ControlPrestamo2.csproj|solutionrelative:bibliotecacontroles\\controlprestamo\\properties\\resources.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1732FB76-A030-468F-82F3-BF942795D6E4}|Biblioteca_proyecto\\Biblioteca_proyecto\\Biblioteca_proyecto.csproj|C:\\Users\\148FA02\\Desktop\\Biblioteca\\Biblioteca\\ProyectoPrincipalBiblioteca\\biblioteca_proyecto\\biblioteca_proyecto\\vista\\principal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1732FB76-A030-468F-82F3-BF942795D6E4}|Biblioteca_proyecto\\Biblioteca_proyecto\\Biblioteca_proyecto.csproj|solutionrelative:biblioteca_proyecto\\biblioteca_proyecto\\vista\\principal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1732FB76-A030-468F-82F3-BF942795D6E4}|Biblioteca_proyecto\\Biblioteca_proyecto\\Biblioteca_proyecto.csproj|C:\\Users\\148FA02\\Desktop\\Biblioteca\\Biblioteca\\ProyectoPrincipalBiblioteca\\biblioteca_proyecto\\biblioteca_proyecto\\vista\\libros.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1732FB76-A030-468F-82F3-BF942795D6E4}|Biblioteca_proyecto\\Biblioteca_proyecto\\Biblioteca_proyecto.csproj|solutionrelative:biblioteca_proyecto\\biblioteca_proyecto\\vista\\libros.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55EE249A-2060-4E1F-8DFB-C9E3ED4F7CE8}|BibliotecaControles\\ControlUsuario\\BibliotecaControles.csproj|C:\\Users\\148FA02\\Desktop\\Biblioteca\\Biblioteca\\ProyectoPrincipalBiblioteca\\bibliotecacontroles\\controlusuario\\verusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{55EE249A-2060-4E1F-8DFB-C9E3ED4F7CE8}|BibliotecaControles\\ControlUsuario\\BibliotecaControles.csproj|solutionrelative:bibliotecacontroles\\controlusuario\\verusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1732FB76-A030-468F-82F3-BF942795D6E4}|Biblioteca_proyecto\\Biblioteca_proyecto\\Biblioteca_proyecto.csproj|C:\\Users\\148FA02\\Desktop\\Biblioteca\\Biblioteca\\ProyectoPrincipalBiblioteca\\biblioteca_proyecto\\biblioteca_proyecto\\vista\\nuevolibro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1732FB76-A030-468F-82F3-BF942795D6E4}|Biblioteca_proyecto\\Biblioteca_proyecto\\Biblioteca_proyecto.csproj|solutionrelative:biblioteca_proyecto\\biblioteca_proyecto\\vista\\nuevolibro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1732FB76-A030-468F-82F3-BF942795D6E4}|Biblioteca_proyecto\\Biblioteca_proyecto\\Biblioteca_proyecto.csproj|C:\\Users\\148FA02\\Desktop\\Biblioteca\\Biblioteca\\ProyectoPrincipalBiblioteca\\biblioteca_proyecto\\biblioteca_proyecto\\modelo\\libro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1732FB76-A030-468F-82F3-BF942795D6E4}|Biblioteca_proyecto\\Biblioteca_proyecto\\Biblioteca_proyecto.csproj|solutionrelative:biblioteca_proyecto\\biblioteca_proyecto\\modelo\\libro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1732FB76-A030-468F-82F3-BF942795D6E4}|Biblioteca_proyecto\\Biblioteca_proyecto\\Biblioteca_proyecto.csproj|C:\\Users\\148FA02\\Desktop\\Biblioteca\\Biblioteca\\ProyectoPrincipalBiblioteca\\biblioteca_proyecto\\biblioteca_proyecto\\vista\\editarprestamo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1732FB76-A030-468F-82F3-BF942795D6E4}|Biblioteca_proyecto\\Biblioteca_proyecto\\Biblioteca_proyecto.csproj|solutionrelative:biblioteca_proyecto\\biblioteca_proyecto\\vista\\editarprestamo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1732FB76-A030-468F-82F3-BF942795D6E4}|Biblioteca_proyecto\\Biblioteca_proyecto\\Biblioteca_proyecto.csproj|C:\\Users\\148FA02\\Desktop\\Biblioteca\\Biblioteca\\ProyectoPrincipalBiblioteca\\biblioteca_proyecto\\biblioteca_proyecto\\vista\\editarprestamo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1732FB76-A030-468F-82F3-BF942795D6E4}|Biblioteca_proyecto\\Biblioteca_proyecto\\Biblioteca_proyecto.csproj|solutionrelative:biblioteca_proyecto\\biblioteca_proyecto\\vista\\editarprestamo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1732FB76-A030-468F-82F3-BF942795D6E4}|Biblioteca_proyecto\\Biblioteca_proyecto\\Biblioteca_proyecto.csproj|C:\\Users\\148FA02\\Desktop\\Biblioteca\\Biblioteca\\ProyectoPrincipalBiblioteca\\biblioteca_proyecto\\biblioteca_proyecto\\modelo\\repositoriolibro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1732FB76-A030-468F-82F3-BF942795D6E4}|Biblioteca_proyecto\\Biblioteca_proyecto\\Biblioteca_proyecto.csproj|solutionrelative:biblioteca_proyecto\\biblioteca_proyecto\\modelo\\repositoriolibro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55EE249A-2060-4E1F-8DFB-C9E3ED4F7CE8}|BibliotecaControles\\ControlUsuario\\BibliotecaControles.csproj|C:\\Users\\148FA02\\Desktop\\Biblioteca\\Biblioteca\\ProyectoPrincipalBiblioteca\\bibliotecacontroles\\controlusuario\\properties\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55EE249A-2060-4E1F-8DFB-C9E3ED4F7CE8}|BibliotecaControles\\ControlUsuario\\BibliotecaControles.csproj|solutionrelative:bibliotecacontroles\\controlusuario\\properties\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1732FB76-A030-468F-82F3-BF942795D6E4}|Biblioteca_proyecto\\Biblioteca_proyecto\\Biblioteca_proyecto.csproj|C:\\Users\\148FA02\\Desktop\\Biblioteca\\Biblioteca\\ProyectoPrincipalBiblioteca\\biblioteca_proyecto\\biblioteca_proyecto\\properties\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1732FB76-A030-468F-82F3-BF942795D6E4}|Biblioteca_proyecto\\Biblioteca_proyecto\\Biblioteca_proyecto.csproj|solutionrelative:biblioteca_proyecto\\biblioteca_proyecto\\properties\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1732FB76-A030-468F-82F3-BF942795D6E4}|Biblioteca_proyecto\\Biblioteca_proyecto\\Biblioteca_proyecto.csproj|C:\\Users\\148FA02\\Desktop\\Biblioteca\\Biblioteca\\ProyectoPrincipalBiblioteca\\biblioteca_proyecto\\biblioteca_proyecto\\modelo\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1732FB76-A030-468F-82F3-BF942795D6E4}|Biblioteca_proyecto\\Biblioteca_proyecto\\Biblioteca_proyecto.csproj|solutionrelative:biblioteca_proyecto\\biblioteca_proyecto\\modelo\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1732FB76-A030-468F-82F3-BF942795D6E4}|Biblioteca_proyecto\\Biblioteca_proyecto\\Biblioteca_proyecto.csproj|C:\\Users\\148FA02\\Desktop\\Biblioteca\\Biblioteca\\ProyectoPrincipalBiblioteca\\biblioteca_proyecto\\biblioteca_proyecto\\vista\\usuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1732FB76-A030-468F-82F3-BF942795D6E4}|Biblioteca_proyecto\\Biblioteca_proyecto\\Biblioteca_proyecto.csproj|solutionrelative:biblioteca_proyecto\\biblioteca_proyecto\\vista\\usuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1732FB76-A030-468F-82F3-BF942795D6E4}|Biblioteca_proyecto\\Biblioteca_proyecto\\Biblioteca_proyecto.csproj|C:\\Users\\148FA02\\Desktop\\Biblioteca\\Biblioteca\\ProyectoPrincipalBiblioteca\\biblioteca_proyecto\\biblioteca_proyecto\\modelo\\prestamo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1732FB76-A030-468F-82F3-BF942795D6E4}|Biblioteca_proyecto\\Biblioteca_proyecto\\Biblioteca_proyecto.csproj|solutionrelative:biblioteca_proyecto\\biblioteca_proyecto\\modelo\\prestamo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1732FB76-A030-468F-82F3-BF942795D6E4}|Biblioteca_proyecto\\Biblioteca_proyecto\\Biblioteca_proyecto.csproj|C:\\Users\\148FA02\\Desktop\\Biblioteca\\Biblioteca\\ProyectoPrincipalBiblioteca\\biblioteca_proyecto\\biblioteca_proyecto\\modelo\\repositoriousuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1732FB76-A030-468F-82F3-BF942795D6E4}|Biblioteca_proyecto\\Biblioteca_proyecto\\Biblioteca_proyecto.csproj|solutionrelative:biblioteca_proyecto\\biblioteca_proyecto\\modelo\\repositoriousuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1732FB76-A030-468F-82F3-BF942795D6E4}|Biblioteca_proyecto\\Biblioteca_proyecto\\Biblioteca_proyecto.csproj|C:\\Users\\148FA02\\Desktop\\Biblioteca\\Biblioteca\\ProyectoPrincipalBiblioteca\\biblioteca_proyecto\\biblioteca_proyecto\\vista\\editarusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1732FB76-A030-468F-82F3-BF942795D6E4}|Biblioteca_proyecto\\Biblioteca_proyecto\\Biblioteca_proyecto.csproj|solutionrelative:biblioteca_proyecto\\biblioteca_proyecto\\vista\\editarusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55EE249A-2060-4E1F-8DFB-C9E3ED4F7CE8}|BibliotecaControles\\ControlUsuario\\BibliotecaControles.csproj|C:\\Users\\148FA02\\Desktop\\Biblioteca\\Biblioteca\\ProyectoPrincipalBiblioteca\\bibliotecacontroles\\controlusuario\\verusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55EE249A-2060-4E1F-8DFB-C9E3ED4F7CE8}|BibliotecaControles\\ControlUsuario\\BibliotecaControles.csproj|solutionrelative:bibliotecacontroles\\controlusuario\\verusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1732FB76-A030-468F-82F3-BF942795D6E4}|Biblioteca_proyecto\\Biblioteca_proyecto\\Biblioteca_proyecto.csproj|C:\\Users\\148FA02\\Desktop\\Biblioteca\\Biblioteca\\ProyectoPrincipalBiblioteca\\biblioteca_proyecto\\biblioteca_proyecto\\vista\\nuevousuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1732FB76-A030-468F-82F3-BF942795D6E4}|Biblioteca_proyecto\\Biblioteca_proyecto\\Biblioteca_proyecto.csproj|solutionrelative:biblioteca_proyecto\\biblioteca_proyecto\\vista\\nuevousuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1732FB76-A030-468F-82F3-BF942795D6E4}|Biblioteca_proyecto\\Biblioteca_proyecto\\Biblioteca_proyecto.csproj|C:\\Users\\148FA02\\Desktop\\Biblioteca\\Biblioteca\\ProyectoPrincipalBiblioteca\\biblioteca_proyecto\\biblioteca_proyecto\\vista\\nuevousuario.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1732FB76-A030-468F-82F3-BF942795D6E4}|Biblioteca_proyecto\\Biblioteca_proyecto\\Biblioteca_proyecto.csproj|solutionrelative:biblioteca_proyecto\\biblioteca_proyecto\\vista\\nuevousuario.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1732FB76-A030-468F-82F3-BF942795D6E4}|Biblioteca_proyecto\\Biblioteca_proyecto\\Biblioteca_proyecto.csproj|C:\\Users\\148FA02\\Desktop\\Biblioteca\\Biblioteca\\ProyectoPrincipalBiblioteca\\biblioteca_proyecto\\biblioteca_proyecto\\vista\\nuevousuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1732FB76-A030-468F-82F3-BF942795D6E4}|Biblioteca_proyecto\\Biblioteca_proyecto\\Biblioteca_proyecto.csproj|solutionrelative:biblioteca_proyecto\\biblioteca_proyecto\\vista\\nuevousuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBC8E1E7-13F3-4A2E-8EBE-D0D78169D5B5}|BibliotecaControles\\ControlPrestamo\\ControlPrestamo2.csproj|C:\\Users\\148FA02\\Desktop\\Biblioteca\\Biblioteca\\ProyectoPrincipalBiblioteca\\bibliotecacontroles\\controlprestamo\\usercontrol1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBC8E1E7-13F3-4A2E-8EBE-D0D78169D5B5}|BibliotecaControles\\ControlPrestamo\\ControlPrestamo2.csproj|solutionrelative:bibliotecacontroles\\controlprestamo\\usercontrol1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1732FB76-A030-468F-82F3-BF942795D6E4}|Biblioteca_proyecto\\Biblioteca_proyecto\\Biblioteca_proyecto.csproj|C:\\Users\\148FA02\\Desktop\\Biblioteca\\Biblioteca\\ProyectoPrincipalBiblioteca\\biblioteca_proyecto\\biblioteca_proyecto\\vista\\principal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1732FB76-A030-468F-82F3-BF942795D6E4}|Biblioteca_proyecto\\Biblioteca_proyecto\\Biblioteca_proyecto.csproj|solutionrelative:biblioteca_proyecto\\biblioteca_proyecto\\vista\\principal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBC8E1E7-13F3-4A2E-8EBE-D0D78169D5B5}|BibliotecaControles\\ControlPrestamo\\ControlPrestamo2.csproj|C:\\Users\\148FA02\\Desktop\\Biblioteca\\Biblioteca\\ProyectoPrincipalBiblioteca\\bibliotecacontroles\\controlprestamo\\usercontrol1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{DBC8E1E7-13F3-4A2E-8EBE-D0D78169D5B5}|BibliotecaControles\\ControlPrestamo\\ControlPrestamo2.csproj|solutionrelative:bibliotecacontroles\\controlprestamo\\usercontrol1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1732FB76-A030-468F-82F3-BF942795D6E4}|Biblioteca_proyecto\\Biblioteca_proyecto\\Biblioteca_proyecto.csproj|C:\\Users\\148FA02\\Desktop\\Biblioteca\\Biblioteca\\ProyectoPrincipalBiblioteca\\biblioteca_proyecto\\biblioteca_proyecto\\modelo\\sqlitehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1732FB76-A030-468F-82F3-BF942795D6E4}|Biblioteca_proyecto\\Biblioteca_proyecto\\Biblioteca_proyecto.csproj|solutionrelative:biblioteca_proyecto\\biblioteca_proyecto\\modelo\\sqlitehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1732FB76-A030-468F-82F3-BF942795D6E4}|Biblioteca_proyecto\\Biblioteca_proyecto\\Biblioteca_proyecto.csproj|C:\\Users\\148FA02\\Desktop\\Biblioteca\\Biblioteca\\ProyectoPrincipalBiblioteca\\biblioteca_proyecto\\biblioteca_proyecto\\vista\\prestamos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1732FB76-A030-468F-82F3-BF942795D6E4}|Biblioteca_proyecto\\Biblioteca_proyecto\\Biblioteca_proyecto.csproj|solutionrelative:biblioteca_proyecto\\biblioteca_proyecto\\vista\\prestamos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1732FB76-A030-468F-82F3-BF942795D6E4}|Biblioteca_proyecto\\Biblioteca_proyecto\\Biblioteca_proyecto.csproj|C:\\Users\\148FA02\\Desktop\\Biblioteca\\Biblioteca\\ProyectoPrincipalBiblioteca\\biblioteca_proyecto\\biblioteca_proyecto\\vista\\editarusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1732FB76-A030-468F-82F3-BF942795D6E4}|Biblioteca_proyecto\\Biblioteca_proyecto\\Biblioteca_proyecto.csproj|solutionrelative:biblioteca_proyecto\\biblioteca_proyecto\\vista\\editarusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1732FB76-A030-468F-82F3-BF942795D6E4}|Biblioteca_proyecto\\Biblioteca_proyecto\\Biblioteca_proyecto.csproj|C:\\Users\\148FA02\\Desktop\\Biblioteca\\Biblioteca\\ProyectoPrincipalBiblioteca\\biblioteca_proyecto\\biblioteca_proyecto\\vista\\prestamos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1732FB76-A030-468F-82F3-BF942795D6E4}|Biblioteca_proyecto\\Biblioteca_proyecto\\Biblioteca_proyecto.csproj|solutionrelative:biblioteca_proyecto\\biblioteca_proyecto\\vista\\prestamos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1732FB76-A030-468F-82F3-BF942795D6E4}|Biblioteca_proyecto\\Biblioteca_proyecto\\Biblioteca_proyecto.csproj|C:\\Users\\148FA02\\Desktop\\Biblioteca\\Biblioteca\\ProyectoPrincipalBiblioteca\\biblioteca_proyecto\\biblioteca_proyecto\\controlador\\micontrolador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1732FB76-A030-468F-82F3-BF942795D6E4}|Biblioteca_proyecto\\Biblioteca_proyecto\\Biblioteca_proyecto.csproj|solutionrelative:biblioteca_proyecto\\biblioteca_proyecto\\controlador\\micontrolador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55EE249A-2060-4E1F-8DFB-C9E3ED4F7CE8}|BibliotecaControles\\ControlUsuario\\BibliotecaControles.csproj|C:\\Users\\148FA02\\Desktop\\Biblioteca\\Biblioteca\\ProyectoPrincipalBiblioteca\\bibliotecacontroles\\controlusuario\\verusuario.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55EE249A-2060-4E1F-8DFB-C9E3ED4F7CE8}|BibliotecaControles\\ControlUsuario\\BibliotecaControles.csproj|solutionrelative:bibliotecacontroles\\controlusuario\\verusuario.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1732FB76-A030-468F-82F3-BF942795D6E4}|Biblioteca_proyecto\\Biblioteca_proyecto\\Biblioteca_proyecto.csproj|c:\\users\\148fa02\\desktop\\biblioteca\\biblioteca\\proyectoprincipalbiblioteca\\biblioteca_proyecto\\biblioteca_proyecto\\vista\\usuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1732FB76-A030-468F-82F3-BF942795D6E4}|Biblioteca_proyecto\\Biblioteca_proyecto\\Biblioteca_proyecto.csproj|solutionrelative:biblioteca_proyecto\\biblioteca_proyecto\\vista\\usuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|Biblioteca_proyecto||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+>>>>>>> 0029c1c5814a5c03685e0e8bdcb4cc7eb0490180
     }
   ],
   "DocumentGroupContainers": [
@@ -149,6 +288,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
+<<<<<<< HEAD
           "SelectedChildIndex": 2,
           "Children": [
             {
@@ -164,12 +304,34 @@
               "ToolTip": "C:\\Users\\misha\\Biblioteca\\Biblioteca\\ProyectoPrincipalBiblioteca\\Biblioteca_proyecto\\Biblioteca_proyecto\\Vista\\Usuarios.Designer.cs",
               "RelativeToolTip": "Biblioteca_proyecto\\Biblioteca_proyecto\\Vista\\Usuarios.Designer.cs",
               "ViewState": "AgIAACUAAAAAAAAAAAArwDYAAAAoAAAAAAAAAA==",
+=======
+          "SelectedChildIndex": 11,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "AssemblyInfo.cs",
+              "DocumentMoniker": "C:\\Users\\148FA02\\Desktop\\Biblioteca\\Biblioteca\\ProyectoPrincipalBiblioteca\\Biblioteca_proyecto\\Biblioteca_proyecto\\Properties\\AssemblyInfo.cs",
+              "RelativeDocumentMoniker": "Biblioteca_proyecto\\Biblioteca_proyecto\\Properties\\AssemblyInfo.cs",
+              "ToolTip": "C:\\Users\\148FA02\\Desktop\\Biblioteca\\Biblioteca\\ProyectoPrincipalBiblioteca\\Biblioteca_proyecto\\Biblioteca_proyecto\\Properties\\AssemblyInfo.cs",
+              "RelativeToolTip": "Biblioteca_proyecto\\Biblioteca_proyecto\\Properties\\AssemblyInfo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAOAAAAAAAAAA==",
+>>>>>>> 0029c1c5814a5c03685e0e8bdcb4cc7eb0490180
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-09T20:39:55.911Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+<<<<<<< HEAD
               "DocumentIndex": 0,
               "Title": "Prestamos.cs",
               "DocumentMoniker": "C:\\Users\\misha\\Biblioteca\\Biblioteca\\ProyectoPrincipalBiblioteca\\Biblioteca_proyecto\\Biblioteca_proyecto\\Vista\\Prestamos.cs",
@@ -252,12 +414,22 @@
               "ToolTip": "C:\\Users\\misha\\Biblioteca\\Biblioteca\\ProyectoPrincipalBiblioteca\\Biblioteca_proyecto\\Biblioteca_proyecto\\Modelo\\Usuario.cs",
               "RelativeToolTip": "Biblioteca_proyecto\\Biblioteca_proyecto\\Modelo\\Usuario.cs",
               "ViewState": "AgIAAA0AAAAAAAAAAAA1wAAAAAAAAAAAAAAAAA==",
+=======
+              "DocumentIndex": 14,
+              "Title": "Usuario.cs",
+              "DocumentMoniker": "C:\\Users\\148FA02\\Desktop\\Biblioteca\\Biblioteca\\ProyectoPrincipalBiblioteca\\Biblioteca_proyecto\\Biblioteca_proyecto\\Modelo\\Usuario.cs",
+              "RelativeDocumentMoniker": "Biblioteca_proyecto\\Biblioteca_proyecto\\Modelo\\Usuario.cs",
+              "ToolTip": "C:\\Users\\148FA02\\Desktop\\Biblioteca\\Biblioteca\\ProyectoPrincipalBiblioteca\\Biblioteca_proyecto\\Biblioteca_proyecto\\Modelo\\Usuario.cs",
+              "RelativeToolTip": "Biblioteca_proyecto\\Biblioteca_proyecto\\Modelo\\Usuario.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+>>>>>>> 0029c1c5814a5c03685e0e8bdcb4cc7eb0490180
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-09T13:38:11.026Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+<<<<<<< HEAD
               "DocumentIndex": 9,
               "Title": "EditarPrestamo.cs",
               "DocumentMoniker": "C:\\Users\\misha\\Biblioteca\\Biblioteca\\ProyectoPrincipalBiblioteca\\Biblioteca_proyecto\\Biblioteca_proyecto\\Vista\\EditarPrestamo.cs",
@@ -265,12 +437,35 @@
               "ToolTip": "C:\\Users\\misha\\Biblioteca\\Biblioteca\\ProyectoPrincipalBiblioteca\\Biblioteca_proyecto\\Biblioteca_proyecto\\Vista\\EditarPrestamo.cs",
               "RelativeToolTip": "Biblioteca_proyecto\\Biblioteca_proyecto\\Vista\\EditarPrestamo.cs",
               "ViewState": "AgIAAF8AAAAAAAAAAAAIwIUAAAARAAAAAAAAAA==",
+=======
+              "DocumentIndex": 11,
+              "Title": "RepositorioLibro.cs",
+              "DocumentMoniker": "C:\\Users\\148FA02\\Desktop\\Biblioteca\\Biblioteca\\ProyectoPrincipalBiblioteca\\Biblioteca_proyecto\\Biblioteca_proyecto\\Modelo\\RepositorioLibro.cs",
+              "RelativeDocumentMoniker": "Biblioteca_proyecto\\Biblioteca_proyecto\\Modelo\\RepositorioLibro.cs",
+              "ToolTip": "C:\\Users\\148FA02\\Desktop\\Biblioteca\\Biblioteca\\ProyectoPrincipalBiblioteca\\Biblioteca_proyecto\\Biblioteca_proyecto\\Modelo\\RepositorioLibro.cs",
+              "RelativeToolTip": "Biblioteca_proyecto\\Biblioteca_proyecto\\Modelo\\RepositorioLibro.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-09T13:37:49.461Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Libro.cs",
+              "DocumentMoniker": "C:\\Users\\148FA02\\Desktop\\Biblioteca\\Biblioteca\\ProyectoPrincipalBiblioteca\\Biblioteca_proyecto\\Biblioteca_proyecto\\Modelo\\Libro.cs",
+              "RelativeDocumentMoniker": "Biblioteca_proyecto\\Biblioteca_proyecto\\Modelo\\Libro.cs",
+              "ToolTip": "C:\\Users\\148FA02\\Desktop\\Biblioteca\\Biblioteca\\ProyectoPrincipalBiblioteca\\Biblioteca_proyecto\\Biblioteca_proyecto\\Modelo\\Libro.cs",
+              "RelativeToolTip": "Biblioteca_proyecto\\Biblioteca_proyecto\\Modelo\\Libro.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+>>>>>>> 0029c1c5814a5c03685e0e8bdcb4cc7eb0490180
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-04T16:08:18.091Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+<<<<<<< HEAD
               "DocumentIndex": 5,
               "Title": "MiControlador.cs",
               "DocumentMoniker": "C:\\Users\\misha\\Biblioteca\\Biblioteca\\ProyectoPrincipalBiblioteca\\Biblioteca_proyecto\\Biblioteca_proyecto\\Controlador\\MiControlador.cs",
@@ -350,6 +545,37 @@
               "DocumentMoniker": "C:\\Users\\misha\\Biblioteca\\Biblioteca\\ProyectoPrincipalBiblioteca\\BibliotecaControles\\ControlPrestamo\\Properties\\Resources.Designer.cs",
               "RelativeDocumentMoniker": "BibliotecaControles\\ControlPrestamo\\Properties\\Resources.Designer.cs",
               "ToolTip": "C:\\Users\\misha\\Biblioteca\\Biblioteca\\ProyectoPrincipalBiblioteca\\BibliotecaControles\\ControlPrestamo\\Properties\\Resources.Designer.cs",
+=======
+              "DocumentIndex": 7,
+              "Title": "NuevoLibro.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\148FA02\\Desktop\\Biblioteca\\Biblioteca\\ProyectoPrincipalBiblioteca\\Biblioteca_proyecto\\Biblioteca_proyecto\\Vista\\NuevoLibro.cs",
+              "RelativeDocumentMoniker": "Biblioteca_proyecto\\Biblioteca_proyecto\\Vista\\NuevoLibro.cs",
+              "ToolTip": "C:\\Users\\148FA02\\Desktop\\Biblioteca\\Biblioteca\\ProyectoPrincipalBiblioteca\\Biblioteca_proyecto\\Biblioteca_proyecto\\Vista\\NuevoLibro.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Biblioteca_proyecto\\Biblioteca_proyecto\\Vista\\NuevoLibro.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-09T13:37:40.021Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Libros.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\148FA02\\Desktop\\Biblioteca\\Biblioteca\\ProyectoPrincipalBiblioteca\\Biblioteca_proyecto\\Biblioteca_proyecto\\Vista\\Libros.cs",
+              "RelativeDocumentMoniker": "Biblioteca_proyecto\\Biblioteca_proyecto\\Vista\\Libros.cs",
+              "ToolTip": "C:\\Users\\148FA02\\Desktop\\Biblioteca\\Biblioteca\\ProyectoPrincipalBiblioteca\\Biblioteca_proyecto\\Biblioteca_proyecto\\Vista\\Libros.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Biblioteca_proyecto\\Biblioteca_proyecto\\Vista\\Libros.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-09T13:37:39.172Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Resources.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\148FA02\\Desktop\\Biblioteca\\Biblioteca\\ProyectoPrincipalBiblioteca\\BibliotecaControles\\ControlPrestamo\\Properties\\Resources.Designer.cs",
+              "RelativeDocumentMoniker": "BibliotecaControles\\ControlPrestamo\\Properties\\Resources.Designer.cs",
+              "ToolTip": "C:\\Users\\148FA02\\Desktop\\Biblioteca\\Biblioteca\\ProyectoPrincipalBiblioteca\\BibliotecaControles\\ControlPrestamo\\Properties\\Resources.Designer.cs",
+>>>>>>> 0029c1c5814a5c03685e0e8bdcb4cc7eb0490180
               "RelativeToolTip": "BibliotecaControles\\ControlPrestamo\\Properties\\Resources.Designer.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -358,6 +584,7 @@
             },
             {
               "$type": "Document",
+<<<<<<< HEAD
               "DocumentIndex": 19,
               "Title": "Libros.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\misha\\Biblioteca\\Biblioteca\\ProyectoPrincipalBiblioteca\\Biblioteca_proyecto\\Biblioteca_proyecto\\Vista\\Libros.cs",
@@ -426,6 +653,13 @@
               "DocumentMoniker": "C:\\Users\\misha\\Biblioteca\\Biblioteca\\ProyectoPrincipalBiblioteca\\BibliotecaControles\\ControlPrestamo\\Properties\\AssemblyInfo.cs",
               "RelativeDocumentMoniker": "BibliotecaControles\\ControlPrestamo\\Properties\\AssemblyInfo.cs",
               "ToolTip": "C:\\Users\\misha\\Biblioteca\\Biblioteca\\ProyectoPrincipalBiblioteca\\BibliotecaControles\\ControlPrestamo\\Properties\\AssemblyInfo.cs",
+=======
+              "DocumentIndex": 2,
+              "Title": "AssemblyInfo.cs",
+              "DocumentMoniker": "C:\\Users\\148FA02\\Desktop\\Biblioteca\\Biblioteca\\ProyectoPrincipalBiblioteca\\BibliotecaControles\\ControlPrestamo\\Properties\\AssemblyInfo.cs",
+              "RelativeDocumentMoniker": "BibliotecaControles\\ControlPrestamo\\Properties\\AssemblyInfo.cs",
+              "ToolTip": "C:\\Users\\148FA02\\Desktop\\Biblioteca\\Biblioteca\\ProyectoPrincipalBiblioteca\\BibliotecaControles\\ControlPrestamo\\Properties\\AssemblyInfo.cs",
+>>>>>>> 0029c1c5814a5c03685e0e8bdcb4cc7eb0490180
               "RelativeToolTip": "BibliotecaControles\\ControlPrestamo\\Properties\\AssemblyInfo.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -434,11 +668,32 @@
             },
             {
               "$type": "Document",
+<<<<<<< HEAD
               "DocumentIndex": 32,
               "Title": "NuevoPrestamo.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\misha\\Biblioteca\\Biblioteca\\ProyectoPrincipalBiblioteca\\Biblioteca_proyecto\\Biblioteca_proyecto\\Vista\\NuevoPrestamo.cs",
               "RelativeDocumentMoniker": "Biblioteca_proyecto\\Biblioteca_proyecto\\Vista\\NuevoPrestamo.cs",
               "ToolTip": "C:\\Users\\misha\\Biblioteca\\Biblioteca\\ProyectoPrincipalBiblioteca\\Biblioteca_proyecto\\Biblioteca_proyecto\\Vista\\NuevoPrestamo.cs [Dise\u00F1o]",
+=======
+              "DocumentIndex": 1,
+              "Title": "RepositorioPrestamo.cs",
+              "DocumentMoniker": "C:\\Users\\148FA02\\Desktop\\Biblioteca\\Biblioteca\\ProyectoPrincipalBiblioteca\\Biblioteca_proyecto\\Biblioteca_proyecto\\Modelo\\RepositorioPrestamo.cs",
+              "RelativeDocumentMoniker": "Biblioteca_proyecto\\Biblioteca_proyecto\\Modelo\\RepositorioPrestamo.cs",
+              "ToolTip": "C:\\Users\\148FA02\\Desktop\\Biblioteca\\Biblioteca\\ProyectoPrincipalBiblioteca\\Biblioteca_proyecto\\Biblioteca_proyecto\\Modelo\\RepositorioPrestamo.cs",
+              "RelativeToolTip": "Biblioteca_proyecto\\Biblioteca_proyecto\\Modelo\\RepositorioPrestamo.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-04T17:04:25.058Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "NuevoPrestamo.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\148FA02\\Desktop\\Biblioteca\\Biblioteca\\ProyectoPrincipalBiblioteca\\Biblioteca_proyecto\\Biblioteca_proyecto\\Vista\\NuevoPrestamo.cs",
+              "RelativeDocumentMoniker": "Biblioteca_proyecto\\Biblioteca_proyecto\\Vista\\NuevoPrestamo.cs",
+              "ToolTip": "C:\\Users\\148FA02\\Desktop\\Biblioteca\\Biblioteca\\ProyectoPrincipalBiblioteca\\Biblioteca_proyecto\\Biblioteca_proyecto\\Vista\\NuevoPrestamo.cs [Dise\u00F1o]",
+>>>>>>> 0029c1c5814a5c03685e0e8bdcb4cc7eb0490180
               "RelativeToolTip": "Biblioteca_proyecto\\Biblioteca_proyecto\\Vista\\NuevoPrestamo.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-04T16:54:55.74Z",
@@ -446,11 +701,82 @@
             },
             {
               "$type": "Document",
+<<<<<<< HEAD
               "DocumentIndex": 6,
               "Title": "Principal.cs",
               "DocumentMoniker": "C:\\Users\\misha\\Biblioteca\\Biblioteca\\ProyectoPrincipalBiblioteca\\Biblioteca_proyecto\\Biblioteca_proyecto\\Vista\\Principal.cs",
               "RelativeDocumentMoniker": "Biblioteca_proyecto\\Biblioteca_proyecto\\Vista\\Principal.cs",
               "ToolTip": "C:\\Users\\misha\\Biblioteca\\Biblioteca\\ProyectoPrincipalBiblioteca\\Biblioteca_proyecto\\Biblioteca_proyecto\\Vista\\Principal.cs",
+=======
+              "DocumentIndex": 26,
+              "Title": "SQLiteHelper.cs",
+              "DocumentMoniker": "C:\\Users\\148FA02\\Desktop\\Biblioteca\\Biblioteca\\ProyectoPrincipalBiblioteca\\Biblioteca_proyecto\\Biblioteca_proyecto\\Modelo\\SQLiteHelper.cs",
+              "RelativeDocumentMoniker": "Biblioteca_proyecto\\Biblioteca_proyecto\\Modelo\\SQLiteHelper.cs",
+              "ToolTip": "C:\\Users\\148FA02\\Desktop\\Biblioteca\\Biblioteca\\ProyectoPrincipalBiblioteca\\Biblioteca_proyecto\\Biblioteca_proyecto\\Modelo\\SQLiteHelper.cs",
+              "RelativeToolTip": "Biblioteca_proyecto\\Biblioteca_proyecto\\Modelo\\SQLiteHelper.cs",
+              "ViewState": "AgIAAEQAAAAAAAAAAAAgwFcAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-02T20:18:25.037Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AssemblyInfo.cs",
+              "DocumentMoniker": "C:\\Users\\148FA02\\Desktop\\Biblioteca\\Biblioteca\\ProyectoPrincipalBiblioteca\\BibliotecaControles\\ControlUsuario\\Properties\\AssemblyInfo.cs",
+              "RelativeDocumentMoniker": "BibliotecaControles\\ControlUsuario\\Properties\\AssemblyInfo.cs",
+              "ToolTip": "C:\\Users\\148FA02\\Desktop\\Biblioteca\\Biblioteca\\ProyectoPrincipalBiblioteca\\BibliotecaControles\\ControlUsuario\\Properties\\AssemblyInfo.cs",
+              "RelativeToolTip": "BibliotecaControles\\ControlUsuario\\Properties\\AssemblyInfo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-09T13:36:21.364Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "EditarPrestamo.cs",
+              "DocumentMoniker": "C:\\Users\\148FA02\\Desktop\\Biblioteca\\Biblioteca\\ProyectoPrincipalBiblioteca\\Biblioteca_proyecto\\Biblioteca_proyecto\\Vista\\EditarPrestamo.cs",
+              "RelativeDocumentMoniker": "Biblioteca_proyecto\\Biblioteca_proyecto\\Vista\\EditarPrestamo.cs",
+              "ToolTip": "C:\\Users\\148FA02\\Desktop\\Biblioteca\\Biblioteca\\ProyectoPrincipalBiblioteca\\Biblioteca_proyecto\\Biblioteca_proyecto\\Vista\\EditarPrestamo.cs",
+              "RelativeToolTip": "Biblioteca_proyecto\\Biblioteca_proyecto\\Vista\\EditarPrestamo.cs",
+              "ViewState": "AgIAAIIAAAAAAAAAAAAcwJQAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-04T16:08:18.091Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "EditarPrestamo.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\148FA02\\Desktop\\Biblioteca\\Biblioteca\\ProyectoPrincipalBiblioteca\\Biblioteca_proyecto\\Biblioteca_proyecto\\Vista\\EditarPrestamo.cs",
+              "RelativeDocumentMoniker": "Biblioteca_proyecto\\Biblioteca_proyecto\\Vista\\EditarPrestamo.cs",
+              "ToolTip": "C:\\Users\\148FA02\\Desktop\\Biblioteca\\Biblioteca\\ProyectoPrincipalBiblioteca\\Biblioteca_proyecto\\Biblioteca_proyecto\\Vista\\EditarPrestamo.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Biblioteca_proyecto\\Biblioteca_proyecto\\Vista\\EditarPrestamo.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-04T16:07:35.509Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "verUsuario.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\148FA02\\Desktop\\Biblioteca\\Biblioteca\\ProyectoPrincipalBiblioteca\\BibliotecaControles\\ControlUsuario\\verUsuario.cs",
+              "RelativeDocumentMoniker": "BibliotecaControles\\ControlUsuario\\verUsuario.cs",
+              "ToolTip": "C:\\Users\\148FA02\\Desktop\\Biblioteca\\Biblioteca\\ProyectoPrincipalBiblioteca\\BibliotecaControles\\ControlUsuario\\verUsuario.cs [Dise\u00F1o]",
+              "RelativeToolTip": "BibliotecaControles\\ControlUsuario\\verUsuario.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-02T20:52:00.113Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Principal.cs",
+              "DocumentMoniker": "C:\\Users\\148FA02\\Desktop\\Biblioteca\\Biblioteca\\ProyectoPrincipalBiblioteca\\Biblioteca_proyecto\\Biblioteca_proyecto\\Vista\\Principal.cs",
+              "RelativeDocumentMoniker": "Biblioteca_proyecto\\Biblioteca_proyecto\\Vista\\Principal.cs",
+              "ToolTip": "C:\\Users\\148FA02\\Desktop\\Biblioteca\\Biblioteca\\ProyectoPrincipalBiblioteca\\Biblioteca_proyecto\\Biblioteca_proyecto\\Vista\\Principal.cs",
+>>>>>>> 0029c1c5814a5c03685e0e8bdcb4cc7eb0490180
               "RelativeToolTip": "Biblioteca_proyecto\\Biblioteca_proyecto\\Vista\\Principal.cs",
               "ViewState": "AgIAABwAAAAAAAAAAAAmwCwAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -459,37 +785,136 @@
             },
             {
               "$type": "Document",
+<<<<<<< HEAD
               "DocumentIndex": 26,
               "Title": "EditarUsuario.cs",
               "DocumentMoniker": "C:\\Users\\misha\\Biblioteca\\Biblioteca\\ProyectoPrincipalBiblioteca\\Biblioteca_proyecto\\Biblioteca_proyecto\\Vista\\EditarUsuario.cs",
               "RelativeDocumentMoniker": "Biblioteca_proyecto\\Biblioteca_proyecto\\Vista\\EditarUsuario.cs",
               "ToolTip": "C:\\Users\\misha\\Biblioteca\\Biblioteca\\ProyectoPrincipalBiblioteca\\Biblioteca_proyecto\\Biblioteca_proyecto\\Vista\\EditarUsuario.cs",
+=======
+              "DocumentIndex": 24,
+              "Title": "Principal.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\148FA02\\Desktop\\Biblioteca\\Biblioteca\\ProyectoPrincipalBiblioteca\\Biblioteca_proyecto\\Biblioteca_proyecto\\Vista\\Principal.cs",
+              "RelativeDocumentMoniker": "Biblioteca_proyecto\\Biblioteca_proyecto\\Vista\\Principal.cs",
+              "ToolTip": "C:\\Users\\148FA02\\Desktop\\Biblioteca\\Biblioteca\\ProyectoPrincipalBiblioteca\\Biblioteca_proyecto\\Biblioteca_proyecto\\Vista\\Principal.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Biblioteca_proyecto\\Biblioteca_proyecto\\Vista\\Principal.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-03T19:28:07.734Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "UserControl1.cs",
+              "DocumentMoniker": "C:\\Users\\148FA02\\Desktop\\Biblioteca\\Biblioteca\\ProyectoPrincipalBiblioteca\\BibliotecaControles\\ControlPrestamo\\UserControl1.cs",
+              "RelativeDocumentMoniker": "BibliotecaControles\\ControlPrestamo\\UserControl1.cs",
+              "ToolTip": "C:\\Users\\148FA02\\Desktop\\Biblioteca\\Biblioteca\\ProyectoPrincipalBiblioteca\\BibliotecaControles\\ControlPrestamo\\UserControl1.cs",
+              "RelativeToolTip": "BibliotecaControles\\ControlPrestamo\\UserControl1.cs",
+              "ViewState": "AgIAAIAAAAAAAAAAAAAAwKcAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-03T18:56:12.162Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "UserControl1.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\148FA02\\Desktop\\Biblioteca\\Biblioteca\\ProyectoPrincipalBiblioteca\\BibliotecaControles\\ControlPrestamo\\UserControl1.cs",
+              "RelativeDocumentMoniker": "BibliotecaControles\\ControlPrestamo\\UserControl1.cs",
+              "ToolTip": "C:\\Users\\148FA02\\Desktop\\Biblioteca\\Biblioteca\\ProyectoPrincipalBiblioteca\\BibliotecaControles\\ControlPrestamo\\UserControl1.cs [Dise\u00F1o]",
+              "RelativeToolTip": "BibliotecaControles\\ControlPrestamo\\UserControl1.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-03T18:56:08.148Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Prestamos.cs",
+              "DocumentMoniker": "C:\\Users\\148FA02\\Desktop\\Biblioteca\\Biblioteca\\ProyectoPrincipalBiblioteca\\Biblioteca_proyecto\\Biblioteca_proyecto\\Vista\\Prestamos.cs",
+              "RelativeDocumentMoniker": "Biblioteca_proyecto\\Biblioteca_proyecto\\Vista\\Prestamos.cs",
+              "ToolTip": "C:\\Users\\148FA02\\Desktop\\Biblioteca\\Biblioteca\\ProyectoPrincipalBiblioteca\\Biblioteca_proyecto\\Biblioteca_proyecto\\Vista\\Prestamos.cs",
+              "RelativeToolTip": "Biblioteca_proyecto\\Biblioteca_proyecto\\Vista\\Prestamos.cs",
+              "ViewState": "AgIAAFYAAAAAAAAAAAAwwIAAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-03T18:51:38.969Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Prestamos.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\148FA02\\Desktop\\Biblioteca\\Biblioteca\\ProyectoPrincipalBiblioteca\\Biblioteca_proyecto\\Biblioteca_proyecto\\Vista\\Prestamos.cs",
+              "RelativeDocumentMoniker": "Biblioteca_proyecto\\Biblioteca_proyecto\\Vista\\Prestamos.cs",
+              "ToolTip": "C:\\Users\\148FA02\\Desktop\\Biblioteca\\Biblioteca\\ProyectoPrincipalBiblioteca\\Biblioteca_proyecto\\Biblioteca_proyecto\\Vista\\Prestamos.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Biblioteca_proyecto\\Biblioteca_proyecto\\Vista\\Prestamos.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-03T18:51:34.985Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "EditarUsuario.cs",
+              "DocumentMoniker": "C:\\Users\\148FA02\\Desktop\\Biblioteca\\Biblioteca\\ProyectoPrincipalBiblioteca\\Biblioteca_proyecto\\Biblioteca_proyecto\\Vista\\EditarUsuario.cs",
+              "RelativeDocumentMoniker": "Biblioteca_proyecto\\Biblioteca_proyecto\\Vista\\EditarUsuario.cs",
+              "ToolTip": "C:\\Users\\148FA02\\Desktop\\Biblioteca\\Biblioteca\\ProyectoPrincipalBiblioteca\\Biblioteca_proyecto\\Biblioteca_proyecto\\Vista\\EditarUsuario.cs",
+>>>>>>> 0029c1c5814a5c03685e0e8bdcb4cc7eb0490180
               "RelativeToolTip": "Biblioteca_proyecto\\Biblioteca_proyecto\\Vista\\EditarUsuario.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAswC0AAAAOAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADkAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-03T18:18:44.359Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+<<<<<<< HEAD
               "DocumentIndex": 24,
               "Title": "RepositorioUsuario.cs",
               "DocumentMoniker": "C:\\Users\\misha\\Biblioteca\\Biblioteca\\ProyectoPrincipalBiblioteca\\Biblioteca_proyecto\\Biblioteca_proyecto\\Modelo\\RepositorioUsuario.cs",
               "RelativeDocumentMoniker": "Biblioteca_proyecto\\Biblioteca_proyecto\\Modelo\\RepositorioUsuario.cs",
               "ToolTip": "C:\\Users\\misha\\Biblioteca\\Biblioteca\\ProyectoPrincipalBiblioteca\\Biblioteca_proyecto\\Biblioteca_proyecto\\Modelo\\RepositorioUsuario.cs",
+=======
+              "DocumentIndex": 16,
+              "Title": "Prestamo.cs",
+              "DocumentMoniker": "C:\\Users\\148FA02\\Desktop\\Biblioteca\\Biblioteca\\ProyectoPrincipalBiblioteca\\Biblioteca_proyecto\\Biblioteca_proyecto\\Modelo\\Prestamo.cs",
+              "RelativeDocumentMoniker": "Biblioteca_proyecto\\Biblioteca_proyecto\\Modelo\\Prestamo.cs",
+              "ToolTip": "C:\\Users\\148FA02\\Desktop\\Biblioteca\\Biblioteca\\ProyectoPrincipalBiblioteca\\Biblioteca_proyecto\\Biblioteca_proyecto\\Modelo\\Prestamo.cs",
+              "RelativeToolTip": "Biblioteca_proyecto\\Biblioteca_proyecto\\Modelo\\Prestamo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-03T18:51:30.834Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "RepositorioUsuario.cs",
+              "DocumentMoniker": "C:\\Users\\148FA02\\Desktop\\Biblioteca\\Biblioteca\\ProyectoPrincipalBiblioteca\\Biblioteca_proyecto\\Biblioteca_proyecto\\Modelo\\RepositorioUsuario.cs",
+              "RelativeDocumentMoniker": "Biblioteca_proyecto\\Biblioteca_proyecto\\Modelo\\RepositorioUsuario.cs",
+              "ToolTip": "C:\\Users\\148FA02\\Desktop\\Biblioteca\\Biblioteca\\ProyectoPrincipalBiblioteca\\Biblioteca_proyecto\\Biblioteca_proyecto\\Modelo\\RepositorioUsuario.cs",
+>>>>>>> 0029c1c5814a5c03685e0e8bdcb4cc7eb0490180
               "RelativeToolTip": "Biblioteca_proyecto\\Biblioteca_proyecto\\Modelo\\RepositorioUsuario.cs",
-              "ViewState": "AgIAADUAAAAAAAAAAAAwwC4AAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAADAAAAAAAAAAAAAswDkAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-03T18:46:00.305Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+<<<<<<< HEAD
               "DocumentIndex": 33,
               "Title": "EditarUsuario.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\misha\\Biblioteca\\Biblioteca\\ProyectoPrincipalBiblioteca\\Biblioteca_proyecto\\Biblioteca_proyecto\\Vista\\EditarUsuario.cs",
               "RelativeDocumentMoniker": "Biblioteca_proyecto\\Biblioteca_proyecto\\Vista\\EditarUsuario.cs",
               "ToolTip": "C:\\Users\\misha\\Biblioteca\\Biblioteca\\ProyectoPrincipalBiblioteca\\Biblioteca_proyecto\\Biblioteca_proyecto\\Vista\\EditarUsuario.cs [Dise\u00F1o]",
+=======
+              "DocumentIndex": 18,
+              "Title": "EditarUsuario.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\148FA02\\Desktop\\Biblioteca\\Biblioteca\\ProyectoPrincipalBiblioteca\\Biblioteca_proyecto\\Biblioteca_proyecto\\Vista\\EditarUsuario.cs",
+              "RelativeDocumentMoniker": "Biblioteca_proyecto\\Biblioteca_proyecto\\Vista\\EditarUsuario.cs",
+              "ToolTip": "C:\\Users\\148FA02\\Desktop\\Biblioteca\\Biblioteca\\ProyectoPrincipalBiblioteca\\Biblioteca_proyecto\\Biblioteca_proyecto\\Vista\\EditarUsuario.cs [Dise\u00F1o]",
+>>>>>>> 0029c1c5814a5c03685e0e8bdcb4cc7eb0490180
               "RelativeToolTip": "Biblioteca_proyecto\\Biblioteca_proyecto\\Vista\\EditarUsuario.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-03T18:17:55.92Z",
@@ -497,11 +922,19 @@
             },
             {
               "$type": "Document",
+<<<<<<< HEAD
               "DocumentIndex": 25,
               "Title": "verUsuario.cs",
               "DocumentMoniker": "C:\\Users\\misha\\Biblioteca\\Biblioteca\\ProyectoPrincipalBiblioteca\\BibliotecaControles\\ControlUsuario\\verUsuario.cs",
               "RelativeDocumentMoniker": "BibliotecaControles\\ControlUsuario\\verUsuario.cs",
               "ToolTip": "C:\\Users\\misha\\Biblioteca\\Biblioteca\\ProyectoPrincipalBiblioteca\\BibliotecaControles\\ControlUsuario\\verUsuario.cs",
+=======
+              "DocumentIndex": 19,
+              "Title": "verUsuario.cs",
+              "DocumentMoniker": "C:\\Users\\148FA02\\Desktop\\Biblioteca\\Biblioteca\\ProyectoPrincipalBiblioteca\\BibliotecaControles\\ControlUsuario\\verUsuario.cs",
+              "RelativeDocumentMoniker": "BibliotecaControles\\ControlUsuario\\verUsuario.cs",
+              "ToolTip": "C:\\Users\\148FA02\\Desktop\\Biblioteca\\Biblioteca\\ProyectoPrincipalBiblioteca\\BibliotecaControles\\ControlUsuario\\verUsuario.cs",
+>>>>>>> 0029c1c5814a5c03685e0e8bdcb4cc7eb0490180
               "RelativeToolTip": "BibliotecaControles\\ControlUsuario\\verUsuario.cs",
               "ViewState": "AgIAAGUAAAAAAAAAAAAAwIoAAAA/AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -510,24 +943,40 @@
             },
             {
               "$type": "Document",
+<<<<<<< HEAD
               "DocumentIndex": 31,
               "Title": "NuevoUsuario.cs",
               "DocumentMoniker": "C:\\Users\\misha\\Biblioteca\\Biblioteca\\ProyectoPrincipalBiblioteca\\Biblioteca_proyecto\\Biblioteca_proyecto\\Vista\\NuevoUsuario.cs",
               "RelativeDocumentMoniker": "Biblioteca_proyecto\\Biblioteca_proyecto\\Vista\\NuevoUsuario.cs",
               "ToolTip": "C:\\Users\\misha\\Biblioteca\\Biblioteca\\ProyectoPrincipalBiblioteca\\Biblioteca_proyecto\\Biblioteca_proyecto\\Vista\\NuevoUsuario.cs",
+=======
+              "DocumentIndex": 20,
+              "Title": "NuevoUsuario.cs",
+              "DocumentMoniker": "C:\\Users\\148FA02\\Desktop\\Biblioteca\\Biblioteca\\ProyectoPrincipalBiblioteca\\Biblioteca_proyecto\\Biblioteca_proyecto\\Vista\\NuevoUsuario.cs",
+              "RelativeDocumentMoniker": "Biblioteca_proyecto\\Biblioteca_proyecto\\Vista\\NuevoUsuario.cs",
+              "ToolTip": "C:\\Users\\148FA02\\Desktop\\Biblioteca\\Biblioteca\\ProyectoPrincipalBiblioteca\\Biblioteca_proyecto\\Biblioteca_proyecto\\Vista\\NuevoUsuario.cs",
+>>>>>>> 0029c1c5814a5c03685e0e8bdcb4cc7eb0490180
               "RelativeToolTip": "Biblioteca_proyecto\\Biblioteca_proyecto\\Vista\\NuevoUsuario.cs",
-              "ViewState": "AgIAADAAAAAAAAAAAAAowFEAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAADYAAAAAAAAAAAAowFEAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-03T17:38:12.756Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+<<<<<<< HEAD
               "DocumentIndex": 30,
               "Title": "NuevoUsuario.Designer.cs",
               "DocumentMoniker": "C:\\Users\\misha\\Biblioteca\\Biblioteca\\ProyectoPrincipalBiblioteca\\Biblioteca_proyecto\\Biblioteca_proyecto\\Vista\\NuevoUsuario.Designer.cs",
               "RelativeDocumentMoniker": "Biblioteca_proyecto\\Biblioteca_proyecto\\Vista\\NuevoUsuario.Designer.cs",
               "ToolTip": "C:\\Users\\misha\\Biblioteca\\Biblioteca\\ProyectoPrincipalBiblioteca\\Biblioteca_proyecto\\Biblioteca_proyecto\\Vista\\NuevoUsuario.Designer.cs",
+=======
+              "DocumentIndex": 21,
+              "Title": "NuevoUsuario.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\148FA02\\Desktop\\Biblioteca\\Biblioteca\\ProyectoPrincipalBiblioteca\\Biblioteca_proyecto\\Biblioteca_proyecto\\Vista\\NuevoUsuario.Designer.cs",
+              "RelativeDocumentMoniker": "Biblioteca_proyecto\\Biblioteca_proyecto\\Vista\\NuevoUsuario.Designer.cs",
+              "ToolTip": "C:\\Users\\148FA02\\Desktop\\Biblioteca\\Biblioteca\\ProyectoPrincipalBiblioteca\\Biblioteca_proyecto\\Biblioteca_proyecto\\Vista\\NuevoUsuario.Designer.cs",
+>>>>>>> 0029c1c5814a5c03685e0e8bdcb4cc7eb0490180
               "RelativeToolTip": "Biblioteca_proyecto\\Biblioteca_proyecto\\Vista\\NuevoUsuario.Designer.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -536,11 +985,19 @@
             },
             {
               "$type": "Document",
+<<<<<<< HEAD
               "DocumentIndex": 29,
               "Title": "NuevoUsuario.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\misha\\Biblioteca\\Biblioteca\\ProyectoPrincipalBiblioteca\\Biblioteca_proyecto\\Biblioteca_proyecto\\Vista\\NuevoUsuario.cs",
               "RelativeDocumentMoniker": "Biblioteca_proyecto\\Biblioteca_proyecto\\Vista\\NuevoUsuario.cs",
               "ToolTip": "C:\\Users\\misha\\Biblioteca\\Biblioteca\\ProyectoPrincipalBiblioteca\\Biblioteca_proyecto\\Biblioteca_proyecto\\Vista\\NuevoUsuario.cs [Dise\u00F1o]",
+=======
+              "DocumentIndex": 22,
+              "Title": "NuevoUsuario.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\148FA02\\Desktop\\Biblioteca\\Biblioteca\\ProyectoPrincipalBiblioteca\\Biblioteca_proyecto\\Biblioteca_proyecto\\Vista\\NuevoUsuario.cs",
+              "RelativeDocumentMoniker": "Biblioteca_proyecto\\Biblioteca_proyecto\\Vista\\NuevoUsuario.cs",
+              "ToolTip": "C:\\Users\\148FA02\\Desktop\\Biblioteca\\Biblioteca\\ProyectoPrincipalBiblioteca\\Biblioteca_proyecto\\Biblioteca_proyecto\\Vista\\NuevoUsuario.cs [Dise\u00F1o]",
+>>>>>>> 0029c1c5814a5c03685e0e8bdcb4cc7eb0490180
               "RelativeToolTip": "Biblioteca_proyecto\\Biblioteca_proyecto\\Vista\\NuevoUsuario.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-03T17:35:49.59Z",
@@ -548,24 +1005,40 @@
             },
             {
               "$type": "Document",
+<<<<<<< HEAD
               "DocumentIndex": 7,
               "Title": "Usuarios.cs",
               "DocumentMoniker": "C:\\Users\\misha\\Biblioteca\\Biblioteca\\ProyectoPrincipalBiblioteca\\Biblioteca_proyecto\\Biblioteca_proyecto\\Vista\\Usuarios.cs",
               "RelativeDocumentMoniker": "Biblioteca_proyecto\\Biblioteca_proyecto\\Vista\\Usuarios.cs",
               "ToolTip": "C:\\Users\\misha\\Biblioteca\\Biblioteca\\ProyectoPrincipalBiblioteca\\Biblioteca_proyecto\\Biblioteca_proyecto\\Vista\\Usuarios.cs",
+=======
+              "DocumentIndex": 32,
+              "Title": "Usuarios.cs",
+              "DocumentMoniker": "C:\\Users\\148FA02\\Desktop\\Biblioteca\\Biblioteca\\ProyectoPrincipalBiblioteca\\Biblioteca_proyecto\\Biblioteca_proyecto\\Vista\\Usuarios.cs",
+              "RelativeDocumentMoniker": "Biblioteca_proyecto\\Biblioteca_proyecto\\Vista\\Usuarios.cs",
+              "ToolTip": "C:\\Users\\148FA02\\Desktop\\Biblioteca\\Biblioteca\\ProyectoPrincipalBiblioteca\\Biblioteca_proyecto\\Biblioteca_proyecto\\Vista\\Usuarios.cs",
+>>>>>>> 0029c1c5814a5c03685e0e8bdcb4cc7eb0490180
               "RelativeToolTip": "Biblioteca_proyecto\\Biblioteca_proyecto\\Vista\\Usuarios.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAqwFAAAABfAAAAAAAAAA==",
+              "ViewState": "AgIAAGEAAAAAAAAAAAAkwH0AAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-02T20:43:22.603Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+<<<<<<< HEAD
               "DocumentIndex": 28,
               "Title": "verUsuario.Designer.cs",
               "DocumentMoniker": "C:\\Users\\misha\\Biblioteca\\Biblioteca\\ProyectoPrincipalBiblioteca\\BibliotecaControles\\ControlUsuario\\verUsuario.Designer.cs",
               "RelativeDocumentMoniker": "BibliotecaControles\\ControlUsuario\\verUsuario.Designer.cs",
               "ToolTip": "C:\\Users\\misha\\Biblioteca\\Biblioteca\\ProyectoPrincipalBiblioteca\\BibliotecaControles\\ControlUsuario\\verUsuario.Designer.cs",
+=======
+              "DocumentIndex": 31,
+              "Title": "verUsuario.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\148FA02\\Desktop\\Biblioteca\\Biblioteca\\ProyectoPrincipalBiblioteca\\BibliotecaControles\\ControlUsuario\\verUsuario.Designer.cs",
+              "RelativeDocumentMoniker": "BibliotecaControles\\ControlUsuario\\verUsuario.Designer.cs",
+              "ToolTip": "C:\\Users\\148FA02\\Desktop\\Biblioteca\\Biblioteca\\ProyectoPrincipalBiblioteca\\BibliotecaControles\\ControlUsuario\\verUsuario.Designer.cs",
+>>>>>>> 0029c1c5814a5c03685e0e8bdcb4cc7eb0490180
               "RelativeToolTip": "BibliotecaControles\\ControlUsuario\\verUsuario.Designer.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -574,6 +1047,7 @@
             },
             {
               "$type": "Document",
+<<<<<<< HEAD
               "DocumentIndex": 23,
               "Title": "SQLiteHelper.cs",
               "DocumentMoniker": "C:\\Users\\misha\\Biblioteca\\Biblioteca\\ProyectoPrincipalBiblioteca\\Biblioteca_proyecto\\Biblioteca_proyecto\\Modelo\\SQLiteHelper.cs",
@@ -584,6 +1058,41 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-02T20:18:25.037Z",
               "EditorCaption": ""
+=======
+              "DocumentIndex": 30,
+              "Title": "MiControlador.cs",
+              "DocumentMoniker": "C:\\Users\\148FA02\\Desktop\\Biblioteca\\Biblioteca\\ProyectoPrincipalBiblioteca\\Biblioteca_proyecto\\Biblioteca_proyecto\\Controlador\\MiControlador.cs",
+              "RelativeDocumentMoniker": "Biblioteca_proyecto\\Biblioteca_proyecto\\Controlador\\MiControlador.cs",
+              "ToolTip": "C:\\Users\\148FA02\\Desktop\\Biblioteca\\Biblioteca\\ProyectoPrincipalBiblioteca\\Biblioteca_proyecto\\Biblioteca_proyecto\\Controlador\\MiControlador.cs",
+              "RelativeToolTip": "Biblioteca_proyecto\\Biblioteca_proyecto\\Controlador\\MiControlador.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAAwAABAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-03T16:17:28.542Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Usuarios.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\148FA02\\Desktop\\Biblioteca\\Biblioteca\\ProyectoPrincipalBiblioteca\\Biblioteca_proyecto\\Biblioteca_proyecto\\Vista\\Usuarios.cs",
+              "RelativeDocumentMoniker": "Biblioteca_proyecto\\Biblioteca_proyecto\\Vista\\Usuarios.cs",
+              "ToolTip": "C:\\Users\\148FA02\\Desktop\\Biblioteca\\Biblioteca\\ProyectoPrincipalBiblioteca\\Biblioteca_proyecto\\Biblioteca_proyecto\\Vista\\Usuarios.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Biblioteca_proyecto\\Biblioteca_proyecto\\Vista\\Usuarios.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-02T20:43:15.123Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Biblioteca_proyecto",
+              "DocumentMoniker": "C:\\Users\\148FA02\\Desktop\\Biblioteca\\Biblioteca\\ProyectoPrincipalBiblioteca\\Biblioteca_proyecto\\Biblioteca_proyecto\\Biblioteca_proyecto.csproj",
+              "RelativeDocumentMoniker": "Biblioteca_proyecto\\Biblioteca_proyecto\\Biblioteca_proyecto.csproj",
+              "ToolTip": "C:\\Users\\148FA02\\Desktop\\Biblioteca\\Biblioteca\\ProyectoPrincipalBiblioteca\\Biblioteca_proyecto\\Biblioteca_proyecto\\Biblioteca_proyecto.csproj",
+              "RelativeToolTip": "Biblioteca_proyecto\\Biblioteca_proyecto\\Biblioteca_proyecto.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-02-02T20:40:12.462Z"
+>>>>>>> 0029c1c5814a5c03685e0e8bdcb4cc7eb0490180
             }
           ]
         }

@@ -22,3 +22,11 @@ C:\Users\misha\Desktop\proyecto_Biblioteca\Biblioteca\ProyectoPrincipalBibliotec
 C:\Users\misha\Desktop\proyecto_Biblioteca\Biblioteca\ProyectoPrincipalBiblioteca\BibliotecaControles\ControlUsuario\obj\Debug\BibliotecaControles.csproj.CoreCompileInputs.cache
 C:\Users\misha\Desktop\proyecto_Biblioteca\Biblioteca\ProyectoPrincipalBiblioteca\BibliotecaControles\ControlUsuario\obj\Debug\BibliotecaControles.dll
 C:\Users\misha\Desktop\proyecto_Biblioteca\Biblioteca\ProyectoPrincipalBiblioteca\BibliotecaControles\ControlUsuario\obj\Debug\BibliotecaControles.pdb
+C:\Users\148FA02\Desktop\Biblioteca\Biblioteca\ProyectoPrincipalBiblioteca\BibliotecaControles\ControlUsuario\bin\Debug\BibliotecaControles.dll
+C:\Users\148FA02\Desktop\Biblioteca\Biblioteca\ProyectoPrincipalBiblioteca\BibliotecaControles\ControlUsuario\bin\Debug\BibliotecaControles.pdb
+C:\Users\148FA02\Desktop\Biblioteca\Biblioteca\ProyectoPrincipalBiblioteca\BibliotecaControles\ControlUsuario\obj\Debug\BibliotecaControles.csproj.AssemblyReference.cache
+C:\Users\148FA02\Desktop\Biblioteca\Biblioteca\ProyectoPrincipalBiblioteca\BibliotecaControles\ControlUsuario\obj\Debug\BibliotecaControles.verUsuario.resources
+C:\Users\148FA02\Desktop\Biblioteca\Biblioteca\ProyectoPrincipalBiblioteca\BibliotecaControles\ControlUsuario\obj\Debug\BibliotecaControles.csproj.GenerateResource.cache
+C:\Users\148FA02\Desktop\Biblioteca\Biblioteca\ProyectoPrincipalBiblioteca\BibliotecaControles\ControlUsuario\obj\Debug\BibliotecaControles.csproj.CoreCompileInputs.cache
+C:\Users\148FA02\Desktop\Biblioteca\Biblioteca\ProyectoPrincipalBiblioteca\BibliotecaControles\ControlUsuario\obj\Debug\BibliotecaControles.dll
+C:\Users\148FA02\Desktop\Biblioteca\Biblioteca\ProyectoPrincipalBiblioteca\BibliotecaControles\ControlUsuario\obj\Debug\BibliotecaControles.pdb

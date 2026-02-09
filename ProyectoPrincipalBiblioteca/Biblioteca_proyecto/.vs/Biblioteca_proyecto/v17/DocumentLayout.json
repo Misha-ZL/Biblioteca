@@ -1,8 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\misha\\Biblioteca\\Biblioteca\\ProyectoPrincipalBiblioteca\\Biblioteca_proyecto\\",
+  "WorkspaceRootPath": "C:\\Users\\148FA02\\Desktop\\Biblioteca\\Biblioteca\\ProyectoPrincipalBiblioteca\\Biblioteca_proyecto\\",
   "Documents": [
     {
+<<<<<<< HEAD
       "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|Biblioteca_proyecto||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
     },
     {
@@ -27,50 +28,92 @@
     },
     {
       "AbsoluteMoniker": "D:0:0:{1732FB76-A030-468F-82F3-BF942795D6E4}|Biblioteca_proyecto\\Biblioteca_proyecto.csproj|C:\\Users\\misha\\Biblioteca\\Biblioteca\\ProyectoPrincipalBiblioteca\\Biblioteca_proyecto\\biblioteca_proyecto\\modelo\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+=======
+      "AbsoluteMoniker": "D:0:0:{1732FB76-A030-468F-82F3-BF942795D6E4}|Biblioteca_proyecto\\Biblioteca_proyecto.csproj|C:\\Users\\148FA02\\Desktop\\Biblioteca\\Biblioteca\\ProyectoPrincipalBiblioteca\\Biblioteca_proyecto\\biblioteca_proyecto\\modelo\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+>>>>>>> 0029c1c5814a5c03685e0e8bdcb4cc7eb0490180
       "RelativeMoniker": "D:0:0:{1732FB76-A030-468F-82F3-BF942795D6E4}|Biblioteca_proyecto\\Biblioteca_proyecto.csproj|solutionrelative:biblioteca_proyecto\\modelo\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1732FB76-A030-468F-82F3-BF942795D6E4}|Biblioteca_proyecto\\Biblioteca_proyecto.csproj|C:\\Users\\misha\\Biblioteca\\Biblioteca\\ProyectoPrincipalBiblioteca\\Biblioteca_proyecto\\biblioteca_proyecto\\vista\\libros.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{1732FB76-A030-468F-82F3-BF942795D6E4}|Biblioteca_proyecto\\Biblioteca_proyecto.csproj|solutionrelative:biblioteca_proyecto\\vista\\libros.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{1732FB76-A030-468F-82F3-BF942795D6E4}|Biblioteca_proyecto\\Biblioteca_proyecto.csproj|C:\\Users\\148FA02\\Desktop\\Biblioteca\\Biblioteca\\ProyectoPrincipalBiblioteca\\Biblioteca_proyecto\\biblioteca_proyecto\\controlador\\micontrolador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1732FB76-A030-468F-82F3-BF942795D6E4}|Biblioteca_proyecto\\Biblioteca_proyecto.csproj|solutionrelative:biblioteca_proyecto\\controlador\\micontrolador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1732FB76-A030-468F-82F3-BF942795D6E4}|Biblioteca_proyecto\\Biblioteca_proyecto.csproj|C:\\Users\\misha\\Biblioteca\\Biblioteca\\ProyectoPrincipalBiblioteca\\Biblioteca_proyecto\\biblioteca_proyecto\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1732FB76-A030-468F-82F3-BF942795D6E4}|Biblioteca_proyecto\\Biblioteca_proyecto.csproj|solutionrelative:biblioteca_proyecto\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1732FB76-A030-468F-82F3-BF942795D6E4}|Biblioteca_proyecto\\Biblioteca_proyecto.csproj|C:\\Users\\148FA02\\Desktop\\Biblioteca\\Biblioteca\\ProyectoPrincipalBiblioteca\\Biblioteca_proyecto\\biblioteca_proyecto\\vista\\nuevoprestamo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1732FB76-A030-468F-82F3-BF942795D6E4}|Biblioteca_proyecto\\Biblioteca_proyecto.csproj|solutionrelative:biblioteca_proyecto\\vista\\nuevoprestamo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1732FB76-A030-468F-82F3-BF942795D6E4}|Biblioteca_proyecto\\Biblioteca_proyecto.csproj|C:\\Users\\misha\\Biblioteca\\Biblioteca\\ProyectoPrincipalBiblioteca\\Biblioteca_proyecto\\biblioteca_proyecto\\vista\\principal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1732FB76-A030-468F-82F3-BF942795D6E4}|Biblioteca_proyecto\\Biblioteca_proyecto.csproj|solutionrelative:biblioteca_proyecto\\vista\\principal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1732FB76-A030-468F-82F3-BF942795D6E4}|Biblioteca_proyecto\\Biblioteca_proyecto.csproj|C:\\Users\\148FA02\\Desktop\\Biblioteca\\Biblioteca\\ProyectoPrincipalBiblioteca\\Biblioteca_proyecto\\biblioteca_proyecto\\modelo\\sqlitehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1732FB76-A030-468F-82F3-BF942795D6E4}|Biblioteca_proyecto\\Biblioteca_proyecto.csproj|solutionrelative:biblioteca_proyecto\\modelo\\sqlitehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1732FB76-A030-468F-82F3-BF942795D6E4}|Biblioteca_proyecto\\Biblioteca_proyecto.csproj|C:\\Users\\misha\\Biblioteca\\Biblioteca\\ProyectoPrincipalBiblioteca\\Biblioteca_proyecto\\biblioteca_proyecto\\vista\\principal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{1732FB76-A030-468F-82F3-BF942795D6E4}|Biblioteca_proyecto\\Biblioteca_proyecto.csproj|solutionrelative:biblioteca_proyecto\\vista\\principal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{1732FB76-A030-468F-82F3-BF942795D6E4}|Biblioteca_proyecto\\Biblioteca_proyecto.csproj|C:\\Users\\148FA02\\Desktop\\Biblioteca\\Biblioteca\\ProyectoPrincipalBiblioteca\\Biblioteca_proyecto\\biblioteca_proyecto\\modelo\\repositorioprestamo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1732FB76-A030-468F-82F3-BF942795D6E4}|Biblioteca_proyecto\\Biblioteca_proyecto.csproj|solutionrelative:biblioteca_proyecto\\modelo\\repositorioprestamo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{1732FB76-A030-468F-82F3-BF942795D6E4}|Biblioteca_proyecto\\Biblioteca_proyecto.csproj|C:\\Users\\148FA02\\Desktop\\Biblioteca\\Biblioteca\\ProyectoPrincipalBiblioteca\\Biblioteca_proyecto\\biblioteca_proyecto\\vista\\nuevousuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1732FB76-A030-468F-82F3-BF942795D6E4}|Biblioteca_proyecto\\Biblioteca_proyecto.csproj|solutionrelative:biblioteca_proyecto\\vista\\nuevousuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1732FB76-A030-468F-82F3-BF942795D6E4}|Biblioteca_proyecto\\Biblioteca_proyecto.csproj|c:\\users\\148fa02\\desktop\\biblioteca\\biblioteca\\proyectoprincipalbiblioteca\\biblioteca_proyecto\\biblioteca_proyecto\\vista\\nuevoprestamo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1732FB76-A030-468F-82F3-BF942795D6E4}|Biblioteca_proyecto\\Biblioteca_proyecto.csproj|solutionrelative:biblioteca_proyecto\\vista\\nuevoprestamo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1732FB76-A030-468F-82F3-BF942795D6E4}|Biblioteca_proyecto\\Biblioteca_proyecto.csproj|C:\\Users\\148FA02\\Desktop\\Biblioteca\\Biblioteca\\ProyectoPrincipalBiblioteca\\Biblioteca_proyecto\\biblioteca_proyecto\\modelo\\repositoriolibro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1732FB76-A030-468F-82F3-BF942795D6E4}|Biblioteca_proyecto\\Biblioteca_proyecto.csproj|solutionrelative:biblioteca_proyecto\\modelo\\repositoriolibro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1732FB76-A030-468F-82F3-BF942795D6E4}|Biblioteca_proyecto\\Biblioteca_proyecto.csproj|C:\\Users\\148FA02\\Desktop\\Biblioteca\\Biblioteca\\ProyectoPrincipalBiblioteca\\Biblioteca_proyecto\\biblioteca_proyecto\\modelo\\repositoriousuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1732FB76-A030-468F-82F3-BF942795D6E4}|Biblioteca_proyecto\\Biblioteca_proyecto.csproj|solutionrelative:biblioteca_proyecto\\modelo\\repositoriousuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1732FB76-A030-468F-82F3-BF942795D6E4}|Biblioteca_proyecto\\Biblioteca_proyecto.csproj|C:\\Users\\148FA02\\Desktop\\Biblioteca\\Biblioteca\\ProyectoPrincipalBiblioteca\\Biblioteca_proyecto\\biblioteca_proyecto\\vista\\nuevolibro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1732FB76-A030-468F-82F3-BF942795D6E4}|Biblioteca_proyecto\\Biblioteca_proyecto.csproj|solutionrelative:biblioteca_proyecto\\vista\\nuevolibro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+<<<<<<< HEAD
       "AbsoluteMoniker": "D:0:0:{1732FB76-A030-468F-82F3-BF942795D6E4}|Biblioteca_proyecto\\Biblioteca_proyecto.csproj|C:\\Users\\misha\\Biblioteca\\Biblioteca\\ProyectoPrincipalBiblioteca\\Biblioteca_proyecto\\biblioteca_proyecto\\modelo\\libro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1732FB76-A030-468F-82F3-BF942795D6E4}|Biblioteca_proyecto\\Biblioteca_proyecto.csproj|solutionrelative:biblioteca_proyecto\\modelo\\libro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1732FB76-A030-468F-82F3-BF942795D6E4}|Biblioteca_proyecto\\Biblioteca_proyecto.csproj|C:\\Users\\misha\\Biblioteca\\Biblioteca\\ProyectoPrincipalBiblioteca\\Biblioteca_proyecto\\biblioteca_proyecto\\modelo\\prestamo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+=======
+      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|Biblioteca_proyecto||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1732FB76-A030-468F-82F3-BF942795D6E4}|Biblioteca_proyecto\\Biblioteca_proyecto.csproj|C:\\Users\\148FA02\\Desktop\\Biblioteca\\Biblioteca\\ProyectoPrincipalBiblioteca\\Biblioteca_proyecto\\biblioteca_proyecto\\modelo\\prestamo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+>>>>>>> 0029c1c5814a5c03685e0e8bdcb4cc7eb0490180
       "RelativeMoniker": "D:0:0:{1732FB76-A030-468F-82F3-BF942795D6E4}|Biblioteca_proyecto\\Biblioteca_proyecto.csproj|solutionrelative:biblioteca_proyecto\\modelo\\prestamo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1732FB76-A030-468F-82F3-BF942795D6E4}|Biblioteca_proyecto\\Biblioteca_proyecto.csproj|C:\\Users\\misha\\Biblioteca\\Biblioteca\\ProyectoPrincipalBiblioteca\\Biblioteca_proyecto\\biblioteca_proyecto\\modelo\\repositoriolibro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1732FB76-A030-468F-82F3-BF942795D6E4}|Biblioteca_proyecto\\Biblioteca_proyecto.csproj|solutionrelative:biblioteca_proyecto\\modelo\\repositoriolibro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1732FB76-A030-468F-82F3-BF942795D6E4}|Biblioteca_proyecto\\Biblioteca_proyecto.csproj|C:\\Users\\148FA02\\Desktop\\Biblioteca\\Biblioteca\\ProyectoPrincipalBiblioteca\\Biblioteca_proyecto\\biblioteca_proyecto\\modelo\\libro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1732FB76-A030-468F-82F3-BF942795D6E4}|Biblioteca_proyecto\\Biblioteca_proyecto.csproj|solutionrelative:biblioteca_proyecto\\modelo\\libro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1732FB76-A030-468F-82F3-BF942795D6E4}|Biblioteca_proyecto\\Biblioteca_proyecto.csproj|C:\\Users\\misha\\Biblioteca\\Biblioteca\\ProyectoPrincipalBiblioteca\\Biblioteca_proyecto\\biblioteca_proyecto\\modelo\\repositorioprestamo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1732FB76-A030-468F-82F3-BF942795D6E4}|Biblioteca_proyecto\\Biblioteca_proyecto.csproj|solutionrelative:biblioteca_proyecto\\modelo\\repositorioprestamo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1732FB76-A030-468F-82F3-BF942795D6E4}|Biblioteca_proyecto\\Biblioteca_proyecto.csproj|C:\\Users\\148FA02\\Desktop\\Biblioteca\\Biblioteca\\ProyectoPrincipalBiblioteca\\Biblioteca_proyecto\\biblioteca_proyecto\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1732FB76-A030-468F-82F3-BF942795D6E4}|Biblioteca_proyecto\\Biblioteca_proyecto.csproj|solutionrelative:biblioteca_proyecto\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1732FB76-A030-468F-82F3-BF942795D6E4}|Biblioteca_proyecto\\Biblioteca_proyecto.csproj|C:\\Users\\misha\\Biblioteca\\Biblioteca\\ProyectoPrincipalBiblioteca\\Biblioteca_proyecto\\biblioteca_proyecto\\modelo\\repositoriousuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1732FB76-A030-468F-82F3-BF942795D6E4}|Biblioteca_proyecto\\Biblioteca_proyecto.csproj|solutionrelative:biblioteca_proyecto\\modelo\\repositoriousuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1732FB76-A030-468F-82F3-BF942795D6E4}|Biblioteca_proyecto\\Biblioteca_proyecto.csproj|C:\\Users\\148FA02\\Desktop\\Biblioteca\\Biblioteca\\ProyectoPrincipalBiblioteca\\Biblioteca_proyecto\\biblioteca_proyecto\\vista\\libros.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1732FB76-A030-468F-82F3-BF942795D6E4}|Biblioteca_proyecto\\Biblioteca_proyecto.csproj|solutionrelative:biblioteca_proyecto\\vista\\libros.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
+<<<<<<< HEAD
       "AbsoluteMoniker": "D:0:0:{1732FB76-A030-468F-82F3-BF942795D6E4}|Biblioteca_proyecto\\Biblioteca_proyecto.csproj|C:\\Users\\misha\\Biblioteca\\Biblioteca\\ProyectoPrincipalBiblioteca\\Biblioteca_proyecto\\biblioteca_proyecto\\modelo\\sqlitehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1732FB76-A030-468F-82F3-BF942795D6E4}|Biblioteca_proyecto\\Biblioteca_proyecto.csproj|solutionrelative:biblioteca_proyecto\\modelo\\sqlitehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1732FB76-A030-468F-82F3-BF942795D6E4}|Biblioteca_proyecto\\Biblioteca_proyecto.csproj|c:\\users\\misha\\biblioteca\\biblioteca\\proyectoprincipalbiblioteca\\biblioteca_proyecto\\biblioteca_proyecto\\properties\\settings.settings||{6D2695F9-5365-4A78-89ED-F205C045BFE6}",
+=======
+      "AbsoluteMoniker": "D:0:0:{1732FB76-A030-468F-82F3-BF942795D6E4}|Biblioteca_proyecto\\Biblioteca_proyecto.csproj|C:\\Users\\148FA02\\Desktop\\Biblioteca\\Biblioteca\\ProyectoPrincipalBiblioteca\\Biblioteca_proyecto\\biblioteca_proyecto\\vista\\principal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1732FB76-A030-468F-82F3-BF942795D6E4}|Biblioteca_proyecto\\Biblioteca_proyecto.csproj|solutionrelative:biblioteca_proyecto\\vista\\principal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1732FB76-A030-468F-82F3-BF942795D6E4}|Biblioteca_proyecto\\Biblioteca_proyecto.csproj|C:\\Users\\148FA02\\Desktop\\Biblioteca\\Biblioteca\\ProyectoPrincipalBiblioteca\\Biblioteca_proyecto\\biblioteca_proyecto\\vista\\principal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1732FB76-A030-468F-82F3-BF942795D6E4}|Biblioteca_proyecto\\Biblioteca_proyecto.csproj|solutionrelative:biblioteca_proyecto\\vista\\principal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1732FB76-A030-468F-82F3-BF942795D6E4}|Biblioteca_proyecto\\Biblioteca_proyecto.csproj|c:\\users\\148fa02\\desktop\\biblioteca\\biblioteca\\proyectoprincipalbiblioteca\\biblioteca_proyecto\\biblioteca_proyecto\\properties\\settings.settings||{6D2695F9-5365-4A78-89ED-F205C045BFE6}",
+>>>>>>> 0029c1c5814a5c03685e0e8bdcb4cc7eb0490180
       "RelativeMoniker": "D:0:0:{1732FB76-A030-468F-82F3-BF942795D6E4}|Biblioteca_proyecto\\Biblioteca_proyecto.csproj|solutionrelative:biblioteca_proyecto\\properties\\settings.settings||{6D2695F9-5365-4A78-89ED-F205C045BFE6}"
     }
   ],
@@ -81,15 +124,27 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
+<<<<<<< HEAD
           "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 10,
+=======
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+>>>>>>> 0029c1c5814a5c03685e0e8bdcb4cc7eb0490180
               "Title": "Principal.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\misha\\Biblioteca\\Biblioteca\\ProyectoPrincipalBiblioteca\\Biblioteca_proyecto\\Biblioteca_proyecto\\Vista\\Principal.cs",
+              "DocumentMoniker": "C:\\Users\\148FA02\\Desktop\\Biblioteca\\Biblioteca\\ProyectoPrincipalBiblioteca\\Biblioteca_proyecto\\Biblioteca_proyecto\\Vista\\Principal.cs",
               "RelativeDocumentMoniker": "Biblioteca_proyecto\\Vista\\Principal.cs",
+<<<<<<< HEAD
               "ToolTip": "C:\\Users\\misha\\Biblioteca\\Biblioteca\\ProyectoPrincipalBiblioteca\\Biblioteca_proyecto\\Biblioteca_proyecto\\Vista\\Principal.cs [Dise\u00F1o]",
+=======
+              "ToolTip": "C:\\Users\\148FA02\\Desktop\\Biblioteca\\Biblioteca\\ProyectoPrincipalBiblioteca\\Biblioteca_proyecto\\Biblioteca_proyecto\\Vista\\Principal.cs [Dise\u00F1o]",
+>>>>>>> 0029c1c5814a5c03685e0e8bdcb4cc7eb0490180
               "RelativeToolTip": "Biblioteca_proyecto\\Vista\\Principal.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-24T11:12:17.048Z",
@@ -98,27 +153,35 @@
             },
             {
               "$type": "Document",
+<<<<<<< HEAD
               "DocumentIndex": 9,
+=======
+              "DocumentIndex": 15,
+>>>>>>> 0029c1c5814a5c03685e0e8bdcb4cc7eb0490180
               "Title": "Principal.cs",
-              "DocumentMoniker": "C:\\Users\\misha\\Biblioteca\\Biblioteca\\ProyectoPrincipalBiblioteca\\Biblioteca_proyecto\\Biblioteca_proyecto\\Vista\\Principal.cs",
+              "DocumentMoniker": "C:\\Users\\148FA02\\Desktop\\Biblioteca\\Biblioteca\\ProyectoPrincipalBiblioteca\\Biblioteca_proyecto\\Biblioteca_proyecto\\Vista\\Principal.cs",
               "RelativeDocumentMoniker": "Biblioteca_proyecto\\Vista\\Principal.cs",
-              "ToolTip": "C:\\Users\\misha\\Biblioteca\\Biblioteca\\ProyectoPrincipalBiblioteca\\Biblioteca_proyecto\\Biblioteca_proyecto\\Vista\\Principal.cs",
+              "ToolTip": "C:\\Users\\148FA02\\Desktop\\Biblioteca\\Biblioteca\\ProyectoPrincipalBiblioteca\\Biblioteca_proyecto\\Biblioteca_proyecto\\Vista\\Principal.cs",
               "RelativeToolTip": "Biblioteca_proyecto\\Vista\\Principal.cs",
               "ViewState": "AgIAABwAAAAAAAAAAAAgwCkAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-24T12:28:39.842Z",
               "IsPinned": true,
               "EditorCaption": ""
+<<<<<<< HEAD
             },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+=======
+>>>>>>> 0029c1c5814a5c03685e0e8bdcb4cc7eb0490180
             },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
             },
             {
+<<<<<<< HEAD
               "$type": "Document",
               "DocumentIndex": 12,
               "Title": "Prestamo.cs",
@@ -255,35 +318,48 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-31T16:42:38.127Z",
               "EditorCaption": ""
+=======
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+>>>>>>> 0029c1c5814a5c03685e0e8bdcb4cc7eb0490180
             },
             {
               "$type": "Document",
               "DocumentIndex": 14,
-              "Title": "RepositorioPrestamo.cs",
-              "DocumentMoniker": "C:\\Users\\misha\\Biblioteca\\Biblioteca\\ProyectoPrincipalBiblioteca\\Biblioteca_proyecto\\Biblioteca_proyecto\\Modelo\\RepositorioPrestamo.cs",
-              "RelativeDocumentMoniker": "Biblioteca_proyecto\\Modelo\\RepositorioPrestamo.cs",
-              "ToolTip": "C:\\Users\\misha\\Biblioteca\\Biblioteca\\ProyectoPrincipalBiblioteca\\Biblioteca_proyecto\\Biblioteca_proyecto\\Modelo\\RepositorioPrestamo.cs",
-              "RelativeToolTip": "Biblioteca_proyecto\\Modelo\\RepositorioPrestamo.cs",
-              "ViewState": "AgIAADsAAAAAAAAAAAAwwFAAAABeAAAAAAAAAA==",
+              "Title": "Libros.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\148FA02\\Desktop\\Biblioteca\\Biblioteca\\ProyectoPrincipalBiblioteca\\Biblioteca_proyecto\\Biblioteca_proyecto\\Vista\\Libros.cs",
+              "RelativeDocumentMoniker": "Biblioteca_proyecto\\Vista\\Libros.cs",
+              "ToolTip": "C:\\Users\\148FA02\\Desktop\\Biblioteca\\Biblioteca\\ProyectoPrincipalBiblioteca\\Biblioteca_proyecto\\Biblioteca_proyecto\\Vista\\Libros.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Biblioteca_proyecto\\Vista\\Libros.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+<<<<<<< HEAD
               "WhenOpened": "2026-01-31T16:42:39.313Z",
               "EditorCaption": ""
+=======
+              "WhenOpened": "2026-02-02T17:56:06.991Z",
+              "EditorCaption": " [Dise\u00F1o]"
+>>>>>>> 0029c1c5814a5c03685e0e8bdcb4cc7eb0490180
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "SQLiteHelper.cs",
-              "DocumentMoniker": "C:\\Users\\misha\\Biblioteca\\Biblioteca\\ProyectoPrincipalBiblioteca\\Biblioteca_proyecto\\Biblioteca_proyecto\\Modelo\\SQLiteHelper.cs",
-              "RelativeDocumentMoniker": "Biblioteca_proyecto\\Modelo\\SQLiteHelper.cs",
-              "ToolTip": "C:\\Users\\misha\\Biblioteca\\Biblioteca\\ProyectoPrincipalBiblioteca\\Biblioteca_proyecto\\Biblioteca_proyecto\\Modelo\\SQLiteHelper.cs",
-              "RelativeToolTip": "Biblioteca_proyecto\\Modelo\\SQLiteHelper.cs",
-              "ViewState": "AgIAAD8AAAAAAAAAAAAowF8AAABWAAAAAAAAAA==",
+              "DocumentIndex": 13,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\148FA02\\Desktop\\Biblioteca\\Biblioteca\\ProyectoPrincipalBiblioteca\\Biblioteca_proyecto\\Biblioteca_proyecto\\Program.cs",
+              "RelativeDocumentMoniker": "Biblioteca_proyecto\\Program.cs",
+              "ToolTip": "C:\\Users\\148FA02\\Desktop\\Biblioteca\\Biblioteca\\ProyectoPrincipalBiblioteca\\Biblioteca_proyecto\\Biblioteca_proyecto\\Program.cs",
+              "RelativeToolTip": "Biblioteca_proyecto\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+<<<<<<< HEAD
               "WhenOpened": "2026-01-26T16:08:29.896Z",
+=======
+              "WhenOpened": "2026-02-01T13:35:45.43Z",
+>>>>>>> 0029c1c5814a5c03685e0e8bdcb4cc7eb0490180
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+<<<<<<< HEAD
               "DocumentIndex": 5,
               "Title": "NuevoPrestamo.cs",
               "DocumentMoniker": "C:\\Users\\misha\\Biblioteca\\Biblioteca\\ProyectoPrincipalBiblioteca\\Biblioteca_proyecto\\Biblioteca_proyecto\\Vista\\NuevoPrestamo.cs",
@@ -291,19 +367,171 @@
               "ToolTip": "C:\\Users\\misha\\Biblioteca\\Biblioteca\\ProyectoPrincipalBiblioteca\\Biblioteca_proyecto\\Biblioteca_proyecto\\Vista\\NuevoPrestamo.cs",
               "RelativeToolTip": "Biblioteca_proyecto\\Vista\\NuevoPrestamo.cs",
               "ViewState": "AgIAAD4AAAAAAAAAAAAwwGMAAAANAAAAAAAAAA==",
+=======
+              "DocumentIndex": 12,
+              "Title": "Libro.cs",
+              "DocumentMoniker": "C:\\Users\\148FA02\\Desktop\\Biblioteca\\Biblioteca\\ProyectoPrincipalBiblioteca\\Biblioteca_proyecto\\Biblioteca_proyecto\\Modelo\\Libro.cs",
+              "RelativeDocumentMoniker": "Biblioteca_proyecto\\Modelo\\Libro.cs",
+              "ToolTip": "C:\\Users\\148FA02\\Desktop\\Biblioteca\\Biblioteca\\ProyectoPrincipalBiblioteca\\Biblioteca_proyecto\\Biblioteca_proyecto\\Modelo\\Libro.cs",
+              "RelativeToolTip": "Biblioteca_proyecto\\Modelo\\Libro.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAHAAAAAAAAAA==",
+>>>>>>> 0029c1c5814a5c03685e0e8bdcb4cc7eb0490180
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-01T13:35:03.885Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Prestamo.cs",
+              "DocumentMoniker": "C:\\Users\\148FA02\\Desktop\\Biblioteca\\Biblioteca\\ProyectoPrincipalBiblioteca\\Biblioteca_proyecto\\Biblioteca_proyecto\\Modelo\\Prestamo.cs",
+              "RelativeDocumentMoniker": "Biblioteca_proyecto\\Modelo\\Prestamo.cs",
+              "ToolTip": "C:\\Users\\148FA02\\Desktop\\Biblioteca\\Biblioteca\\ProyectoPrincipalBiblioteca\\Biblioteca_proyecto\\Biblioteca_proyecto\\Modelo\\Prestamo.cs",
+              "RelativeToolTip": "Biblioteca_proyecto\\Modelo\\Prestamo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-01T13:34:02.693Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+<<<<<<< HEAD
+              "DocumentIndex": 2,
+=======
+              "DocumentIndex": 0,
+              "Title": "Usuario.cs",
+              "DocumentMoniker": "C:\\Users\\148FA02\\Desktop\\Biblioteca\\Biblioteca\\ProyectoPrincipalBiblioteca\\Biblioteca_proyecto\\Biblioteca_proyecto\\Modelo\\Usuario.cs",
+              "RelativeDocumentMoniker": "Biblioteca_proyecto\\Modelo\\Usuario.cs",
+              "ToolTip": "C:\\Users\\148FA02\\Desktop\\Biblioteca\\Biblioteca\\ProyectoPrincipalBiblioteca\\Biblioteca_proyecto\\Biblioteca_proyecto\\Modelo\\Usuario.cs",
+              "RelativeToolTip": "Biblioteca_proyecto\\Modelo\\Usuario.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-01T13:32:41.87Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Biblioteca_proyecto",
+              "DocumentMoniker": "C:\\Users\\148FA02\\Desktop\\Biblioteca\\Biblioteca\\ProyectoPrincipalBiblioteca\\Biblioteca_proyecto\\Biblioteca_proyecto\\Biblioteca_proyecto.csproj",
+              "RelativeDocumentMoniker": "Biblioteca_proyecto\\Biblioteca_proyecto.csproj",
+              "ToolTip": "C:\\Users\\148FA02\\Desktop\\Biblioteca\\Biblioteca\\ProyectoPrincipalBiblioteca\\Biblioteca_proyecto\\Biblioteca_proyecto\\Biblioteca_proyecto.csproj",
+              "RelativeToolTip": "Biblioteca_proyecto\\Biblioteca_proyecto.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-01-31T21:20:10.896Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "NuevoLibro.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\148FA02\\Desktop\\Biblioteca\\Biblioteca\\ProyectoPrincipalBiblioteca\\Biblioteca_proyecto\\Biblioteca_proyecto\\Vista\\NuevoLibro.cs",
+              "RelativeDocumentMoniker": "Biblioteca_proyecto\\Vista\\NuevoLibro.cs",
+              "ToolTip": "C:\\Users\\148FA02\\Desktop\\Biblioteca\\Biblioteca\\ProyectoPrincipalBiblioteca\\Biblioteca_proyecto\\Biblioteca_proyecto\\Vista\\NuevoLibro.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Biblioteca_proyecto\\Vista\\NuevoLibro.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-31T20:50:18.866Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "RepositorioUsuario.cs",
+              "DocumentMoniker": "C:\\Users\\148FA02\\Desktop\\Biblioteca\\Biblioteca\\ProyectoPrincipalBiblioteca\\Biblioteca_proyecto\\Biblioteca_proyecto\\Modelo\\RepositorioUsuario.cs",
+              "RelativeDocumentMoniker": "Biblioteca_proyecto\\Modelo\\RepositorioUsuario.cs",
+              "ToolTip": "C:\\Users\\148FA02\\Desktop\\Biblioteca\\Biblioteca\\ProyectoPrincipalBiblioteca\\Biblioteca_proyecto\\Biblioteca_proyecto\\Modelo\\RepositorioUsuario.cs",
+              "RelativeToolTip": "Biblioteca_proyecto\\Modelo\\RepositorioUsuario.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAA7wEkAAABNAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-26T16:07:46.544Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "RepositorioLibro.cs",
+              "DocumentMoniker": "C:\\Users\\148FA02\\Desktop\\Biblioteca\\Biblioteca\\ProyectoPrincipalBiblioteca\\Biblioteca_proyecto\\Biblioteca_proyecto\\Modelo\\RepositorioLibro.cs",
+              "RelativeDocumentMoniker": "Biblioteca_proyecto\\Modelo\\RepositorioLibro.cs",
+              "ToolTip": "C:\\Users\\148FA02\\Desktop\\Biblioteca\\Biblioteca\\ProyectoPrincipalBiblioteca\\Biblioteca_proyecto\\Biblioteca_proyecto\\Modelo\\RepositorioLibro.cs",
+              "RelativeToolTip": "Biblioteca_proyecto\\Modelo\\RepositorioLibro.cs",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAAwGgAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-31T16:42:38.127Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "NuevoPrestamo.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\148FA02\\Desktop\\Biblioteca\\Biblioteca\\ProyectoPrincipalBiblioteca\\Biblioteca_proyecto\\Biblioteca_proyecto\\Vista\\NuevoPrestamo.cs",
+              "RelativeDocumentMoniker": "Biblioteca_proyecto\\Vista\\NuevoPrestamo.cs",
+              "ToolTip": "C:\\Users\\148FA02\\Desktop\\Biblioteca\\Biblioteca\\ProyectoPrincipalBiblioteca\\Biblioteca_proyecto\\Biblioteca_proyecto\\Vista\\NuevoPrestamo.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Biblioteca_proyecto\\Vista\\NuevoPrestamo.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-31T20:39:35.094Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "NuevoUsuario.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\148FA02\\Desktop\\Biblioteca\\Biblioteca\\ProyectoPrincipalBiblioteca\\Biblioteca_proyecto\\Biblioteca_proyecto\\Vista\\NuevoUsuario.cs",
+              "RelativeDocumentMoniker": "Biblioteca_proyecto\\Vista\\NuevoUsuario.cs",
+              "ToolTip": "C:\\Users\\148FA02\\Desktop\\Biblioteca\\Biblioteca\\ProyectoPrincipalBiblioteca\\Biblioteca_proyecto\\Biblioteca_proyecto\\Vista\\NuevoUsuario.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Biblioteca_proyecto\\Vista\\NuevoUsuario.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-02T17:57:07.139Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "RepositorioPrestamo.cs",
+              "DocumentMoniker": "C:\\Users\\148FA02\\Desktop\\Biblioteca\\Biblioteca\\ProyectoPrincipalBiblioteca\\Biblioteca_proyecto\\Biblioteca_proyecto\\Modelo\\RepositorioPrestamo.cs",
+              "RelativeDocumentMoniker": "Biblioteca_proyecto\\Modelo\\RepositorioPrestamo.cs",
+              "ToolTip": "C:\\Users\\148FA02\\Desktop\\Biblioteca\\Biblioteca\\ProyectoPrincipalBiblioteca\\Biblioteca_proyecto\\Biblioteca_proyecto\\Modelo\\RepositorioPrestamo.cs",
+              "RelativeToolTip": "Biblioteca_proyecto\\Modelo\\RepositorioPrestamo.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAowFAAAABeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-31T16:42:39.313Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SQLiteHelper.cs",
+              "DocumentMoniker": "C:\\Users\\148FA02\\Desktop\\Biblioteca\\Biblioteca\\ProyectoPrincipalBiblioteca\\Biblioteca_proyecto\\Biblioteca_proyecto\\Modelo\\SQLiteHelper.cs",
+              "RelativeDocumentMoniker": "Biblioteca_proyecto\\Modelo\\SQLiteHelper.cs",
+              "ToolTip": "C:\\Users\\148FA02\\Desktop\\Biblioteca\\Biblioteca\\ProyectoPrincipalBiblioteca\\Biblioteca_proyecto\\Biblioteca_proyecto\\Modelo\\SQLiteHelper.cs",
+              "RelativeToolTip": "Biblioteca_proyecto\\Modelo\\SQLiteHelper.cs",
+              "ViewState": "AgIAADYAAAAAAAAAAAAowF8AAABWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-26T16:08:29.896Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "NuevoPrestamo.cs",
+              "DocumentMoniker": "C:\\Users\\148FA02\\Desktop\\Biblioteca\\Biblioteca\\ProyectoPrincipalBiblioteca\\Biblioteca_proyecto\\Biblioteca_proyecto\\Vista\\NuevoPrestamo.cs",
+              "RelativeDocumentMoniker": "Biblioteca_proyecto\\Vista\\NuevoPrestamo.cs",
+              "ToolTip": "C:\\Users\\148FA02\\Desktop\\Biblioteca\\Biblioteca\\ProyectoPrincipalBiblioteca\\Biblioteca_proyecto\\Biblioteca_proyecto\\Vista\\NuevoPrestamo.cs",
+              "RelativeToolTip": "Biblioteca_proyecto\\Vista\\NuevoPrestamo.cs",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAwwGMAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-31T20:42:53.668Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
+>>>>>>> 0029c1c5814a5c03685e0e8bdcb4cc7eb0490180
               "Title": "MiControlador.cs",
-              "DocumentMoniker": "C:\\Users\\misha\\Biblioteca\\Biblioteca\\ProyectoPrincipalBiblioteca\\Biblioteca_proyecto\\Biblioteca_proyecto\\Controlador\\MiControlador.cs",
+              "DocumentMoniker": "C:\\Users\\148FA02\\Desktop\\Biblioteca\\Biblioteca\\ProyectoPrincipalBiblioteca\\Biblioteca_proyecto\\Biblioteca_proyecto\\Controlador\\MiControlador.cs",
               "RelativeDocumentMoniker": "Biblioteca_proyecto\\Controlador\\MiControlador.cs",
-              "ToolTip": "C:\\Users\\misha\\Biblioteca\\Biblioteca\\ProyectoPrincipalBiblioteca\\Biblioteca_proyecto\\Biblioteca_proyecto\\Controlador\\MiControlador.cs",
+              "ToolTip": "C:\\Users\\148FA02\\Desktop\\Biblioteca\\Biblioteca\\ProyectoPrincipalBiblioteca\\Biblioteca_proyecto\\Biblioteca_proyecto\\Controlador\\MiControlador.cs",
               "RelativeToolTip": "Biblioteca_proyecto\\Controlador\\MiControlador.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAiAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-26T16:04:32.541Z",
               "EditorCaption": ""
