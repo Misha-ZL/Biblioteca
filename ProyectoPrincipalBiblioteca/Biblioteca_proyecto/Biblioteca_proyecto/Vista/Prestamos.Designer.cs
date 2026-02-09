@@ -41,7 +41,7 @@
             this.TlpPrestamos.Name = "TlpPrestamos";
             this.TlpPrestamos.RowCount = 1;
             this.TlpPrestamos.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.TlpPrestamos.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.TlpPrestamos.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 450F));
             this.TlpPrestamos.Size = new System.Drawing.Size(800, 450);
             this.TlpPrestamos.TabIndex = 0;
             // 

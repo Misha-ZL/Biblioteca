@@ -34,9 +34,7 @@ namespace ControlPrestamo2
         /// Se guardan los valores de ID del préstamo, ISBN del libro y DNI del usuario en variables privadas para su uso interno en el control,
         /// </summary>
         private int prestamoID;
-        private int LibroID;
-        private int UsuarioID;
-
+      
 
 
         /// <summary>
@@ -56,30 +54,23 @@ namespace ControlPrestamo2
         /// <summary>
         /// Esta propiedad permite acceder y modificar el ISBN del libro asociado a este préstamo. Al establecer un nuevo valor para el ISBN,
         /// </summary>
-        public int ISBN
+        public string ISBN
         {
             ///get devuelve el valor en LibroID
-            get => LibroID;
-            set
-            {   ///set cuando alguien cambia el valor de LibroID  actualiza la etiqueta LAB_ISBN para que muestre el nuevo valor
-                LibroID = value;
-                LAB_ISBN.Text = LibroID.ToString(); 
-            }
+            get => LAB_ISBN.Text;
+            set => LAB_ISBN.Text = value;
+            
         }
 
         /// <summary>
         /// Esta propiedad permite acceder y modificar el DNI del usuario asociado a este préstamo. Al establecer un nuevo valor para el DNI,
         /// </summary>
-        public int DNI
+        public string DNI
         {
             ///get devuelve el valor en UsuarioID
-            get => UsuarioID;
-            set
-            {
-                ///set cuando alguien cambia el valor de UsuarioID  actualiza la etiqueta LAB_DNI para que muestre el nuevo valor
-                UsuarioID = value;
-                LAB_DNI.Text = UsuarioID.ToString();
-            }
+            get =>LAB_DNI.Text;
+            set => LAB_DNI.Text = value;
+           
         }
 
         /// <summary>
@@ -106,10 +97,19 @@ namespace ControlPrestamo2
         /// Este método maneja el evento de clic en el botón "Eliminar". Al hacer clic en este botón, 
         /// se muestra un mensaje de confirmación para asegurarse de que el usuario desea eliminar el préstamo.
         /// </summary>
+        /// 
+        public void SetBotonesVisibles(bool visibles)
+        {
+            btnEditar.Visible = visibles;
+            btnEliminar.Visible = visibles;
+        }
         private void btnEliminar_Click(object sender, EventArgs e)
         {
 
             ///El mensaje de confirmacion
+            ///
+
+
 
             DialogResult resultado = MessageBox.Show(
                   "¿Estás seguro?",

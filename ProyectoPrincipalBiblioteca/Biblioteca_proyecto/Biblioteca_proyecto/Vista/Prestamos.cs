@@ -1,4 +1,8 @@
-﻿using System;
+﻿using Biblioteca_proyecto.Controlador;
+using Biblioteca_proyecto.Modelo;
+using BibliotecaControles;
+using ControlPrestamo2;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -7,9 +11,6 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using Biblioteca_proyecto.Controlador;
-using BibliotecaControles;
-using ControlPrestamo2;
 
 namespace Biblioteca_proyecto.Vista
 {
@@ -57,14 +58,33 @@ namespace Biblioteca_proyecto.Vista
 
             int NuevaFila = 0;
 
+            UserControl1 plantilla = new UserControl1();
+
+            plantilla.SetBotonesVisibles(false);
+      
+        
+
+        plantilla.Dock = DockStyle.Fill;
+            TlpPrestamos.RowCount = TlpPrestamos.RowCount + 1;
+            TlpPrestamos.RowStyles.Insert(NuevaFila, new RowStyle(SizeType.AutoSize));
+
+            ///Se añade el UserControl1 al TableLayoutPanel del formulario en la fila correspondiente.
+            TlpPrestamos.Controls.Add(plantilla, 0, NuevaFila);
+            NuevaFila++;
+
+
             ///Recorre cada fila del DataTable y crea un UserControl1 para cada préstamo, asignando los datos correspondientes a las propiedades del UserControl1.
+
+
+
+
             foreach (DataRow fila in datos.Rows)
             {
                 UserControl1 prestamo = new UserControl1();
 
-                prestamo.ID = Convert.ToInt32(fila["ID"]);
-                prestamo.ISBN = Convert.ToInt32(fila["ID_Libro"]);
-                prestamo.DNI = Convert.ToInt32(fila["ID_Usuario"]);
+                prestamo.ID = Convert.ToInt32(fila["ID_Prestamo"]);
+                prestamo.ISBN = fila.Field<string>("Titulo_Libro");
+                prestamo.DNI = fila.Field<string>("Nombre_Usuario");
                 prestamo.Prestamo = fila.Field<string>("Fecha_Inicio");
                 prestamo.Devolucion = fila.Field<string>("Fecha_Fin");
 
@@ -101,6 +121,8 @@ namespace Biblioteca_proyecto.Vista
             editarPrestamo.ControladorEditarPrestamo = ControladorPrestamos;
             ///Abre el formulario EditarPrestamo para que el usuario pueda editar los detalles del préstamo seleccionado.
             editarPrestamo.ShowDialog();
+
+            
             ///Después de cerrar el formulario EditarPrestamo, se llama al método Cargar para actualizar la lista de préstamos en el formulario principal con los cambios realizados.
             Cargar(ControladorPrestamos.CargarPrestamos());
         }

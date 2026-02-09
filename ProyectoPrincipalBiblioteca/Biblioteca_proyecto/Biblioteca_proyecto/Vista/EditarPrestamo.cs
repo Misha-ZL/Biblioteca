@@ -37,6 +37,7 @@ namespace Biblioteca_proyecto.Vista
         {
             InitializeComponent();
             this.Load += EditarPrestamo_Load;
+           
 
            
         }
@@ -93,7 +94,7 @@ namespace Biblioteca_proyecto.Vista
             DgvUsuarios.Columns["Apellido_1"].Visible = true;
             DgvUsuarios.Columns["Apellido_2"].Visible = true;
             DgvUsuarios.Columns["Telefono"].Visible = true;
-
+           
 
         }
 
@@ -112,22 +113,26 @@ namespace Biblioteca_proyecto.Vista
             TbIncio.Text = data.Rows[0]["Fecha_Inicio"].ToString();
             TbFin.Text = data.Rows[0]["Fecha_Fin"].ToString();
 
+
             ///Se recorre cada fila del DataGridView de libros y usuarios para seleccionar la fila que corresponde al libro y
             ///usuario asociados al préstamo actual, utilizando los ID almacenados en las variables IdLibro e IdUsuario.
             foreach (DataGridViewRow row in DgvLibro.Rows)
             {
                 if (Convert.ToInt32(row.Cells["ID"].Value) == IdLibro)
                 {
+                    DgvLibro.CurrentCell = row.Cells[1];
                     row.Selected = true;
                     break;
                 }
             }
 
-            foreach (DataGridViewRow row in DgvUsuarios.Rows)
+            
+            foreach (DataGridViewRow fila in DgvUsuarios.Rows)
             {
-                if (Convert.ToInt32(row.Cells["ID"].Value) == IdUsuario)
+                if (Convert.ToInt32(fila.Cells["ID"].Value) == IdUsuario)
                 {
-                    row.Selected = true;
+                    DgvUsuarios.CurrentCell = fila.Cells[1];
+                    fila.Selected = true;
                     break;
                 }
             }

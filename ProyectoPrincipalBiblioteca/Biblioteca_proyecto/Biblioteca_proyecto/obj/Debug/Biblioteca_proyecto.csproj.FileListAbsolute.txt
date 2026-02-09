@@ -119,3 +119,5 @@ C:\Users\misha\Desktop\proyecto_Biblioteca\Biblioteca\ProyectoPrincipalBibliotec
 C:\Users\misha\Desktop\proyecto_Biblioteca\Biblioteca\ProyectoPrincipalBiblioteca\Biblioteca_proyecto\Biblioteca_proyecto\obj\Debug\Biblioteca_proyecto.pdb
 C:\Users\misha\Desktop\proyecto_Biblioteca\Biblioteca\ProyectoPrincipalBiblioteca\Biblioteca_proyecto\Biblioteca_proyecto\obj\Debug\Biblioteca_proyecto.Vista.EditarUsuario.resources
 C:\Users\misha\Desktop\proyecto_Biblioteca\Biblioteca\ProyectoPrincipalBiblioteca\Biblioteca_proyecto\Biblioteca_proyecto\obj\Debug\Biblioteca_proyecto.Vista.EditarPrestamo.resources
+C:\Users\misha\Biblioteca\Biblioteca\ProyectoPrincipalBiblioteca\Biblioteca_proyecto\Biblioteca_proyecto\obj\Debug\Biblioteca_proyecto.Vista.EditarPrestamo.resources
+C:\Users\misha\Biblioteca\Biblioteca\ProyectoPrincipalBiblioteca\Biblioteca_proyecto\Biblioteca_proyecto\obj\Debug\Biblioteca_proyecto.Vista.EditarUsuario.resources
