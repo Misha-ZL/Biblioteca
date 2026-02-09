@@ -13,10 +13,15 @@ using ControlPrestamo2;
 
 namespace Biblioteca_proyecto.Vista
 {
+    /// <summary>
+    /// Clase que representa el formulario de gestión de préstamos en la biblioteca. Este formulario permite visualizar, editar y eliminar los préstamos registrados en el sistema.
+    /// </summary>
     public partial class Prestamos : Form
     {
 
-        //LLama al metodo FPrestamos_Load al iniciar el formulario
+        /// <summary>
+        /// Llama al método InitializeComponent para configurar los componentes del formulario.
+        /// </summary>
         public Prestamos()
         {
             InitializeComponent();
@@ -24,23 +29,35 @@ namespace Biblioteca_proyecto.Vista
             this.Load += FPrestamos_Load;
         }
 
+        /// <summary>
+        /// Está instancia de MiControlador se utiliza para gestionar las operaciones relacionadas con los préstamos, como cargar la lista de préstamos.
+        /// </summary>
         MiControlador ControladorPrestamos = new MiControlador();
 
+        /// <summary>
+        /// Cuando se carga el formulario, se llama al método Cargar para obtener la lista de préstamos desde el controlador y mostrarla en el formulario.
+        /// </summary>
         private void FPrestamos_Load(object sender, EventArgs e)
         {
             Cargar(ControladorPrestamos.CargarPrestamos());
         }
 
+        /// <summary>
+        /// Carga la lista de préstamos en el formulario. Este método recibe un DataTable con los datos de los préstamos y
+        /// crea un UserControl1 para cada préstamo, que se añade al TableLayoutPanel del formulario. 
+        /// Además, se asignan los eventos de borrar y editar a los botones de cada UserControl1 para permitir la gestión de los préstamos desde el formulario.
+        /// </summary>
+        /// <param name="datos">Son los datos que cargamos</param>
         public void Cargar(DataTable datos)
         {
 
-            //Limia lo que habia antes en el TableLayoutPanel
+            ///Limpia el TableLayoutPanel antes de cargar los nuevos datos para evitar duplicados
 
             TlpPrestamos.Controls.Clear();
 
             int NuevaFila = 0;
 
-            // Recorre las filas del DataTable y crea un UserControl1 por cada fila
+            ///Recorre cada fila del DataTable y crea un UserControl1 para cada préstamo, asignando los datos correspondientes a las propiedades del UserControl1.
             foreach (DataRow fila in datos.Rows)
             {
                 UserControl1 prestamo = new UserControl1();
@@ -51,7 +68,7 @@ namespace Biblioteca_proyecto.Vista
                 prestamo.Prestamo = fila.Field<string>("Fecha_Inicio");
                 prestamo.Devolucion = fila.Field<string>("Fecha_Fin");
 
-                //Se añaden los eventos de borrar y editar a los Botones del UserControl1
+                ///Se añaden los eventos de borrar y editar a los botones de cada UserControl1 para permitir la gestión de los préstamos desde el formulario.
                 prestamo.BorrarPrestamo += Control_BorrarPrestamo;
                 prestamo.EditarPrestamo += Control_EditarPrestamo;
 
@@ -59,7 +76,7 @@ namespace Biblioteca_proyecto.Vista
                 TlpPrestamos.RowCount = TlpPrestamos.RowCount + 1;
                 TlpPrestamos.RowStyles.Insert(NuevaFila, new RowStyle(SizeType.AutoSize));
 
-                //Se añade el UserControl1 al TableLayoutPanel como una nueva fila
+                ///Se añade el UserControl1 al TableLayoutPanel del formulario en la fila correspondiente.
                 TlpPrestamos.Controls.Add(prestamo, 0, NuevaFila);
                 NuevaFila++;
 
@@ -69,35 +86,46 @@ namespace Biblioteca_proyecto.Vista
 
 
 
-
+        /// <summary>
+        /// Este método se ejecuta cuando se hace clic en el botón de editar de un préstamo en el UserControl1. 
+        /// Recibe el ID del préstamo seleccionado a través de los argumentos del evento.
+        /// </summary>
         private void Control_EditarPrestamo(object sender, UserControl1.ClickarBotonIdEventArgs e)
         {
 
-            //Creacion de Formulario EditarPrestamo
+            ///Se crea una instancia del formulario EditarPrestamo para editar el préstamo seleccionado.
             EditarPrestamo editarPrestamo = new EditarPrestamo();
-            //Se le pasa el id del prestamo seleccionado al formulario EditarPrestamo
+            ///Se asigna el ID del préstamo seleccionado a la propiedad idPrestamo del formulario EditarPrestamo para que pueda cargar los datos correspondientes al préstamo que se desea editar.
             editarPrestamo.idPrestamo = e.Id;
-            //Hay que poner en EditarUsuario el controlador nuevo que se genera en public para acceder a el
-            //le pasa el controlador al formulario EditarPrestamo para que pueda usar sus metodos
+            ///Se asigna el controlador de préstamos al formulario EditarPrestamo para que pueda acceder a los métodos necesarios para cargar y actualizar los datos del préstamo.
             editarPrestamo.ControladorEditarPrestamo = ControladorPrestamos;
-            //Se abre el formulario EditarPrestamo como un dialogo modal
+            ///Abre el formulario EditarPrestamo para que el usuario pueda editar los detalles del préstamo seleccionado.
             editarPrestamo.ShowDialog();
-            //Despues de cerrar el formulario EditarPrestamo, se recarga la lista de prestamos
+            ///Después de cerrar el formulario EditarPrestamo, se llama al método Cargar para actualizar la lista de préstamos en el formulario principal con los cambios realizados.
             Cargar(ControladorPrestamos.CargarPrestamos());
         }
 
 
-
+        /// <summary>
+        /// Este método se ejecuta cuando se hace clic en el botón de eliminar de un préstamo en el UserControl1.
+        /// </summary>
         private void Control_BorrarPrestamo(object sender, UserControl1.ClickarBotonIdEventArgs e)
         {
             ControladorPrestamos.EliminarPrestamo(e.Id);
             Cargar(ControladorPrestamos.CargarPrestamos());
-        } 
-    
-    
+        }
 
-    private static Prestamos formularioPrestamos;
 
+        /// <summary>
+        /// Formulario para asegurar que solo exista una instancia del formulario de préstamos en la aplicación.
+        /// </summary>
+        private static Prestamos formularioPrestamos;
+
+        /// <summary>
+        /// Devuelve la instancia única del formulario de préstamos. Si no existe una instancia, se crea una nueva. 
+        /// Si ya existe, se devuelve la instancia existente. Esto garantiza que solo haya un formulario de préstamos abierto en la aplicación en cualquier momento.
+        /// </summary>
+        /// <returns>El formulario</returns>
         public static Prestamos GetInstance()
         {
             if (formularioPrestamos == null)

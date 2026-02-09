@@ -45,6 +45,7 @@
             // 
             // tableLayoutPanel1
             // 
+            this.tableLayoutPanel1.BackColor = System.Drawing.SystemColors.Control;
             this.tableLayoutPanel1.ColumnCount = 4;
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 20F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle());
@@ -77,12 +78,12 @@
             this.DgvUsuarios.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.DgvUsuarios.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.DgvUsuarios.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.DgvUsuarios.Location = new System.Drawing.Point(97, 228);
+            this.DgvUsuarios.Location = new System.Drawing.Point(97, 227);
             this.DgvUsuarios.MultiSelect = false;
             this.DgvUsuarios.Name = "DgvUsuarios";
             this.DgvUsuarios.ReadOnly = true;
             this.DgvUsuarios.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.DgvUsuarios.Size = new System.Drawing.Size(680, 124);
+            this.DgvUsuarios.Size = new System.Drawing.Size(680, 123);
             this.DgvUsuarios.TabIndex = 3;
             // 
             // lFechaInicio
@@ -126,9 +127,9 @@
             // BtnAddReserva
             // 
             this.BtnAddReserva.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.BtnAddReserva.Location = new System.Drawing.Point(97, 358);
+            this.BtnAddReserva.Location = new System.Drawing.Point(97, 356);
             this.BtnAddReserva.Name = "BtnAddReserva";
-            this.BtnAddReserva.Size = new System.Drawing.Size(680, 89);
+            this.BtnAddReserva.Size = new System.Drawing.Size(680, 91);
             this.BtnAddReserva.TabIndex = 8;
             this.BtnAddReserva.Text = "EDITAR";
             this.BtnAddReserva.UseVisualStyleBackColor = true;
@@ -144,7 +145,7 @@
             this.DgvLibro.Name = "DgvLibro";
             this.DgvLibro.ReadOnly = true;
             this.DgvLibro.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.DgvLibro.Size = new System.Drawing.Size(680, 124);
+            this.DgvLibro.Size = new System.Drawing.Size(680, 123);
             this.DgvLibro.TabIndex = 9;
             // 
             // Llibros
@@ -153,7 +154,7 @@
             this.Llibros.Dock = System.Windows.Forms.DockStyle.Fill;
             this.Llibros.Location = new System.Drawing.Point(23, 95);
             this.Llibros.Name = "Llibros";
-            this.Llibros.Size = new System.Drawing.Size(68, 130);
+            this.Llibros.Size = new System.Drawing.Size(68, 129);
             this.Llibros.TabIndex = 10;
             this.Llibros.Text = "Libros";
             this.Llibros.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -162,9 +163,9 @@
             // 
             this.lUsuario.AutoSize = true;
             this.lUsuario.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lUsuario.Location = new System.Drawing.Point(23, 225);
+            this.lUsuario.Location = new System.Drawing.Point(23, 224);
             this.lUsuario.Name = "lUsuario";
-            this.lUsuario.Size = new System.Drawing.Size(68, 130);
+            this.lUsuario.Size = new System.Drawing.Size(68, 129);
             this.lUsuario.TabIndex = 11;
             this.lUsuario.Text = "Usuarios";
             this.lUsuario.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
