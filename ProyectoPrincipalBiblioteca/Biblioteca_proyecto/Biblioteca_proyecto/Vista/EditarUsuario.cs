@@ -12,10 +12,20 @@ using Biblioteca_proyecto.Modelo;
 
 namespace Biblioteca_proyecto.Vista
 {
+    /// <summary>
+    /// La clase EditarUsuario representa un formulario que permite editar la información de un usuario existente en el sistema.
+    /// </summary>
     public partial class EditarUsuario : Form
     {
-        //lo he tenido que poner public para acceder desde Usuarios.cs 
+        /// <summary>
+        /// La variable ControladorModUsuario es una instancia de MiControlador que se utiliza para gestionar las operaciones relacionadas con la modificación de usuarios.
+        /// lo he tenido que poner public para acceder desde Usuarios.cs 
+        /// </summary>
         public MiControlador ControladorModUsuario = new MiControlador();
+
+        /// <summary>
+        /// El constructor de la clase EditarUsuario se encarga de inicializar los componentes del formulario y asignar el evento Load para cargar la información del usuario que se va a editar.
+        /// </summary>
         public EditarUsuario()
         {
             InitializeComponent();
@@ -24,12 +34,15 @@ namespace Biblioteca_proyecto.Vista
 
         public int id;
 
-       
+        /// <summary>
+        /// La función EditarUsuario_Load se ejecuta cuando se carga el formulario EditarUsuario. Esta función se encarga de cargar la información del usuario que se va a editar en los campos correspondientes
+        /// del formulario, utilizando el ID del usuario para obtener los datos de la base de datos a través del controlador ControladorModUsuario.
+        /// </summary>
         private void EditarUsuario_Load(object sender, EventArgs e)
         {
 
 
-            //Se carga la informacion del usuario en los textbox correspondientes
+            ///Se carga la informacion del usuario en los textbox correspondientes
             DataTable data = ControladorModUsuario.BuscarUsuarioPorID(id);
             TbNombre.Text = data.Rows[0]["Nombre"].ToString();
             TbAppellido1.Text = data.Rows[0]["Apellido_1"].ToString();
@@ -39,6 +52,10 @@ namespace Biblioteca_proyecto.Vista
 
         }
 
+        /// <summary>
+        /// A continuación, se muestra el método BtnEditarUsuario_Click, que se ejecuta cuando se hace clic en el botón de editar usuario.
+        /// Este método intenta modificar la información del usuario utilizando los datos ingresados en los campos del formulario y el ID del usuario.
+        /// </summary>
         private void BtnEditarUsuario_Click(object sender, EventArgs e)
         {
             try
