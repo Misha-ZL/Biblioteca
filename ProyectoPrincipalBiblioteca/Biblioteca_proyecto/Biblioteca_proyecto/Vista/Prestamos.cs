@@ -30,6 +30,13 @@ namespace Biblioteca_proyecto.Vista
             this.Load += FPrestamos_Load;
         }
 
+
+
+        protected override void OnActivated(EventArgs e)
+        {
+            base.OnActivated(e);
+            Cargar(ControladorPrestamos.CargarPrestamos());
+        }
         /// <summary>
         /// Está instancia de MiControlador se utiliza para gestionar las operaciones relacionadas con los préstamos, como cargar la lista de préstamos.
         /// </summary>
@@ -103,6 +110,8 @@ namespace Biblioteca_proyecto.Vista
             }
         }
 
+
+       
 
 
 

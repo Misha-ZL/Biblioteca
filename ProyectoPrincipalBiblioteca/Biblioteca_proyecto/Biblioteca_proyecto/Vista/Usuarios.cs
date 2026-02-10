@@ -33,6 +33,13 @@ namespace Biblioteca_proyecto
         /// </summary>
         MiControlador ControladorUsuario = new MiControlador();
 
+        protected override void OnActivated(EventArgs e)
+        {
+            base.OnActivated(e);
+
+            Cargar(ControladorUsuario.CargarUsuarios());
+        }
+
         /// <summary>
         /// Cuando se carga el formulario FUsuarios, se llama al método Cargar para cargar y mostrar los datos de los usuarios en el TableLayoutPanel tlpUsuarios.
         /// </summary>
@@ -49,10 +56,29 @@ namespace Biblioteca_proyecto
         public void Cargar(DataTable datos) {
 
 
+
+
+
+
             ///Limpia el TableLayoutPanel antes de cargar los nuevos datos para evitar duplicados
             tlpUsuarios.Controls.Clear();
 
             int NuevaFila = 0;
+
+
+
+            verUsuario plantilla = new verUsuario();
+            plantilla.SetBotonesVisibles(false);
+
+            plantilla.Dock = DockStyle.Fill;
+            tlpUsuarios.RowCount = tlpUsuarios.RowCount + 1;
+            tlpUsuarios.RowStyles.Insert(NuevaFila, new RowStyle(SizeType.AutoSize));
+
+            ///Se añade el UserControl1 al TableLayoutPanel del formulario en la fila correspondiente.
+            tlpUsuarios.Controls.Add(plantilla, 0, NuevaFila);
+            NuevaFila++;
+
+
             ///Recorre cada fila del DataTable y crea un UserControl1 para cada usuario, asignando los datos correspondientes a las propiedades del UserControl1.
             foreach (DataRow fila in datos.Rows)
             {

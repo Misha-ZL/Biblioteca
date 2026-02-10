@@ -25,6 +25,7 @@ namespace Biblioteca_proyecto.Vista
         {
             InitializeComponent();
             this.Load += NuevoPrestamo_Load;
+          
         }
 
         /// <summary>
@@ -44,6 +45,8 @@ namespace Biblioteca_proyecto.Vista
         /// </summary>
         public void CargarDatos()
         {
+            
+            DgvLibro.DataSource = null;
             DgvLibro.AutoGenerateColumns = true;
             DgvLibro.DataSource = ControladorReserva.CargarLibrosDisponibles();
             DgvLibro.Columns["Disponible"].Visible = true;
@@ -52,7 +55,9 @@ namespace Biblioteca_proyecto.Vista
             DgvLibro.Columns["Escritor"].Visible = true;
             DgvLibro.Columns["Ano_Edicion"].Visible = true;
             DgvLibro.Columns["Sinopsis"].Visible = false;
-
+          
+            
+            DgvUsuarios.DataSource = null;
             DgvUsuarios.AutoGenerateColumns = true;
             DgvUsuarios.DataSource = ControladorReserva.CargarUsuarios();
             DgvUsuarios.Columns["ID"].Visible = false;
@@ -63,6 +68,21 @@ namespace Biblioteca_proyecto.Vista
 
 
         }
+
+        private void RecargarLibrosYUsuarios()
+        {
+            //Borrar datos
+            DgvLibro.DataSource = null;
+
+            //se cargan los datos
+            DgvLibro.DataSource = ControladorReserva.CargarLibrosDisponibles();   
+
+            DgvUsuarios.DataSource = null;
+            DgvUsuarios.DataSource = ControladorReserva.CargarUsuarios(); 
+        }    
+        
+        
+        
         /// <summary>
         /// Se encarga de cargar y visualizar los datos en el form.
         /// </summary>
@@ -71,7 +91,18 @@ namespace Biblioteca_proyecto.Vista
         private void NuevoPrestamo_Load(object sender, EventArgs e)
         {
             CargarDatos();
+       
         }
+
+
+        //Cuando se vuelve a activar la ventana  hace estos
+        protected override void OnActivated(EventArgs e)
+        {
+            base.OnActivated(e);
+            RecargarLibrosYUsuarios();
+        }
+
+
         /// <summary>
         /// Maneja el boton de agregar nueva reserva, creando un nuevo prestamo con los datos seleccionados 
         /// del libro y usuario, ademas de refrescar el form y mostrar un mensaje de confirmacion

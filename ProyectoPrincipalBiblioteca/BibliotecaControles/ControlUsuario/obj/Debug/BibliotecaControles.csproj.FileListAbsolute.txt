@@ -30,3 +30,4 @@ C:\Users\148FA02\Desktop\Biblioteca\Biblioteca\ProyectoPrincipalBiblioteca\Bibli
 C:\Users\148FA02\Desktop\Biblioteca\Biblioteca\ProyectoPrincipalBiblioteca\BibliotecaControles\ControlUsuario\obj\Debug\BibliotecaControles.csproj.CoreCompileInputs.cache
 C:\Users\148FA02\Desktop\Biblioteca\Biblioteca\ProyectoPrincipalBiblioteca\BibliotecaControles\ControlUsuario\obj\Debug\BibliotecaControles.dll
 C:\Users\148FA02\Desktop\Biblioteca\Biblioteca\ProyectoPrincipalBiblioteca\BibliotecaControles\ControlUsuario\obj\Debug\BibliotecaControles.pdb
+C:\Users\misha\Desktop\proyecto_Biblioteca\Biblioteca\ProyectoPrincipalBiblioteca\BibliotecaControles\ControlUsuario\obj\Debug\BibliotecaControles.Properties.Resources.resources

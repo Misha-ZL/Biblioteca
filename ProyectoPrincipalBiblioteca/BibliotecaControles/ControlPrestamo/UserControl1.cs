@@ -13,7 +13,7 @@ namespace ControlPrestamo2
     /// <summary>
     /// Clase que representa un control de usuario personalizado para mostrar información de un préstamo en una biblioteca.
     /// </summary>
-    public partial class UserControl1: UserControl
+    public partial class UserControl1 : UserControl
     {
         /// <summary>
         /// Se inicializa un nuevo UserControl1 con los componentes del control, estableciendo su diseño y funcionalidad para mostrar los detalles de un préstamo,
@@ -26,7 +26,7 @@ namespace ControlPrestamo2
         }
         public override Size MinimumSize
         {
-            get => base.MinimumSize; 
+            get => base.MinimumSize;
             set => base.MinimumSize = new Size(800, 30);
         }
 
@@ -34,7 +34,7 @@ namespace ControlPrestamo2
         /// Se guardan los valores de ID del préstamo, ISBN del libro y DNI del usuario en variables privadas para su uso interno en el control,
         /// </summary>
         private int prestamoID;
-      
+
 
 
         /// <summary>
@@ -59,7 +59,7 @@ namespace ControlPrestamo2
             ///get devuelve el valor en LibroID
             get => LAB_ISBN.Text;
             set => LAB_ISBN.Text = value;
-            
+
         }
 
         /// <summary>
@@ -68,9 +68,9 @@ namespace ControlPrestamo2
         public string DNI
         {
             ///get devuelve el valor en UsuarioID
-            get =>LAB_DNI.Text;
+            get => LAB_DNI.Text;
             set => LAB_DNI.Text = value;
-           
+
         }
 
         /// <summary>
@@ -127,7 +127,7 @@ namespace ControlPrestamo2
             }
 
 
-            }
+        }
 
         /// <summary>
         /// Este método maneja el evento de clic en el botón "Editar". Al hacer clic en este botón, 
@@ -135,10 +135,10 @@ namespace ControlPrestamo2
         /// </summary>
         private void btnEditar_Click(object sender, EventArgs e)
         {
-           
 
-                EditarPrestamo?.Invoke(this, new ClickarBotonIdEventArgs(prestamoID));
-          
+
+            EditarPrestamo?.Invoke(this, new ClickarBotonIdEventArgs(prestamoID));
+
         }
         /// <summary>
         /// Este evento se invoca cuando se hace clic en el botón "Eliminar" del control. Al hacer clic en este botón, 
@@ -170,6 +170,9 @@ namespace ControlPrestamo2
             }
         }
 
+    }
+}
+
 
        
         
@@ -180,7 +183,4 @@ namespace ControlPrestamo2
 
 
 
-
-    }
-}
 

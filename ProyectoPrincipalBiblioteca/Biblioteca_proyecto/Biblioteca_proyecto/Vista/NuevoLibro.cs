@@ -43,7 +43,7 @@ namespace Biblioteca_proyecto.Vista
 
                 if (!ok)
                 {
-                    throw new Exception("El teléfono debe ser numérico.");
+                    throw new Exception("No tiene que ser la fecha exacta solo el Año (ej.2001).");
                 }
 
                 ControladorLibro.NuevoLibro(TbTitulo.Text, TbEscritor.Text, TelefonoInt,TbSinopsis.Text, ChkDisponible.Checked);

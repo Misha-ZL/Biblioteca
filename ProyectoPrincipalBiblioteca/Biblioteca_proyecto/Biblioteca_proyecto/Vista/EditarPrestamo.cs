@@ -156,6 +156,25 @@ namespace Biblioteca_proyecto.Vista
 
         }
 
+        private void RecargarLibrosYUsuarios()
+        {
+            //Borrar datos
+            DgvLibro.DataSource = null;
+
+            //se cargan los datos
+            DgvLibro.DataSource = ControladorEditarPrestamo.CargarLibrosDisponibles();
+
+            DgvUsuarios.DataSource = null;
+            DgvUsuarios.DataSource = ControladorEditarPrestamo.CargarUsuarios();
+        }
+
+        //Cuando se vuelve a activar la ventana  hace estos
+        protected override void OnActivated(EventArgs e)
+        {
+            base.OnActivated(e);
+            RecargarLibrosYUsuarios();
+        }
+
         /// <summary>
         /// En el evento BtnAddReserva_Click, se verifica que las fechas de inicio y fin no estén vacías. Si están vacías, se lanza una excepción con un mensaje de error.
         /// </summary>

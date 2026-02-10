@@ -70,7 +70,7 @@ namespace Biblioteca_proyecto.Modelo
         /// <returns>Una tabla con toda informacion de la tabla 'Prestamos' de la BD.</returns>
         public DataTable CargarPrestamosTodo()
         {
-            string sql = "SELECT p.ID AS ID_Prestamo, p.ID_Libro AS ID_Libro, p.ID_Usuario AS ID_Usuario, l.Titulo AS Titulo_Libro, u.Nombre AS Nombre_Usuario, u.Apellido_1 AS Apellido_Usuario, p.Fecha_Inicio AS Fecha_Inicio, p.Fecha_Fin AS Fecha_Fin FROM Prestamos p INNER JOIN Libros l ON p.ID_Libro = l.ID INNER JOIN Usuarios u ON p.ID_Usuario = u.ID;";
+            string sql = "SELECT p.ID AS ID_Prestamo, p.ID_Libro AS ID_Libro, p.ID_Usuario AS ID_Usuario, l.Titulo AS Titulo_Libro,(u.Nombre || ' ' || u.Apellido_1) AS Nombre_Usuario, p.Fecha_Inicio AS Fecha_Inicio, p.Fecha_Fin AS Fecha_Fin FROM Prestamos p INNER JOIN Libros l ON p.ID_Libro = l.ID INNER JOIN Usuarios u ON p.ID_Usuario = u.ID;";
             SQLiteCommand cmd = new SQLiteCommand(sql);
             return SQLiteHelper.GetDataTable(Properties.Settings.Default.conexion, cmd);
         }

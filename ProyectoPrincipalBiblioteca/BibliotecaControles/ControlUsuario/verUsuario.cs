@@ -104,6 +104,12 @@ namespace BibliotecaControles
             EditarUsuario?.Invoke(this, new ClickarBotonIdEventArgs(id));
         }
 
+        public void SetBotonesVisibles(bool visibles)
+        {
+            btnEditar.Visible = visibles;
+            btnEliminar.Visible = visibles;
+        }
+
         /// <summary>
         /// Este método se ejecuta cuando se hace clic en el botón de eliminar usuario. Muestra un cuadro de diálogo de confirmación y,
         /// si el usuario confirma, dispara el evento BorrarUsuario con el ID del usuario para que el formulario pueda eliminarlo. 

@@ -43,14 +43,14 @@
             // 
             this.tlpUsuario.ColumnCount = 9;
             this.tlpUsuario.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 15F));
-            this.tlpUsuario.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 11.27396F));
-            this.tlpUsuario.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 22.54791F));
-            this.tlpUsuario.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 22.54791F));
-            this.tlpUsuario.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 18.26381F));
-            this.tlpUsuario.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25.3664F));
+            this.tlpUsuario.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20F));
+            this.tlpUsuario.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20F));
+            this.tlpUsuario.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20F));
+            this.tlpUsuario.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20F));
+            this.tlpUsuario.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20F));
             this.tlpUsuario.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 38F));
             this.tlpUsuario.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 38F));
-            this.tlpUsuario.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 31F));
+            this.tlpUsuario.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 35F));
             this.tlpUsuario.Controls.Add(this.btnEditar, 6, 0);
             this.tlpUsuario.Controls.Add(this.btnEliminar, 7, 0);
             this.tlpUsuario.Controls.Add(this.lblApell1, 2, 0);
@@ -63,14 +63,14 @@
             this.tlpUsuario.Margin = new System.Windows.Forms.Padding(2);
             this.tlpUsuario.Name = "tlpUsuario";
             this.tlpUsuario.RowCount = 1;
-            this.tlpUsuario.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tlpUsuario.Size = new System.Drawing.Size(796, 32);
+            this.tlpUsuario.RowStyles.Add(new System.Windows.Forms.RowStyle());
+            this.tlpUsuario.Size = new System.Drawing.Size(775, 32);
             this.tlpUsuario.TabIndex = 0;
             // 
             // btnEditar
             // 
             this.btnEditar.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.btnEditar.Location = new System.Drawing.Point(687, 2);
+            this.btnEditar.Location = new System.Drawing.Point(685, 2);
             this.btnEditar.Margin = new System.Windows.Forms.Padding(2);
             this.btnEditar.Name = "btnEditar";
             this.btnEditar.Size = new System.Drawing.Size(34, 28);
@@ -146,7 +146,7 @@
             this.lblNombre.Location = new System.Drawing.Point(394, 0);
             this.lblNombre.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblNombre.Name = "lblNombre";
-            this.lblNombre.Size = new System.Drawing.Size(119, 32);
+            this.lblNombre.Size = new System.Drawing.Size(118, 32);
             this.lblNombre.TabIndex = 6;
             this.lblNombre.Text = "Nombre";
             this.lblNombre.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -158,7 +158,7 @@
             this.Controls.Add(this.tlpUsuario);
             this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "verUsuario";
-            this.Size = new System.Drawing.Size(796, 32);
+            this.Size = new System.Drawing.Size(775, 32);
             this.tlpUsuario.ResumeLayout(false);
             this.tlpUsuario.PerformLayout();
             this.ResumeLayout(false);
