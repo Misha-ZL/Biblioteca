@@ -205,20 +205,18 @@ namespace Biblioteca_proyecto.Controlador
             {
 
                 throw new Exception("Debes rellenar todos los datos");
-            }
-
-            bool UsuarioExiste = repositorioUsuario.BuscarUsuarioPorID(id).Rows.Count > 0;
-            if (!UsuarioExiste)
+            } else
             {
-                throw new Exception("El usuario no existe");
+                bool UsuarioExiste = repositorioUsuario.BuscarUsuarioPorID(id).Rows.Count > 0;
+                if (!UsuarioExiste)
+                {
+                    throw new Exception("El usuario no existe");
+                } else
+                {
+                    Usuario usuario = new Usuario(id, Nombre, Apellido_1, Apellido_2, Telefono);
+                    repositorioUsuario.ModificarUsuario(usuario);
+                }
             }
-
-
-
-            Usuario usuario = new Usuario(id,Nombre, Apellido_1, Apellido_2, Telefono);
-            repositorioUsuario.ModificarUsuario(usuario);
-
-
         }
         /// <summary>
         /// Modifica la informacion de un libro existente en la base de datos.
@@ -236,18 +234,18 @@ namespace Biblioteca_proyecto.Controlador
             {
 
                 throw new Exception("Debes rellenar todos los datos");
-            }
-
-            bool LibroExiste = repositorioUsuario.BuscarUsuarioPorID(id).Rows.Count > 0;
-            if (!LibroExiste)
+            } else
             {
-                throw new Exception("El libro no existe");
+                bool LibroExiste = repositorioUsuario.BuscarUsuarioPorID(id).Rows.Count > 0;
+                if (!LibroExiste)
+                {
+                    throw new Exception("El libro no existe");
+                } else
+                {
+                    Libro libro = new Libro(id, Titulo, Escritor, Ano, Sinopsis, Disponible);
+                    repositorioLibro.ModificarLibro(libro);
+                }
             }
-
-            Libro libro = new Libro(id,Titulo, Escritor, Ano, Sinopsis, Disponible);
-            repositorioLibro.ModificarLibro(libro);
-
-
         }
         /// <summary>
         /// Modifica la informacion de un prestamo existente en la base de datos.
@@ -267,24 +265,19 @@ namespace Biblioteca_proyecto.Controlador
             if (!LibroExiste)
             {
                 throw new Exception("El libro no existe");
-            }
-
-            if (!UsuarioExiste)
+            } else if (!UsuarioExiste)
             {
                 throw new Exception("El usuario no existe");
 
-            }
-
-            if (fecha_fin == "" || fecha_fin == "")
+            } else if (fecha_fin == "" || fecha_fin == "")
             {
 
                 throw new Exception("Debes rellenar todos los datos");
+            } else
+            {
+                Prestamo prestamo = new Prestamo(id, Id_Libro, Id_Usuario, fecha_inicio, fecha_fin);
+                repositorioPrestamo.ModificarPrestamo(prestamo);
             }
-
-            Prestamo prestamo = new Prestamo(id,Id_Libro, Id_Usuario, fecha_inicio, fecha_fin);
-            repositorioPrestamo.ModificarPrestamo(prestamo);
-
-
         }
     }
 }

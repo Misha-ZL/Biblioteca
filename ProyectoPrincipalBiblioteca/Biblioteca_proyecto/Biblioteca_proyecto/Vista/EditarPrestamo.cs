@@ -183,15 +183,16 @@ namespace Biblioteca_proyecto.Vista
             try
             {
                
-
                 if (TbIncio.Text == "" || TbFin.Text == "")
+                {
                     throw new Exception("Debes introducir las fechas de prestamo y devolucion.");
+                } else
+                {
+                    ControladorEditarPrestamo.ModificarPrestamo(idPrestamo, IdLibro, IdUsuario, TbIncio.Text, TbFin.Text);
 
-                ControladorEditarPrestamo.ModificarPrestamo(idPrestamo, IdLibro, IdUsuario, TbIncio.Text, TbFin.Text);
-
-                MessageBox.Show("Prestamo editado correctamente.");
-                this.Close();
-
+                    MessageBox.Show("Prestamo editado correctamente.");
+                    this.Close();
+                }
             }
             catch (Exception ex)
             {
