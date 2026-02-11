@@ -194,3 +194,6 @@ C:\Users\adria\Desktop\Biblioteca\ProyectoPrincipalBiblioteca\Biblioteca_proyect
 C:\Users\adria\Desktop\Biblioteca\ProyectoPrincipalBiblioteca\Biblioteca_proyecto\Biblioteca_proyecto\obj\Debug\Bibliote.A832B796.Up2Date
 C:\Users\adria\Desktop\Biblioteca\ProyectoPrincipalBiblioteca\Biblioteca_proyecto\Biblioteca_proyecto\obj\Debug\Biblioteca_proyecto.exe
 C:\Users\adria\Desktop\Biblioteca\ProyectoPrincipalBiblioteca\Biblioteca_proyecto\Biblioteca_proyecto\obj\Debug\Biblioteca_proyecto.pdb
+C:\Users\misha\Biblioteca\Biblioteca\ProyectoPrincipalBiblioteca\Biblioteca_proyecto\Biblioteca_proyecto\bin\Debug\VerLibros.dll
+C:\Users\misha\Biblioteca\Biblioteca\ProyectoPrincipalBiblioteca\Biblioteca_proyecto\Biblioteca_proyecto\bin\Debug\VerLibros.pdb
+C:\Users\misha\Biblioteca\Biblioteca\ProyectoPrincipalBiblioteca\Biblioteca_proyecto\Biblioteca_proyecto\obj\Debug\Biblioteca_proyecto.Vista.EditarLibros.resources

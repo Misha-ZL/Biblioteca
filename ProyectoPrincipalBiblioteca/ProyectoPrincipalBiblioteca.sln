@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ControlPrestamo2", "Bibliot
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BibliotecaControles", "BibliotecaControles\ControlUsuario\BibliotecaControles.csproj", "{55EE249A-2060-4E1F-8DFB-C9E3ED4F7CE8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VerLibros", "BibliotecaControles\ControlLibros\VerLibros\VerLibros.csproj", "{2DCA4A5F-A733-406D-80C9-B777AB39D3E1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{55EE249A-2060-4E1F-8DFB-C9E3ED4F7CE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{55EE249A-2060-4E1F-8DFB-C9E3ED4F7CE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{55EE249A-2060-4E1F-8DFB-C9E3ED4F7CE8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2DCA4A5F-A733-406D-80C9-B777AB39D3E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2DCA4A5F-A733-406D-80C9-B777AB39D3E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2DCA4A5F-A733-406D-80C9-B777AB39D3E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2DCA4A5F-A733-406D-80C9-B777AB39D3E1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

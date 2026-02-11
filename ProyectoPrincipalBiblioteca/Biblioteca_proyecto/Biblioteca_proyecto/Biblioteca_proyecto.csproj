@@ -92,6 +92,12 @@
     <Compile Include="Modelo\RepositorioUsuario.cs" />
     <Compile Include="Modelo\SQLiteHelper.cs" />
     <Compile Include="Modelo\Usuario.cs" />
+    <Compile Include="Vista\EditarLibros.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vista\EditarLibros.Designer.cs">
+      <DependentUpon>EditarLibros.cs</DependentUpon>
+    </Compile>
     <Compile Include="Vista\EditarPrestamo.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -148,6 +154,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Vista\EditarLibros.resx">
+      <DependentUpon>EditarLibros.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Vista\EditarPrestamo.resx">
       <DependentUpon>EditarPrestamo.cs</DependentUpon>
     </EmbeddedResource>

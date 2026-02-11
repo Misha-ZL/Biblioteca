@@ -28,13 +28,29 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.tlpLibros = new System.Windows.Forms.TableLayoutPanel();
             this.SuspendLayout();
+            // 
+            // tlpLibros
+            // 
+            this.tlpLibros.ColumnCount = 1;
+            this.tlpLibros.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.tlpLibros.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.tlpLibros.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tlpLibros.Location = new System.Drawing.Point(0, 0);
+            this.tlpLibros.Name = "tlpLibros";
+            this.tlpLibros.RowCount = 1;
+            this.tlpLibros.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.tlpLibros.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 462F));
+            this.tlpLibros.Size = new System.Drawing.Size(1065, 462);
+            this.tlpLibros.TabIndex = 0;
             // 
             // FLibros
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1065, 462);
+            this.Controls.Add(this.tlpLibros);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "FLibros";
             this.Text = "Libros";
@@ -43,5 +59,7 @@
         }
 
         #endregion
+
+        private System.Windows.Forms.TableLayoutPanel tlpLibros;
     }
 }

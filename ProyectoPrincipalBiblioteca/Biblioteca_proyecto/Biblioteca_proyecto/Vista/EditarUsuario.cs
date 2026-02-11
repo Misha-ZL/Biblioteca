@@ -40,10 +40,17 @@ namespace Biblioteca_proyecto.Vista
         /// </summary>
         private void EditarUsuario_Load(object sender, EventArgs e)
         {
-
+            
+            DataTable data = ControladorModUsuario.BuscarUsuarioPorID(id);
+            if (data.Rows.Count == 0)
+            {
+                MessageBox.Show("No se encontró el libro con ID: " + id);
+                this.Close();
+                return;
+            }
 
             ///Se carga la informacion del usuario en los textbox correspondientes
-            DataTable data = ControladorModUsuario.BuscarUsuarioPorID(id);
+            
             TbNombre.Text = data.Rows[0]["Nombre"].ToString();
             TbAppellido1.Text = data.Rows[0]["Apellido_1"].ToString();
             TbApellido2.Text = data.Rows[0]["Apellido_2"].ToString();

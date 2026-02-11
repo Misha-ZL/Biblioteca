@@ -23,11 +23,7 @@ namespace BibliotecaControles
             InitializeComponent();
         }
 
-        public override Size MinimumSize {
-            get => base.MinimumSize;
-            set => base.MinimumSize = new Size(1060, 40);
-        }
-
+      
         /// <summary>
         /// Esta propiedad permite acceder y modificar el ID del usuario asociado a este control.
         public int idUsuario

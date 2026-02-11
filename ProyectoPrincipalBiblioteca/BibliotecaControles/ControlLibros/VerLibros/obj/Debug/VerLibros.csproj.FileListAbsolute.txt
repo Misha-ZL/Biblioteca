@@ -1,0 +1,8 @@
+C:\Users\misha\Biblioteca\Biblioteca\ProyectoPrincipalBiblioteca\BibliotecaControles\ControlLibros\VerLibros\bin\Debug\VerLibros.dll
+C:\Users\misha\Biblioteca\Biblioteca\ProyectoPrincipalBiblioteca\BibliotecaControles\ControlLibros\VerLibros\bin\Debug\VerLibros.pdb
+C:\Users\misha\Biblioteca\Biblioteca\ProyectoPrincipalBiblioteca\BibliotecaControles\ControlLibros\VerLibros\obj\Debug\VerLibros.csproj.AssemblyReference.cache
+C:\Users\misha\Biblioteca\Biblioteca\ProyectoPrincipalBiblioteca\BibliotecaControles\ControlLibros\VerLibros\obj\Debug\VerLibros.VerLibros.resources
+C:\Users\misha\Biblioteca\Biblioteca\ProyectoPrincipalBiblioteca\BibliotecaControles\ControlLibros\VerLibros\obj\Debug\VerLibros.csproj.GenerateResource.cache
+C:\Users\misha\Biblioteca\Biblioteca\ProyectoPrincipalBiblioteca\BibliotecaControles\ControlLibros\VerLibros\obj\Debug\VerLibros.csproj.CoreCompileInputs.cache
+C:\Users\misha\Biblioteca\Biblioteca\ProyectoPrincipalBiblioteca\BibliotecaControles\ControlLibros\VerLibros\obj\Debug\VerLibros.dll
+C:\Users\misha\Biblioteca\Biblioteca\ProyectoPrincipalBiblioteca\BibliotecaControles\ControlLibros\VerLibros\obj\Debug\VerLibros.pdb
