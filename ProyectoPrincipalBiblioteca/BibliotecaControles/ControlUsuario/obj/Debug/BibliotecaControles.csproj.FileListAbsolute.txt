@@ -41,3 +41,4 @@ C:\Users\adria\Desktop\Biblioteca\ProyectoPrincipalBiblioteca\BibliotecaControle
 C:\Users\adria\Desktop\Biblioteca\ProyectoPrincipalBiblioteca\BibliotecaControles\ControlUsuario\obj\Debug\BibliotecaControles.dll
 C:\Users\adria\Desktop\Biblioteca\ProyectoPrincipalBiblioteca\BibliotecaControles\ControlUsuario\obj\Debug\BibliotecaControles.pdb
 C:\Users\misha\Biblioteca\Biblioteca\ProyectoPrincipalBiblioteca\BibliotecaControles\ControlUsuario\obj\Debug\BibliotecaControles.Properties.Resources.resources
+C:\Users\148FA02\Desktop\Biblioteca\Biblioteca\ProyectoPrincipalBiblioteca\BibliotecaControles\ControlUsuario\obj\Debug\BibliotecaControles.Properties.Resources.resources
