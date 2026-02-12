@@ -53,7 +53,7 @@
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle());
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 40F));
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 35F));
-            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 26F));
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 20F));
             this.tableLayoutPanel2.Controls.Add(this.LAB_Escritor, 3, 0);
             this.tableLayoutPanel2.Controls.Add(this.btnEliminar, 6, 0);
@@ -75,11 +75,12 @@
             // LAB_Escritor
             // 
             this.LAB_Escritor.AutoSize = true;
+            this.LAB_Escritor.BackColor = System.Drawing.SystemColors.Control;
             this.LAB_Escritor.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.LAB_Escritor.Location = new System.Drawing.Point(317, 0);
+            this.LAB_Escritor.Location = new System.Drawing.Point(315, 0);
             this.LAB_Escritor.Margin = new System.Windows.Forms.Padding(1, 0, 1, 0);
             this.LAB_Escritor.Name = "LAB_Escritor";
-            this.LAB_Escritor.Size = new System.Drawing.Size(146, 48);
+            this.LAB_Escritor.Size = new System.Drawing.Size(145, 48);
             this.LAB_Escritor.TabIndex = 0;
             this.LAB_Escritor.Text = "Escritor";
             this.LAB_Escritor.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -88,7 +89,7 @@
             // 
             this.btnEliminar.Dock = System.Windows.Forms.DockStyle.Fill;
             this.btnEliminar.Image = ((System.Drawing.Image)(resources.GetObject("btnEliminar.Image")));
-            this.btnEliminar.Location = new System.Drawing.Point(700, 1);
+            this.btnEliminar.Location = new System.Drawing.Point(695, 1);
             this.btnEliminar.Margin = new System.Windows.Forms.Padding(1);
             this.btnEliminar.Name = "btnEliminar";
             this.btnEliminar.Size = new System.Drawing.Size(38, 46);
@@ -101,7 +102,7 @@
             this.btnEditar.BackColor = System.Drawing.SystemColors.Control;
             this.btnEditar.Dock = System.Windows.Forms.DockStyle.Fill;
             this.btnEditar.Image = ((System.Drawing.Image)(resources.GetObject("btnEditar.Image")));
-            this.btnEditar.Location = new System.Drawing.Point(740, 1);
+            this.btnEditar.Location = new System.Drawing.Point(735, 1);
             this.btnEditar.Margin = new System.Windows.Forms.Padding(1);
             this.btnEditar.Name = "btnEditar";
             this.btnEditar.Size = new System.Drawing.Size(33, 46);
@@ -112,10 +113,11 @@
             // LAB_Titulo
             // 
             this.LAB_Titulo.AutoSize = true;
+            this.LAB_Titulo.BackColor = System.Drawing.SystemColors.Control;
             this.LAB_Titulo.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.LAB_Titulo.Location = new System.Drawing.Point(171, 0);
+            this.LAB_Titulo.Location = new System.Drawing.Point(170, 0);
             this.LAB_Titulo.Name = "LAB_Titulo";
-            this.LAB_Titulo.Size = new System.Drawing.Size(142, 48);
+            this.LAB_Titulo.Size = new System.Drawing.Size(141, 48);
             this.LAB_Titulo.TabIndex = 5;
             this.LAB_Titulo.Text = "Titulo";
             this.LAB_Titulo.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -123,11 +125,12 @@
             // LAB_AnoEdicion
             // 
             this.LAB_AnoEdicion.AutoSize = true;
+            this.LAB_AnoEdicion.BackColor = System.Drawing.SystemColors.Control;
             this.LAB_AnoEdicion.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.LAB_AnoEdicion.Location = new System.Drawing.Point(466, 0);
+            this.LAB_AnoEdicion.Location = new System.Drawing.Point(463, 0);
             this.LAB_AnoEdicion.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.LAB_AnoEdicion.Name = "LAB_AnoEdicion";
-            this.LAB_AnoEdicion.Size = new System.Drawing.Size(150, 48);
+            this.LAB_AnoEdicion.Size = new System.Drawing.Size(148, 48);
             this.LAB_AnoEdicion.TabIndex = 6;
             this.LAB_AnoEdicion.Text = "Año Edicion";
             this.LAB_AnoEdicion.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -135,10 +138,11 @@
             // LAB_ID
             // 
             this.LAB_ID.AutoSize = true;
+            this.LAB_ID.BackColor = System.Drawing.SystemColors.Control;
             this.LAB_ID.Dock = System.Windows.Forms.DockStyle.Fill;
             this.LAB_ID.Location = new System.Drawing.Point(23, 0);
             this.LAB_ID.Name = "LAB_ID";
-            this.LAB_ID.Size = new System.Drawing.Size(142, 48);
+            this.LAB_ID.Size = new System.Drawing.Size(141, 48);
             this.LAB_ID.TabIndex = 7;
             this.LAB_ID.Text = "ID";
             this.LAB_ID.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -146,13 +150,14 @@
             // Chk_Disponible
             // 
             this.Chk_Disponible.AutoSize = true;
+            this.Chk_Disponible.BackColor = System.Drawing.SystemColors.Control;
             this.Chk_Disponible.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.Chk_Disponible.Location = new System.Drawing.Point(621, 3);
+            this.Chk_Disponible.Location = new System.Drawing.Point(616, 3);
             this.Chk_Disponible.Name = "Chk_Disponible";
             this.Chk_Disponible.Size = new System.Drawing.Size(75, 42);
             this.Chk_Disponible.TabIndex = 8;
             this.Chk_Disponible.Text = "Disponible";
-            this.Chk_Disponible.UseVisualStyleBackColor = true;
+            this.Chk_Disponible.UseVisualStyleBackColor = false;
             // 
             // VerLibros
             // 

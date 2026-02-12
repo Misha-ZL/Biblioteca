@@ -200,5 +200,10 @@ namespace Biblioteca_proyecto.Vista
 
             }
         }
+
+        private void tableLayoutPanel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }

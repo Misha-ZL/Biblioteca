@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FPrincipal));
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.smiUsuarios = new System.Windows.Forms.ToolStripMenuItem();
             this.smiUsuariosListar = new System.Windows.Forms.ToolStripMenuItem();
@@ -38,12 +39,13 @@
             this.smiPrestamos = new System.Windows.Forms.ToolStripMenuItem();
             this.smiPrestamosListar = new System.Windows.Forms.ToolStripMenuItem();
             this.smiPrestamosNuevo = new System.Windows.Forms.ToolStripMenuItem();
+            this.button1 = new System.Windows.Forms.Button();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // menuStrip1
             // 
-            this.menuStrip1.BackColor = System.Drawing.Color.LawnGreen;
+            this.menuStrip1.BackColor = System.Drawing.Color.LimeGreen;
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.smiUsuarios,
             this.smiLibros,
@@ -66,14 +68,14 @@
             // smiUsuariosListar
             // 
             this.smiUsuariosListar.Name = "smiUsuariosListar";
-            this.smiUsuariosListar.Size = new System.Drawing.Size(180, 22);
+            this.smiUsuariosListar.Size = new System.Drawing.Size(150, 22);
             this.smiUsuariosListar.Text = "Listar Usuarios";
             this.smiUsuariosListar.Click += new System.EventHandler(this.smiUsuariosListar_Click);
             // 
             // smiUsuariosNuevo
             // 
             this.smiUsuariosNuevo.Name = "smiUsuariosNuevo";
-            this.smiUsuariosNuevo.Size = new System.Drawing.Size(180, 22);
+            this.smiUsuariosNuevo.Size = new System.Drawing.Size(150, 22);
             this.smiUsuariosNuevo.Text = "Nuevo";
             this.smiUsuariosNuevo.Click += new System.EventHandler(this.smiUsuariosNuevo_Click);
             // 
@@ -89,14 +91,14 @@
             // smiLibrosListar
             // 
             this.smiLibrosListar.Name = "smiLibrosListar";
-            this.smiLibrosListar.Size = new System.Drawing.Size(180, 22);
+            this.smiLibrosListar.Size = new System.Drawing.Size(137, 22);
             this.smiLibrosListar.Text = "Listar Libros";
             this.smiLibrosListar.Click += new System.EventHandler(this.smiLibrosListar_Click);
             // 
             // smiLibrosNuevo
             // 
             this.smiLibrosNuevo.Name = "smiLibrosNuevo";
-            this.smiLibrosNuevo.Size = new System.Drawing.Size(180, 22);
+            this.smiLibrosNuevo.Size = new System.Drawing.Size(137, 22);
             this.smiLibrosNuevo.Text = "Nuevo";
             this.smiLibrosNuevo.Click += new System.EventHandler(this.smiLibrosNuevo_Click);
             // 
@@ -112,22 +114,34 @@
             // smiPrestamosListar
             // 
             this.smiPrestamosListar.Name = "smiPrestamosListar";
-            this.smiPrestamosListar.Size = new System.Drawing.Size(180, 22);
+            this.smiPrestamosListar.Size = new System.Drawing.Size(160, 22);
             this.smiPrestamosListar.Text = "Listar Prestamos";
             this.smiPrestamosListar.Click += new System.EventHandler(this.smiPrestamosListar_Click);
             // 
             // smiPrestamosNuevo
             // 
             this.smiPrestamosNuevo.Name = "smiPrestamosNuevo";
-            this.smiPrestamosNuevo.Size = new System.Drawing.Size(180, 22);
+            this.smiPrestamosNuevo.Size = new System.Drawing.Size(160, 22);
             this.smiPrestamosNuevo.Text = "Nuevo";
             this.smiPrestamosNuevo.Click += new System.EventHandler(this.smiPrestamosNuevo_Click);
+            // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.SystemColors.Control;
+            this.button1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.button1.Image = ((System.Drawing.Image)(resources.GetObject("button1.Image")));
+            this.button1.Location = new System.Drawing.Point(0, 24);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(800, 426);
+            this.button1.TabIndex = 2;
+            this.button1.UseVisualStyleBackColor = false;
             // 
             // FPrincipal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.menuStrip1);
             this.IsMdiContainer = true;
             this.MainMenuStrip = this.menuStrip1;
@@ -152,5 +166,6 @@
         private System.Windows.Forms.ToolStripMenuItem smiLibrosNuevo;
         private System.Windows.Forms.ToolStripMenuItem smiPrestamosListar;
         private System.Windows.Forms.ToolStripMenuItem smiPrestamosNuevo;
+        private System.Windows.Forms.Button button1;
     }
 }

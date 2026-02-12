@@ -75,10 +75,11 @@
             // lNombre
             // 
             this.lNombre.AutoSize = true;
+            this.lNombre.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.lNombre.Dock = System.Windows.Forms.DockStyle.Fill;
             this.lNombre.Location = new System.Drawing.Point(43, 115);
             this.lNombre.Name = "lNombre";
-            this.lNombre.Size = new System.Drawing.Size(50, 26);
+            this.lNombre.Size = new System.Drawing.Size(52, 26);
             this.lNombre.TabIndex = 0;
             this.lNombre.Text = "Nombre";
             this.lNombre.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -86,10 +87,11 @@
             // lApellido2
             // 
             this.lApellido2.AutoSize = true;
+            this.lApellido2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.lApellido2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.lApellido2.Location = new System.Drawing.Point(43, 167);
             this.lApellido2.Name = "lApellido2";
-            this.lApellido2.Size = new System.Drawing.Size(50, 26);
+            this.lApellido2.Size = new System.Drawing.Size(52, 26);
             this.lApellido2.TabIndex = 1;
             this.lApellido2.Text = "Apellido2";
             this.lApellido2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -97,66 +99,74 @@
             // lTelefono
             // 
             this.lTelefono.AutoSize = true;
+            this.lTelefono.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.lTelefono.Dock = System.Windows.Forms.DockStyle.Fill;
             this.lTelefono.Location = new System.Drawing.Point(43, 193);
             this.lTelefono.Name = "lTelefono";
-            this.lTelefono.Size = new System.Drawing.Size(50, 26);
+            this.lTelefono.Size = new System.Drawing.Size(52, 26);
             this.lTelefono.TabIndex = 2;
             this.lTelefono.Text = "Telefono";
             this.lTelefono.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // TbNombre
             // 
+            this.TbNombre.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.TbNombre.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.TbNombre.Location = new System.Drawing.Point(99, 118);
+            this.TbNombre.Location = new System.Drawing.Point(101, 118);
             this.TbNombre.Name = "TbNombre";
-            this.TbNombre.Size = new System.Drawing.Size(658, 20);
+            this.TbNombre.Size = new System.Drawing.Size(656, 20);
             this.TbNombre.TabIndex = 4;
             // 
             // TbApellido2
             // 
+            this.TbApellido2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.TbApellido2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.TbApellido2.Location = new System.Drawing.Point(99, 170);
+            this.TbApellido2.Location = new System.Drawing.Point(101, 170);
             this.TbApellido2.Name = "TbApellido2";
-            this.TbApellido2.Size = new System.Drawing.Size(658, 20);
+            this.TbApellido2.Size = new System.Drawing.Size(656, 20);
             this.TbApellido2.TabIndex = 5;
             // 
             // TbTelefono
             // 
+            this.TbTelefono.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.TbTelefono.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.TbTelefono.Location = new System.Drawing.Point(99, 196);
+            this.TbTelefono.Location = new System.Drawing.Point(101, 196);
             this.TbTelefono.Name = "TbTelefono";
-            this.TbTelefono.Size = new System.Drawing.Size(658, 20);
+            this.TbTelefono.Size = new System.Drawing.Size(656, 20);
             this.TbTelefono.TabIndex = 6;
             // 
             // BtnEditarUsuario
             // 
+            this.BtnEditarUsuario.BackColor = System.Drawing.Color.LimeGreen;
             this.BtnEditarUsuario.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.BtnEditarUsuario.Location = new System.Drawing.Point(99, 222);
+            this.BtnEditarUsuario.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.BtnEditarUsuario.Location = new System.Drawing.Point(101, 222);
             this.BtnEditarUsuario.Name = "BtnEditarUsuario";
-            this.BtnEditarUsuario.Size = new System.Drawing.Size(658, 109);
+            this.BtnEditarUsuario.Size = new System.Drawing.Size(656, 109);
             this.BtnEditarUsuario.TabIndex = 8;
             this.BtnEditarUsuario.Text = "EDITAR";
-            this.BtnEditarUsuario.UseVisualStyleBackColor = true;
+            this.BtnEditarUsuario.UseVisualStyleBackColor = false;
             this.BtnEditarUsuario.Click += new System.EventHandler(this.BtnEditarUsuario_Click);
             // 
             // lApellido1
             // 
             this.lApellido1.AutoSize = true;
+            this.lApellido1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.lApellido1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.lApellido1.Location = new System.Drawing.Point(43, 141);
             this.lApellido1.Name = "lApellido1";
-            this.lApellido1.Size = new System.Drawing.Size(50, 26);
+            this.lApellido1.Size = new System.Drawing.Size(52, 26);
             this.lApellido1.TabIndex = 9;
             this.lApellido1.Text = "Apellido1";
             this.lApellido1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // TbAppellido1
             // 
+            this.TbAppellido1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.TbAppellido1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.TbAppellido1.Location = new System.Drawing.Point(99, 144);
+            this.TbAppellido1.Location = new System.Drawing.Point(101, 144);
             this.TbAppellido1.Name = "TbAppellido1";
-            this.TbAppellido1.Size = new System.Drawing.Size(658, 20);
+            this.TbAppellido1.Size = new System.Drawing.Size(656, 20);
             this.TbAppellido1.TabIndex = 10;
             // 
             // EditarUsuario
