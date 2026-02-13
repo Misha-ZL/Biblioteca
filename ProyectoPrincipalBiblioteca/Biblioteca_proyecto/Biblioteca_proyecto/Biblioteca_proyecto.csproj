@@ -242,7 +242,7 @@
       <Project>{dbc8e1e7-13f3-4a2e-8ebe-d0d78169d5b5}</Project>
       <Name>ControlPrestamo2</Name>
     </ProjectReference>
-    <ProjectReference Include="..\..\ControlUsuario\VerUsuario.csproj">
+    <ProjectReference Include="..\..\BibliotecaControles\ControlUsuario\VerUsuario.csproj">
       <Project>{08dcca89-225e-4a6d-8fb0-0d5061b2a836}</Project>
       <Name>VerUsuario</Name>
     </ProjectReference>
