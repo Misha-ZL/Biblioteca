@@ -30,7 +30,6 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FPrincipal));
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
-            this.toolStripTextBox1 = new System.Windows.Forms.ToolStripTextBox();
             this.smiUsuarios = new System.Windows.Forms.ToolStripMenuItem();
             this.smiUsuariosListar = new System.Windows.Forms.ToolStripMenuItem();
             this.smiUsuariosNuevo = new System.Windows.Forms.ToolStripMenuItem();
@@ -51,32 +50,18 @@
             this.menuStrip1.GripMargin = new System.Windows.Forms.Padding(7, 4, 0, 7);
             this.menuStrip1.ImageScalingSize = new System.Drawing.Size(32, 32);
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.toolStripTextBox1,
             this.smiUsuarios,
             this.smiLibros,
             this.smiPrestamos});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Padding = new System.Windows.Forms.Padding(3, 5, 0, 5);
+            this.menuStrip1.Padding = new System.Windows.Forms.Padding(3, 8, 0, 8);
             this.menuStrip1.RenderMode = System.Windows.Forms.ToolStripRenderMode.Professional;
             this.menuStrip1.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.menuStrip1.Size = new System.Drawing.Size(1054, 39);
+            this.menuStrip1.Size = new System.Drawing.Size(1054, 41);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             this.menuStrip1.ItemClicked += new System.Windows.Forms.ToolStripItemClickedEventHandler(this.menuStrip1_ItemClicked);
-            // 
-            // toolStripTextBox1
-            // 
-            this.toolStripTextBox1.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.toolStripTextBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.toolStripTextBox1.Font = new System.Drawing.Font("Segoe UI Emoji", 12F, System.Drawing.FontStyle.Bold);
-            this.toolStripTextBox1.ForeColor = System.Drawing.Color.White;
-            this.toolStripTextBox1.Margin = new System.Windows.Forms.Padding(10, 0, 10, 0);
-            this.toolStripTextBox1.Name = "toolStripTextBox1";
-            this.toolStripTextBox1.ReadOnly = true;
-            this.toolStripTextBox1.Size = new System.Drawing.Size(131, 29);
-            this.toolStripTextBox1.Text = "Vitoria-Gasteiz";
-            this.toolStripTextBox1.Click += new System.EventHandler(this.toolStripTextBox1_Click);
             // 
             // smiUsuarios
             // 
@@ -85,9 +70,9 @@
             this.smiUsuariosListar,
             this.smiUsuariosNuevo});
             this.smiUsuarios.ForeColor = System.Drawing.Color.White;
-            this.smiUsuarios.Margin = new System.Windows.Forms.Padding(10, 0, 0, 0);
+            this.smiUsuarios.Margin = new System.Windows.Forms.Padding(10, 0, 20, 0);
             this.smiUsuarios.Name = "smiUsuarios";
-            this.smiUsuarios.Size = new System.Drawing.Size(83, 29);
+            this.smiUsuarios.Size = new System.Drawing.Size(83, 25);
             this.smiUsuarios.Text = "Usuarios";
             // 
             // smiUsuariosListar
@@ -104,8 +89,8 @@
             this.smiUsuariosNuevo.BackColor = System.Drawing.Color.LimeGreen;
             this.smiUsuariosNuevo.ForeColor = System.Drawing.Color.White;
             this.smiUsuariosNuevo.Name = "smiUsuariosNuevo";
-            this.smiUsuariosNuevo.Size = new System.Drawing.Size(183, 26);
-            this.smiUsuariosNuevo.Text = "Nuevo";
+            this.smiUsuariosNuevo.Size = new System.Drawing.Size(184, 26);
+            this.smiUsuariosNuevo.Text = "Nuevo Usuario";
             this.smiUsuariosNuevo.Click += new System.EventHandler(this.smiUsuariosNuevo_Click);
             // 
             // smiLibros
@@ -117,7 +102,7 @@
             this.smiLibros.ForeColor = System.Drawing.Color.White;
             this.smiLibros.Margin = new System.Windows.Forms.Padding(10, 0, 0, 0);
             this.smiLibros.Name = "smiLibros";
-            this.smiLibros.Size = new System.Drawing.Size(65, 29);
+            this.smiLibros.Size = new System.Drawing.Size(65, 25);
             this.smiLibros.Text = "Libros";
             // 
             // smiLibrosListar
@@ -125,7 +110,7 @@
             this.smiLibrosListar.BackColor = System.Drawing.Color.LimeGreen;
             this.smiLibrosListar.ForeColor = System.Drawing.Color.White;
             this.smiLibrosListar.Name = "smiLibrosListar";
-            this.smiLibrosListar.Size = new System.Drawing.Size(165, 26);
+            this.smiLibrosListar.Size = new System.Drawing.Size(180, 26);
             this.smiLibrosListar.Text = "Listar Libros";
             this.smiLibrosListar.Click += new System.EventHandler(this.smiLibrosListar_Click);
             // 
@@ -134,8 +119,8 @@
             this.smiLibrosNuevo.BackColor = System.Drawing.Color.LimeGreen;
             this.smiLibrosNuevo.ForeColor = System.Drawing.Color.White;
             this.smiLibrosNuevo.Name = "smiLibrosNuevo";
-            this.smiLibrosNuevo.Size = new System.Drawing.Size(165, 26);
-            this.smiLibrosNuevo.Text = "Nuevo";
+            this.smiLibrosNuevo.Size = new System.Drawing.Size(180, 26);
+            this.smiLibrosNuevo.Text = "Nuevo Libro";
             this.smiLibrosNuevo.Click += new System.EventHandler(this.smiLibrosNuevo_Click);
             // 
             // smiPrestamos
@@ -148,7 +133,7 @@
             this.smiPrestamos.ForeColor = System.Drawing.Color.White;
             this.smiPrestamos.Margin = new System.Windows.Forms.Padding(10, 0, 0, 0);
             this.smiPrestamos.Name = "smiPrestamos";
-            this.smiPrestamos.Size = new System.Drawing.Size(95, 29);
+            this.smiPrestamos.Size = new System.Drawing.Size(95, 25);
             this.smiPrestamos.Text = "Prestamos";
             // 
             // smiPrestamosListar
@@ -156,7 +141,7 @@
             this.smiPrestamosListar.BackColor = System.Drawing.Color.LimeGreen;
             this.smiPrestamosListar.ForeColor = System.Drawing.Color.White;
             this.smiPrestamosListar.Name = "smiPrestamosListar";
-            this.smiPrestamosListar.Size = new System.Drawing.Size(195, 26);
+            this.smiPrestamosListar.Size = new System.Drawing.Size(196, 26);
             this.smiPrestamosListar.Text = "Listar Prestamos";
             this.smiPrestamosListar.Click += new System.EventHandler(this.smiPrestamosListar_Click);
             // 
@@ -165,8 +150,8 @@
             this.smiPrestamosNuevo.BackColor = System.Drawing.Color.LimeGreen;
             this.smiPrestamosNuevo.ForeColor = System.Drawing.Color.White;
             this.smiPrestamosNuevo.Name = "smiPrestamosNuevo";
-            this.smiPrestamosNuevo.Size = new System.Drawing.Size(195, 26);
-            this.smiPrestamosNuevo.Text = "Nuevo";
+            this.smiPrestamosNuevo.Size = new System.Drawing.Size(196, 26);
+            this.smiPrestamosNuevo.Text = "Nuevo Prestamo";
             this.smiPrestamosNuevo.Click += new System.EventHandler(this.smiPrestamosNuevo_Click);
             // 
             // button1
@@ -213,7 +198,6 @@
         private System.Windows.Forms.ToolStripMenuItem smiLibrosNuevo;
         private System.Windows.Forms.ToolStripMenuItem smiPrestamosListar;
         private System.Windows.Forms.ToolStripMenuItem smiPrestamosNuevo;
-        private System.Windows.Forms.ToolStripTextBox toolStripTextBox1;
         private System.Windows.Forms.Button button1;
     }
 }

@@ -85,6 +85,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Controlador\MiControlador.cs" />
+    <Compile Include="Vista\Inicio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vista\Inicio.Designer.cs">
+      <DependentUpon>Inicio.cs</DependentUpon>
+    </Compile>
     <Compile Include="Modelo\Libro.cs" />
     <Compile Include="Modelo\Prestamo.cs" />
     <Compile Include="Modelo\RepositorioLibro.cs" />
@@ -154,6 +160,10 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <None Include="Resources\Captura de pantalla 2026-02-13 223938.png" />
+    <EmbeddedResource Include="Vista\Inicio.resx">
+      <DependentUpon>Inicio.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Vista\EditarLibros.resx">
       <DependentUpon>EditarLibros.cs</DependentUpon>
     </EmbeddedResource>
@@ -192,6 +202,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <Content Include="Biblioteca.db">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
@@ -231,9 +242,9 @@
       <Project>{dbc8e1e7-13f3-4a2e-8ebe-d0d78169d5b5}</Project>
       <Name>ControlPrestamo2</Name>
     </ProjectReference>
-    <ProjectReference Include="..\..\BibliotecaControles\ControlUsuario\BibliotecaControles.csproj">
-      <Project>{55ee249a-2060-4e1f-8dfb-c9e3ed4f7ce8}</Project>
-      <Name>BibliotecaControles</Name>
+    <ProjectReference Include="..\..\ControlUsuario\VerUsuario.csproj">
+      <Project>{08dcca89-225e-4a6d-8fb0-0d5061b2a836}</Project>
+      <Name>VerUsuario</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

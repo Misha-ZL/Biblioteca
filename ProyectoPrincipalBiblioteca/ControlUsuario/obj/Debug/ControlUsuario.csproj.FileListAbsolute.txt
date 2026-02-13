@@ -1,0 +1,8 @@
+C:\Users\misha\Desktop\proyecto_Biblioteca\Biblioteca\ProyectoPrincipalBiblioteca\ControlUsuario\bin\Debug\ControlUsuario.dll
+C:\Users\misha\Desktop\proyecto_Biblioteca\Biblioteca\ProyectoPrincipalBiblioteca\ControlUsuario\bin\Debug\ControlUsuario.pdb
+C:\Users\misha\Desktop\proyecto_Biblioteca\Biblioteca\ProyectoPrincipalBiblioteca\ControlUsuario\obj\Debug\ControlUsuario.csproj.AssemblyReference.cache
+C:\Users\misha\Desktop\proyecto_Biblioteca\Biblioteca\ProyectoPrincipalBiblioteca\ControlUsuario\obj\Debug\ControlUsuario.VerUsuario.resources
+C:\Users\misha\Desktop\proyecto_Biblioteca\Biblioteca\ProyectoPrincipalBiblioteca\ControlUsuario\obj\Debug\ControlUsuario.csproj.GenerateResource.cache
+C:\Users\misha\Desktop\proyecto_Biblioteca\Biblioteca\ProyectoPrincipalBiblioteca\ControlUsuario\obj\Debug\ControlUsuario.csproj.CoreCompileInputs.cache
+C:\Users\misha\Desktop\proyecto_Biblioteca\Biblioteca\ProyectoPrincipalBiblioteca\ControlUsuario\obj\Debug\ControlUsuario.dll
+C:\Users\misha\Desktop\proyecto_Biblioteca\Biblioteca\ProyectoPrincipalBiblioteca\ControlUsuario\obj\Debug\ControlUsuario.pdb

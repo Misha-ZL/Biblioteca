@@ -8,8 +8,8 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using Biblioteca_proyecto.Controlador;
-using BibliotecaControles;
-using static BibliotecaControles.verUsuario;
+using ControlUsuario;
+
 
 namespace Biblioteca_proyecto
 {
@@ -67,9 +67,16 @@ namespace Biblioteca_proyecto
 
 
 
-            verUsuario plantilla = new verUsuario();
+           VerUsuario plantilla = new VerUsuario();
             plantilla.SetBotonesVisibles(false);
-           
+
+            //PARA VER LA LETRA DE LA CABECERA EN NEGRITA Y UN POCO MAS GRANDE
+
+            foreach (Control c in plantilla.Controls)
+            {
+                c.Font = new Font(this.Font.FontFamily, 12f, FontStyle.Bold | FontStyle.Underline);
+
+            }
 
 
             plantilla.Dock = DockStyle.Fill;
@@ -84,7 +91,7 @@ namespace Biblioteca_proyecto
             ///Recorre cada fila del DataTable y crea un UserControl1 para cada usuario, asignando los datos correspondientes a las propiedades del UserControl1.
             foreach (DataRow fila in datos.Rows)
             {
-                verUsuario usuario= new verUsuario();
+                VerUsuario usuario = new VerUsuario();
 
                 usuario.idUsuario = Convert.ToInt32(fila["ID"]);
                 usuario.Nombre = fila.Field<string>("Nombre");
@@ -95,7 +102,7 @@ namespace Biblioteca_proyecto
                 ///Asigna los eventos EditarUsuario y BorrarUsuario del UserControl1 a los métodos Control_EditarUsuario y Control_borrarEmpleado respectivamente, 
                 ///para manejar las acciones de editar y eliminar usuarios.
                 usuario.EditarUsuario += Control_EditarUsuario;
-                usuario.BorrarUsuario += Control_borrarEmpleado;
+                usuario.BorrarUsuario += Control_BorrarUsuario;
 
                 usuario.Dock = DockStyle.Fill;
                 tlpUsuarios.RowCount = tlpUsuarios.RowCount + 1;
@@ -114,7 +121,7 @@ namespace Biblioteca_proyecto
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>
-        private void Control_EditarUsuario(object sender, verUsuario.ClickarBotonIdEventArgs e)
+        private void Control_EditarUsuario(object sender, VerUsuario.ClickarBotonIdEventArgs e)
         {
             ///creacion del formulario EditarUsuario
             Vista.EditarUsuario editarUsuarioForm = new Vista.EditarUsuario();
@@ -132,9 +139,9 @@ namespace Biblioteca_proyecto
 
 
         /// <summary>
-        /// Control_borrarEmpleado se encarga de manejar el evento BorrarUsuario del UserControl1. Cuando se hace clic en el botón de eliminar,
+        /// Control_borrarUsuario se encarga de manejar el evento BorrarUsuario del UserControl1. Cuando se hace clic en el botón de eliminar,
         /// </summary>
-        private void Control_borrarEmpleado(object sender, ClickarBotonIdEventArgs e)
+        private void Control_BorrarUsuario(object sender, VerUsuario.ClickarBotonIdEventArgs e)
         {
             ControladorUsuario.EliminarUsuario(e.Id);
             Cargar(ControladorUsuario.CargarUsuarios());

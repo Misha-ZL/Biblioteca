@@ -1,6 +1,6 @@
 ﻿using Biblioteca_proyecto.Controlador;
 using Biblioteca_proyecto.Modelo;
-using BibliotecaControles;
+
 using ControlPrestamo2;
 using System;
 using System.Collections.Generic;
@@ -69,7 +69,14 @@ namespace Biblioteca_proyecto.Vista
 
             plantilla.SetBotonesVisibles(false);
 
-           
+            //CAMBIO DE FUENTE PARA LOS LABELS DE LA PRIMERA FILA DE LA TABLA, PARA QUE SEAN MÁS GRANDES Y EN NEGRITA, DISTINGUIÉNDOSE ASÍ DE LOS DEMÁS PRÉSTAMOS.
+
+            foreach (Control c in plantilla.Controls)
+            {
+                c.Font = new Font(this.Font.FontFamily, 12f, FontStyle.Bold | FontStyle.Underline);
+
+            }
+
 
             plantilla.Dock = DockStyle.Fill;
 

@@ -1,5 +1,4 @@
 ﻿using System;
-using Biblioteca_proyecto.Controlador;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -8,8 +7,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Biblioteca_proyecto.Controlador;
+using Biblioteca_proyecto.Modelo;
 using Biblioteca_proyecto.Vista;
-using BibliotecaControles;
+
+
 
 
 namespace Biblioteca_proyecto
@@ -118,15 +120,12 @@ namespace Biblioteca_proyecto
 
         }
 
-        private void toolStripTextBox1_Click(object sender, EventArgs e)
-        {
-            var form = Inicio.GetInstance();
-            InsertarFormulario(form);
-        }
+      
 
         private void button1_Click(object sender, EventArgs e)
         {
-
+            var form = Inicio.GetInstance();
+            InsertarFormulario(form);
         }
     }
 }

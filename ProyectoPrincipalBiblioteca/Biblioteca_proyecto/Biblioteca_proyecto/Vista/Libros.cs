@@ -72,8 +72,18 @@ namespace Biblioteca_proyecto
             VerLibros.VerLibros plantilla = new VerLibros.VerLibros();
             plantilla.SetBotonesVisibles(false);
             plantilla.Dock = DockStyle.Fill;
+            plantilla.BackColor = Color.Yellow;
 
-            
+            //PARA VER LA LETRA DE LA CABECERA EN NEGRITA Y UN POCO MAS GRANDE
+
+            foreach (Control c in plantilla.Controls)
+            {
+                c.Font = new Font(this.Font.FontFamily, 12f, FontStyle.Bold | FontStyle.Underline);
+
+            }
+
+           
+
 
 
             tlpLibros.RowCount++;
