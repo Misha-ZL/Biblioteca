@@ -68,10 +68,17 @@ namespace Biblioteca_proyecto.Vista
             UserControl1 plantilla = new UserControl1();
 
             plantilla.SetBotonesVisibles(false);
-      
-        
 
-        plantilla.Dock = DockStyle.Fill;
+           
+
+            plantilla.Dock = DockStyle.Fill;
+
+
+           
+
+
+
+           
             TlpPrestamos.RowCount = TlpPrestamos.RowCount + 1;
             TlpPrestamos.RowStyles.Insert(NuevaFila, new RowStyle(SizeType.AutoSize));
 
@@ -88,6 +95,8 @@ namespace Biblioteca_proyecto.Vista
             foreach (DataRow fila in datos.Rows)
             {
                 UserControl1 prestamo = new UserControl1();
+
+                prestamo.BackColor = Color.White;
 
                 prestamo.ID = Convert.ToInt32(fila["ID_Prestamo"]);
                 prestamo.ISBN = fila.Field<string>("Titulo_Libro");

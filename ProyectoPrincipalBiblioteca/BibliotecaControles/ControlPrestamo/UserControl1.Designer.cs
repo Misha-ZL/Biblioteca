@@ -53,7 +53,7 @@
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 22.32143F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 40F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 35F));
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 14F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 15F));
             this.tableLayoutPanel1.Controls.Add(this.LAB_DNI, 3, 0);
             this.tableLayoutPanel1.Controls.Add(this.LAB_FDevolucion, 5, 0);
             this.tableLayoutPanel1.Controls.Add(this.btnEliminar, 6, 0);
@@ -63,7 +63,7 @@
             this.tableLayoutPanel1.Controls.Add(this.LAB_ID, 1, 0);
             this.tableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tableLayoutPanel1.Location = new System.Drawing.Point(0, 0);
-            this.tableLayoutPanel1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.tableLayoutPanel1.Margin = new System.Windows.Forms.Padding(2);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 2;
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle());
@@ -75,10 +75,10 @@
             // 
             this.LAB_DNI.AutoSize = true;
             this.LAB_DNI.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.LAB_DNI.Location = new System.Drawing.Point(279, 0);
+            this.LAB_DNI.Location = new System.Drawing.Point(278, 0);
             this.LAB_DNI.Margin = new System.Windows.Forms.Padding(1, 0, 1, 0);
             this.LAB_DNI.Name = "LAB_DNI";
-            this.LAB_DNI.Size = new System.Drawing.Size(176, 48);
+            this.LAB_DNI.Size = new System.Drawing.Size(175, 48);
             this.LAB_DNI.TabIndex = 0;
             this.LAB_DNI.Text = "DNI";
             this.LAB_DNI.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -87,10 +87,10 @@
             // 
             this.LAB_FDevolucion.AutoSize = true;
             this.LAB_FDevolucion.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.LAB_FDevolucion.Location = new System.Drawing.Point(635, 0);
+            this.LAB_FDevolucion.Location = new System.Drawing.Point(632, 0);
             this.LAB_FDevolucion.Margin = new System.Windows.Forms.Padding(1, 0, 1, 0);
             this.LAB_FDevolucion.Name = "LAB_FDevolucion";
-            this.LAB_FDevolucion.Size = new System.Drawing.Size(176, 48);
+            this.LAB_FDevolucion.Size = new System.Drawing.Size(175, 48);
             this.LAB_FDevolucion.TabIndex = 1;
             this.LAB_FDevolucion.Text = "Fecha Devolucion";
             this.LAB_FDevolucion.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -99,8 +99,8 @@
             // 
             this.btnEliminar.Dock = System.Windows.Forms.DockStyle.Fill;
             this.btnEliminar.Image = ((System.Drawing.Image)(resources.GetObject("btnEliminar.Image")));
-            this.btnEliminar.Location = new System.Drawing.Point(813, 1);
-            this.btnEliminar.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
+            this.btnEliminar.Location = new System.Drawing.Point(809, 1);
+            this.btnEliminar.Margin = new System.Windows.Forms.Padding(1);
             this.btnEliminar.Name = "btnEliminar";
             this.btnEliminar.Size = new System.Drawing.Size(38, 46);
             this.btnEliminar.TabIndex = 3;
@@ -112,8 +112,8 @@
             this.btnEditar.BackColor = System.Drawing.SystemColors.Control;
             this.btnEditar.Dock = System.Windows.Forms.DockStyle.Fill;
             this.btnEditar.Image = ((System.Drawing.Image)(resources.GetObject("btnEditar.Image")));
-            this.btnEditar.Location = new System.Drawing.Point(853, 1);
-            this.btnEditar.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
+            this.btnEditar.Location = new System.Drawing.Point(849, 1);
+            this.btnEditar.Margin = new System.Windows.Forms.Padding(1);
             this.btnEditar.Name = "btnEditar";
             this.btnEditar.Size = new System.Drawing.Size(33, 46);
             this.btnEditar.TabIndex = 4;
@@ -126,7 +126,7 @@
             this.LAB_ISBN.Dock = System.Windows.Forms.DockStyle.Fill;
             this.LAB_ISBN.Location = new System.Drawing.Point(103, 0);
             this.LAB_ISBN.Name = "LAB_ISBN";
-            this.LAB_ISBN.Size = new System.Drawing.Size(172, 48);
+            this.LAB_ISBN.Size = new System.Drawing.Size(171, 48);
             this.LAB_ISBN.TabIndex = 5;
             this.LAB_ISBN.Text = "ISBN";
             this.LAB_ISBN.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -135,10 +135,10 @@
             // 
             this.LAB_FPrestamo.AutoSize = true;
             this.LAB_FPrestamo.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.LAB_FPrestamo.Location = new System.Drawing.Point(458, 0);
+            this.LAB_FPrestamo.Location = new System.Drawing.Point(456, 0);
             this.LAB_FPrestamo.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.LAB_FPrestamo.Name = "LAB_FPrestamo";
-            this.LAB_FPrestamo.Size = new System.Drawing.Size(174, 48);
+            this.LAB_FPrestamo.Size = new System.Drawing.Size(173, 48);
             this.LAB_FPrestamo.TabIndex = 6;
             this.LAB_FPrestamo.Text = "Fecha Prestamo";
             this.LAB_FPrestamo.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;

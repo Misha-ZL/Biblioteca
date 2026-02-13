@@ -69,6 +69,8 @@ namespace Biblioteca_proyecto
 
             verUsuario plantilla = new verUsuario();
             plantilla.SetBotonesVisibles(false);
+           
+
 
             plantilla.Dock = DockStyle.Fill;
             tlpUsuarios.RowCount = tlpUsuarios.RowCount + 1;

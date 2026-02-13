@@ -223,6 +223,10 @@
     </BootstrapperPackage>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\..\BibliotecaControles\ControlLibros\VerLibros\VerLibros.csproj">
+      <Project>{2dca4a5f-a733-406d-80c9-b777ab39d3e1}</Project>
+      <Name>VerLibros</Name>
+    </ProjectReference>
     <ProjectReference Include="..\..\BibliotecaControles\ControlPrestamo\ControlPrestamo2.csproj">
       <Project>{dbc8e1e7-13f3-4a2e-8ebe-d0d78169d5b5}</Project>
       <Name>ControlPrestamo2</Name>

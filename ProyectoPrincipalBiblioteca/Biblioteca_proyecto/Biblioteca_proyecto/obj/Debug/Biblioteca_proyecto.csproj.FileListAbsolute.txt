@@ -198,3 +198,6 @@ C:\Users\misha\Biblioteca\Biblioteca\ProyectoPrincipalBiblioteca\Biblioteca_proy
 C:\Users\misha\Biblioteca\Biblioteca\ProyectoPrincipalBiblioteca\Biblioteca_proyecto\Biblioteca_proyecto\bin\Debug\VerLibros.pdb
 C:\Users\misha\Biblioteca\Biblioteca\ProyectoPrincipalBiblioteca\Biblioteca_proyecto\Biblioteca_proyecto\obj\Debug\Biblioteca_proyecto.Vista.EditarLibros.resources
 C:\Users\148FA02\Desktop\Biblioteca\Biblioteca\ProyectoPrincipalBiblioteca\Biblioteca_proyecto\Biblioteca_proyecto\obj\Debug\Biblioteca_proyecto.Vista.EditarLibros.resources
+C:\Users\misha\Desktop\proyecto_Biblioteca\Biblioteca\ProyectoPrincipalBiblioteca\Biblioteca_proyecto\Biblioteca_proyecto\obj\Debug\Biblioteca_proyecto.Vista.EditarLibros.resources
+C:\Users\misha\Desktop\proyecto_Biblioteca\Biblioteca\ProyectoPrincipalBiblioteca\Biblioteca_proyecto\Biblioteca_proyecto\bin\Debug\VerLibros.dll
+C:\Users\misha\Desktop\proyecto_Biblioteca\Biblioteca\ProyectoPrincipalBiblioteca\Biblioteca_proyecto\Biblioteca_proyecto\bin\Debug\VerLibros.pdb

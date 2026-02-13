@@ -9,6 +9,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using Biblioteca_proyecto.Vista;
+using BibliotecaControles;
 
 
 namespace Biblioteca_proyecto
@@ -25,7 +26,13 @@ namespace Biblioteca_proyecto
         public FPrincipal()
         {
             InitializeComponent();
+
+
+            var form = Inicio.GetInstance();
+            InsertarFormulario(form);
         }
+
+      
 
         /// <summary>
         /// Inserta el formulario especificado como un hijo MDI, oculta el hijo MDI activo actualmente si está presente, 
@@ -104,6 +111,11 @@ namespace Biblioteca_proyecto
         {
             var form = Prestamos.GetInstance();
             InsertarFormulario(form);
+        }
+
+        private void menuStrip1_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
+        {
+
         }
     }
 }

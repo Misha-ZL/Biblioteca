@@ -33,6 +33,7 @@
             // 
             // TlpPrestamos
             // 
+            this.TlpPrestamos.AutoScroll = true;
             this.TlpPrestamos.ColumnCount = 1;
             this.TlpPrestamos.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
             this.TlpPrestamos.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 20F));

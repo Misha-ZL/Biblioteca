@@ -28,8 +28,20 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.panel1 = new System.Windows.Forms.Panel();
             this.tlpUsuarios = new System.Windows.Forms.TableLayoutPanel();
+            this.panel1.SuspendLayout();
             this.SuspendLayout();
+            // 
+            // panel1
+            // 
+            this.panel1.AutoScroll = true;
+            this.panel1.Controls.Add(this.tlpUsuarios);
+            this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel1.Location = new System.Drawing.Point(0, 0);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(1070, 600);
+            this.panel1.TabIndex = 0;
             // 
             // tlpUsuarios
             // 
@@ -41,26 +53,28 @@
             this.tlpUsuarios.Name = "tlpUsuarios";
             this.tlpUsuarios.RowCount = 1;
             this.tlpUsuarios.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tlpUsuarios.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 494F));
-            this.tlpUsuarios.Size = new System.Drawing.Size(1305, 562);
+            this.tlpUsuarios.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 562F));
+            this.tlpUsuarios.Size = new System.Drawing.Size(1070, 600);
             this.tlpUsuarios.TabIndex = 0;
             // 
             // FUsuarios
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1305, 562);
-            this.Controls.Add(this.tlpUsuarios);
+            this.ClientSize = new System.Drawing.Size(1070, 600);
+            this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.MinimumSize = new System.Drawing.Size(808, 60);
+            this.MinimumSize = new System.Drawing.Size(1070, 600);
             this.Name = "FUsuarios";
             this.Text = "Usuarios";
+            this.panel1.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
+        private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.TableLayoutPanel tlpUsuarios;
     }
 }

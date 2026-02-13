@@ -76,7 +76,7 @@ namespace Biblioteca_proyecto.Vista
             }
             catch (Exception ex)
             {
-                MessageBox.Show(ex.ToString());
+                MessageBox.Show(ex.ToString(), "No se pudo agregar el usuario");
             }
         }
         /// <summary>

@@ -45,10 +45,10 @@
             // tableLayoutPanel1
             // 
             this.tableLayoutPanel1.ColumnCount = 4;
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 80F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 40F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle());
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 80F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 40F));
             this.tableLayoutPanel1.Controls.Add(this.lTitulo, 1, 1);
             this.tableLayoutPanel1.Controls.Add(this.lAnoEdicion, 1, 3);
             this.tableLayoutPanel1.Controls.Add(this.lSinopsis, 1, 4);
@@ -61,7 +61,6 @@
             this.tableLayoutPanel1.Controls.Add(this.ChkDisponible, 2, 5);
             this.tableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tableLayoutPanel1.Location = new System.Drawing.Point(0, 0);
-            this.tableLayoutPanel1.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 8;
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
@@ -72,19 +71,17 @@
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle());
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 33.33334F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(1262, 670);
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(745, 371);
             this.tableLayoutPanel1.TabIndex = 2;
             // 
             // lTitulo
             // 
             this.lTitulo.AutoSize = true;
-            this.lTitulo.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.lTitulo.Dock = System.Windows.Forms.DockStyle.Fill;
             this.lTitulo.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lTitulo.Location = new System.Drawing.Point(86, 150);
-            this.lTitulo.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
+            this.lTitulo.Location = new System.Drawing.Point(43, 79);
             this.lTitulo.Name = "lTitulo";
-            this.lTitulo.Size = new System.Drawing.Size(168, 43);
+            this.lTitulo.Size = new System.Drawing.Size(87, 26);
             this.lTitulo.TabIndex = 0;
             this.lTitulo.Text = "Titulo";
             this.lTitulo.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -92,13 +89,11 @@
             // lAnoEdicion
             // 
             this.lAnoEdicion.AutoSize = true;
-            this.lAnoEdicion.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.lAnoEdicion.Dock = System.Windows.Forms.DockStyle.Fill;
             this.lAnoEdicion.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lAnoEdicion.Location = new System.Drawing.Point(86, 236);
-            this.lAnoEdicion.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
+            this.lAnoEdicion.Location = new System.Drawing.Point(43, 131);
             this.lAnoEdicion.Name = "lAnoEdicion";
-            this.lAnoEdicion.Size = new System.Drawing.Size(168, 43);
+            this.lAnoEdicion.Size = new System.Drawing.Size(87, 26);
             this.lAnoEdicion.TabIndex = 1;
             this.lAnoEdicion.Text = "Año_Edicion";
             this.lAnoEdicion.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -106,13 +101,11 @@
             // lSinopsis
             // 
             this.lSinopsis.AutoSize = true;
-            this.lSinopsis.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.lSinopsis.Dock = System.Windows.Forms.DockStyle.Fill;
             this.lSinopsis.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lSinopsis.Location = new System.Drawing.Point(86, 279);
-            this.lSinopsis.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
+            this.lSinopsis.Location = new System.Drawing.Point(43, 157);
             this.lSinopsis.Name = "lSinopsis";
-            this.lSinopsis.Size = new System.Drawing.Size(168, 43);
+            this.lSinopsis.Size = new System.Drawing.Size(87, 26);
             this.lSinopsis.TabIndex = 2;
             this.lSinopsis.Text = "Sinopsis";
             this.lSinopsis.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -121,20 +114,18 @@
             // 
             this.TbTitulo.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.TbTitulo.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.TbTitulo.Location = new System.Drawing.Point(266, 156);
-            this.TbTitulo.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.TbTitulo.Location = new System.Drawing.Point(136, 82);
             this.TbTitulo.Name = "TbTitulo";
-            this.TbTitulo.Size = new System.Drawing.Size(910, 31);
+            this.TbTitulo.Size = new System.Drawing.Size(566, 20);
             this.TbTitulo.TabIndex = 4;
             // 
             // TbAnoEdicion
             // 
             this.TbAnoEdicion.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.TbAnoEdicion.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.TbAnoEdicion.Location = new System.Drawing.Point(266, 242);
-            this.TbAnoEdicion.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.TbAnoEdicion.Location = new System.Drawing.Point(136, 134);
             this.TbAnoEdicion.Name = "TbAnoEdicion";
-            this.TbAnoEdicion.Size = new System.Drawing.Size(910, 31);
+            this.TbAnoEdicion.Size = new System.Drawing.Size(566, 20);
             this.TbAnoEdicion.TabIndex = 5;
             this.TbAnoEdicion.TextChanged += new System.EventHandler(this.TbAnoEdicion_TextChanged);
             // 
@@ -142,10 +133,9 @@
             // 
             this.TbSinopsis.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.TbSinopsis.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.TbSinopsis.Location = new System.Drawing.Point(266, 285);
-            this.TbSinopsis.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.TbSinopsis.Location = new System.Drawing.Point(136, 160);
             this.TbSinopsis.Name = "TbSinopsis";
-            this.TbSinopsis.Size = new System.Drawing.Size(910, 31);
+            this.TbSinopsis.Size = new System.Drawing.Size(566, 20);
             this.TbSinopsis.TabIndex = 6;
             // 
             // BtnAddUsuario
@@ -153,12 +143,11 @@
             this.BtnAddUsuario.BackColor = System.Drawing.Color.LimeGreen;
             this.BtnAddUsuario.Dock = System.Windows.Forms.DockStyle.Fill;
             this.BtnAddUsuario.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.BtnAddUsuario.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnAddUsuario.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnAddUsuario.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.BtnAddUsuario.Location = new System.Drawing.Point(266, 375);
-            this.BtnAddUsuario.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.BtnAddUsuario.Location = new System.Drawing.Point(136, 213);
             this.BtnAddUsuario.Name = "BtnAddUsuario";
-            this.BtnAddUsuario.Size = new System.Drawing.Size(910, 138);
+            this.BtnAddUsuario.Size = new System.Drawing.Size(566, 73);
             this.BtnAddUsuario.TabIndex = 8;
             this.BtnAddUsuario.Text = "AÑADIR";
             this.BtnAddUsuario.UseVisualStyleBackColor = false;
@@ -166,13 +155,11 @@
             // lEscritor
             // 
             this.lEscritor.AutoSize = true;
-            this.lEscritor.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.lEscritor.Dock = System.Windows.Forms.DockStyle.Fill;
             this.lEscritor.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lEscritor.Location = new System.Drawing.Point(86, 193);
-            this.lEscritor.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
+            this.lEscritor.Location = new System.Drawing.Point(43, 105);
             this.lEscritor.Name = "lEscritor";
-            this.lEscritor.Size = new System.Drawing.Size(168, 43);
+            this.lEscritor.Size = new System.Drawing.Size(87, 26);
             this.lEscritor.TabIndex = 9;
             this.lEscritor.Text = "Escritor";
             this.lEscritor.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -181,10 +168,9 @@
             // 
             this.TbEscritor.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.TbEscritor.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.TbEscritor.Location = new System.Drawing.Point(266, 199);
-            this.TbEscritor.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.TbEscritor.Location = new System.Drawing.Point(136, 108);
             this.TbEscritor.Name = "TbEscritor";
-            this.TbEscritor.Size = new System.Drawing.Size(910, 31);
+            this.TbEscritor.Size = new System.Drawing.Size(566, 20);
             this.TbEscritor.TabIndex = 10;
             // 
             // ChkDisponible
@@ -192,22 +178,20 @@
             this.ChkDisponible.AutoSize = true;
             this.ChkDisponible.Dock = System.Windows.Forms.DockStyle.Fill;
             this.ChkDisponible.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ChkDisponible.Location = new System.Drawing.Point(266, 328);
-            this.ChkDisponible.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.ChkDisponible.Location = new System.Drawing.Point(136, 186);
             this.ChkDisponible.Name = "ChkDisponible";
-            this.ChkDisponible.Size = new System.Drawing.Size(910, 35);
+            this.ChkDisponible.Size = new System.Drawing.Size(566, 21);
             this.ChkDisponible.TabIndex = 12;
             this.ChkDisponible.Text = "Disponible";
             this.ChkDisponible.UseVisualStyleBackColor = true;
             // 
             // EditarLibros
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1262, 670);
+            this.ClientSize = new System.Drawing.Size(745, 371);
             this.Controls.Add(this.tableLayoutPanel1);
-            this.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
-            this.MinimumSize = new System.Drawing.Size(793, 525);
+            this.MinimumSize = new System.Drawing.Size(609, 344);
             this.Name = "EditarLibros";
             this.Text = "EditarLibros";
             this.tableLayoutPanel1.ResumeLayout(false);

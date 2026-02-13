@@ -1,12 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
-using System.Drawing;
 using System.Data;
+using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement.Button;
 
 namespace VerLibros
 {
@@ -68,7 +69,20 @@ namespace VerLibros
         {
             btnEditar.Visible = visibles;
             btnEliminar.Visible = visibles;
-            Chk_Disponible.Visible = visibles;
+           
+
+            if (visibles == false)
+            {
+
+                //Se quita el cuadrado de CHeck Box para solo mostrar el Texto
+                Chk_Disponible.Appearance = Appearance.Button;
+                Chk_Disponible.AutoSize = true;
+                Chk_Disponible.FlatStyle = FlatStyle.Flat;
+                Chk_Disponible.FlatAppearance.BorderSize = 0;
+                Chk_Disponible.TextAlign = ContentAlignment.MiddleLeft;
+                Chk_Disponible.TextImageRelation = TextImageRelation.Overlay;
+
+            }
         }
 
        
