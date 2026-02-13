@@ -34,3 +34,12 @@ C:\Users\adria\Desktop\Biblioteca\ProyectoPrincipalBiblioteca\BibliotecaControle
 C:\Users\adria\Desktop\Biblioteca\ProyectoPrincipalBiblioteca\BibliotecaControles\ControlPrestamo\obj\Debug\ControlPrestamo2.csproj.CoreCompileInputs.cache
 C:\Users\adria\Desktop\Biblioteca\ProyectoPrincipalBiblioteca\BibliotecaControles\ControlPrestamo\obj\Debug\ControlPrestamo2.dll
 C:\Users\adria\Desktop\Biblioteca\ProyectoPrincipalBiblioteca\BibliotecaControles\ControlPrestamo\obj\Debug\ControlPrestamo2.pdb
+C:\Users\frijo\Desktop\Biblioteca\ProyectoPrincipalBiblioteca\BibliotecaControles\ControlPrestamo\bin\Debug\ControlPrestamo2.dll
+C:\Users\frijo\Desktop\Biblioteca\ProyectoPrincipalBiblioteca\BibliotecaControles\ControlPrestamo\bin\Debug\ControlPrestamo2.pdb
+C:\Users\frijo\Desktop\Biblioteca\ProyectoPrincipalBiblioteca\BibliotecaControles\ControlPrestamo\obj\Debug\ControlPrestamo2.csproj.AssemblyReference.cache
+C:\Users\frijo\Desktop\Biblioteca\ProyectoPrincipalBiblioteca\BibliotecaControles\ControlPrestamo\obj\Debug\ControlPrestamo2.Properties.Resources.resources
+C:\Users\frijo\Desktop\Biblioteca\ProyectoPrincipalBiblioteca\BibliotecaControles\ControlPrestamo\obj\Debug\ControlPrestamo2.UserControl1.resources
+C:\Users\frijo\Desktop\Biblioteca\ProyectoPrincipalBiblioteca\BibliotecaControles\ControlPrestamo\obj\Debug\ControlPrestamo2.csproj.GenerateResource.cache
+C:\Users\frijo\Desktop\Biblioteca\ProyectoPrincipalBiblioteca\BibliotecaControles\ControlPrestamo\obj\Debug\ControlPrestamo2.csproj.CoreCompileInputs.cache
+C:\Users\frijo\Desktop\Biblioteca\ProyectoPrincipalBiblioteca\BibliotecaControles\ControlPrestamo\obj\Debug\ControlPrestamo2.dll
+C:\Users\frijo\Desktop\Biblioteca\ProyectoPrincipalBiblioteca\BibliotecaControles\ControlPrestamo\obj\Debug\ControlPrestamo2.pdb

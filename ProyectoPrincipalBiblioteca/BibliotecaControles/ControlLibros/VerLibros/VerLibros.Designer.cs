@@ -53,7 +53,7 @@
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle());
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 40F));
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 35F));
-            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 27F));
+            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 30F));
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 20F));
             this.tableLayoutPanel2.Controls.Add(this.LAB_Escritor, 3, 0);
             this.tableLayoutPanel2.Controls.Add(this.btnEliminar, 6, 0);
@@ -89,7 +89,7 @@
             // 
             this.btnEliminar.Dock = System.Windows.Forms.DockStyle.Fill;
             this.btnEliminar.Image = ((System.Drawing.Image)(resources.GetObject("btnEliminar.Image")));
-            this.btnEliminar.Location = new System.Drawing.Point(692, 1);
+            this.btnEliminar.Location = new System.Drawing.Point(691, 1);
             this.btnEliminar.Margin = new System.Windows.Forms.Padding(1);
             this.btnEliminar.Name = "btnEliminar";
             this.btnEliminar.Size = new System.Drawing.Size(38, 46);
@@ -102,7 +102,7 @@
             this.btnEditar.BackColor = System.Drawing.SystemColors.Control;
             this.btnEditar.Dock = System.Windows.Forms.DockStyle.Fill;
             this.btnEditar.Image = ((System.Drawing.Image)(resources.GetObject("btnEditar.Image")));
-            this.btnEditar.Location = new System.Drawing.Point(732, 1);
+            this.btnEditar.Location = new System.Drawing.Point(731, 1);
             this.btnEditar.Margin = new System.Windows.Forms.Padding(1);
             this.btnEditar.Name = "btnEditar";
             this.btnEditar.Size = new System.Drawing.Size(33, 46);
@@ -130,7 +130,7 @@
             this.LAB_AnoEdicion.Location = new System.Drawing.Point(460, 0);
             this.LAB_AnoEdicion.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.LAB_AnoEdicion.Name = "LAB_AnoEdicion";
-            this.LAB_AnoEdicion.Size = new System.Drawing.Size(148, 48);
+            this.LAB_AnoEdicion.Size = new System.Drawing.Size(147, 48);
             this.LAB_AnoEdicion.TabIndex = 6;
             this.LAB_AnoEdicion.Text = "Año Edicion";
             this.LAB_AnoEdicion.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -146,6 +146,7 @@
             this.LAB_ID.TabIndex = 7;
             this.LAB_ID.Text = "ID";
             this.LAB_ID.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.LAB_ID.Click += new System.EventHandler(this.LAB_ID_Click);
             // 
             // Chk_Disponible
             // 
@@ -153,7 +154,7 @@
             this.Chk_Disponible.AutoSize = true;
             this.Chk_Disponible.BackColor = System.Drawing.SystemColors.Control;
             this.Chk_Disponible.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.Chk_Disponible.Location = new System.Drawing.Point(613, 3);
+            this.Chk_Disponible.Location = new System.Drawing.Point(612, 3);
             this.Chk_Disponible.Name = "Chk_Disponible";
             this.Chk_Disponible.Size = new System.Drawing.Size(75, 42);
             this.Chk_Disponible.TabIndex = 8;

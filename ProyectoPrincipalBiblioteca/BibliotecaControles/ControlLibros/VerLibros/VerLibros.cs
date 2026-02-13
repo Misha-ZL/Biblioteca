@@ -120,5 +120,10 @@ namespace VerLibros
 
             
         }
+
+        private void LAB_ID_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

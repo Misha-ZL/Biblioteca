@@ -123,5 +123,10 @@ namespace Biblioteca_proyecto
             var form = Inicio.GetInstance();
             InsertarFormulario(form);
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

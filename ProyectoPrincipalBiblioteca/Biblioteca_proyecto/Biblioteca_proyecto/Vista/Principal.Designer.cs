@@ -28,7 +28,9 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FPrincipal));
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
+            this.toolStripTextBox1 = new System.Windows.Forms.ToolStripTextBox();
             this.smiUsuarios = new System.Windows.Forms.ToolStripMenuItem();
             this.smiUsuariosListar = new System.Windows.Forms.ToolStripMenuItem();
             this.smiUsuariosNuevo = new System.Windows.Forms.ToolStripMenuItem();
@@ -38,7 +40,7 @@
             this.smiPrestamos = new System.Windows.Forms.ToolStripMenuItem();
             this.smiPrestamosListar = new System.Windows.Forms.ToolStripMenuItem();
             this.smiPrestamosNuevo = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripTextBox1 = new System.Windows.Forms.ToolStripTextBox();
+            this.button1 = new System.Windows.Forms.Button();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -57,10 +59,24 @@
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Padding = new System.Windows.Forms.Padding(3, 5, 0, 5);
             this.menuStrip1.RenderMode = System.Windows.Forms.ToolStripRenderMode.Professional;
+            this.menuStrip1.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.menuStrip1.Size = new System.Drawing.Size(1054, 39);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             this.menuStrip1.ItemClicked += new System.Windows.Forms.ToolStripItemClickedEventHandler(this.menuStrip1_ItemClicked);
+            // 
+            // toolStripTextBox1
+            // 
+            this.toolStripTextBox1.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.toolStripTextBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.toolStripTextBox1.Font = new System.Drawing.Font("Segoe UI Emoji", 12F, System.Drawing.FontStyle.Bold);
+            this.toolStripTextBox1.ForeColor = System.Drawing.Color.White;
+            this.toolStripTextBox1.Margin = new System.Windows.Forms.Padding(10, 0, 10, 0);
+            this.toolStripTextBox1.Name = "toolStripTextBox1";
+            this.toolStripTextBox1.ReadOnly = true;
+            this.toolStripTextBox1.Size = new System.Drawing.Size(131, 29);
+            this.toolStripTextBox1.Text = "Vitoria-Gasteiz";
+            this.toolStripTextBox1.Click += new System.EventHandler(this.toolStripTextBox1_Click);
             // 
             // smiUsuarios
             // 
@@ -109,7 +125,7 @@
             this.smiLibrosListar.BackColor = System.Drawing.Color.LimeGreen;
             this.smiLibrosListar.ForeColor = System.Drawing.Color.White;
             this.smiLibrosListar.Name = "smiLibrosListar";
-            this.smiLibrosListar.Size = new System.Drawing.Size(180, 26);
+            this.smiLibrosListar.Size = new System.Drawing.Size(165, 26);
             this.smiLibrosListar.Text = "Listar Libros";
             this.smiLibrosListar.Click += new System.EventHandler(this.smiLibrosListar_Click);
             // 
@@ -118,7 +134,7 @@
             this.smiLibrosNuevo.BackColor = System.Drawing.Color.LimeGreen;
             this.smiLibrosNuevo.ForeColor = System.Drawing.Color.White;
             this.smiLibrosNuevo.Name = "smiLibrosNuevo";
-            this.smiLibrosNuevo.Size = new System.Drawing.Size(180, 26);
+            this.smiLibrosNuevo.Size = new System.Drawing.Size(165, 26);
             this.smiLibrosNuevo.Text = "Nuevo";
             this.smiLibrosNuevo.Click += new System.EventHandler(this.smiLibrosNuevo_Click);
             // 
@@ -153,21 +169,25 @@
             this.smiPrestamosNuevo.Text = "Nuevo";
             this.smiPrestamosNuevo.Click += new System.EventHandler(this.smiPrestamosNuevo_Click);
             // 
-            // toolStripTextBox1
+            // button1
             // 
-            this.toolStripTextBox1.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.toolStripTextBox1.Font = new System.Drawing.Font("Segoe UI Emoji", 12F, System.Drawing.FontStyle.Bold);
-            this.toolStripTextBox1.ForeColor = System.Drawing.Color.White;
-            this.toolStripTextBox1.Name = "toolStripTextBox1";
-            this.toolStripTextBox1.Size = new System.Drawing.Size(131, 29);
-            this.toolStripTextBox1.Text = "Vitoria-Gasteiz";
-            this.toolStripTextBox1.Click += new System.EventHandler(this.toolStripTextBox1_Click);
+            this.button1.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.button1.FlatAppearance.BorderSize = 0;
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.button1.Image = ((System.Drawing.Image)(resources.GetObject("button1.Image")));
+            this.button1.Location = new System.Drawing.Point(12, 0);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(80, 39);
+            this.button1.TabIndex = 2;
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // FPrincipal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1054, 561);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.menuStrip1);
             this.IsMdiContainer = true;
             this.MainMenuStrip = this.menuStrip1;
@@ -194,5 +214,6 @@
         private System.Windows.Forms.ToolStripMenuItem smiPrestamosListar;
         private System.Windows.Forms.ToolStripMenuItem smiPrestamosNuevo;
         private System.Windows.Forms.ToolStripTextBox toolStripTextBox1;
+        private System.Windows.Forms.Button button1;
     }
 }

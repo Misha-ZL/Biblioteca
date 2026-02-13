@@ -43,3 +43,13 @@ C:\Users\adria\Desktop\Biblioteca\ProyectoPrincipalBiblioteca\BibliotecaControle
 C:\Users\misha\Biblioteca\Biblioteca\ProyectoPrincipalBiblioteca\BibliotecaControles\ControlUsuario\obj\Debug\BibliotecaControles.Properties.Resources.resources
 C:\Users\148FA02\Desktop\Biblioteca\Biblioteca\ProyectoPrincipalBiblioteca\BibliotecaControles\ControlUsuario\obj\Debug\BibliotecaControles.Properties.Resources.resources
 C:\Users\misha\Desktop\proyecto_Biblioteca\Biblioteca\ProyectoPrincipalBiblioteca\BibliotecaControles\ControlUsuario\obj\Debug\BibliotecaControles.Inicio.resources
+C:\Users\frijo\Desktop\Biblioteca\ProyectoPrincipalBiblioteca\BibliotecaControles\ControlUsuario\bin\Debug\BibliotecaControles.dll
+C:\Users\frijo\Desktop\Biblioteca\ProyectoPrincipalBiblioteca\BibliotecaControles\ControlUsuario\bin\Debug\BibliotecaControles.pdb
+C:\Users\frijo\Desktop\Biblioteca\ProyectoPrincipalBiblioteca\BibliotecaControles\ControlUsuario\obj\Debug\BibliotecaControles.csproj.AssemblyReference.cache
+C:\Users\frijo\Desktop\Biblioteca\ProyectoPrincipalBiblioteca\BibliotecaControles\ControlUsuario\obj\Debug\BibliotecaControles.Inicio.resources
+C:\Users\frijo\Desktop\Biblioteca\ProyectoPrincipalBiblioteca\BibliotecaControles\ControlUsuario\obj\Debug\BibliotecaControles.Properties.Resources.resources
+C:\Users\frijo\Desktop\Biblioteca\ProyectoPrincipalBiblioteca\BibliotecaControles\ControlUsuario\obj\Debug\BibliotecaControles.verUsuario.resources
+C:\Users\frijo\Desktop\Biblioteca\ProyectoPrincipalBiblioteca\BibliotecaControles\ControlUsuario\obj\Debug\BibliotecaControles.csproj.GenerateResource.cache
+C:\Users\frijo\Desktop\Biblioteca\ProyectoPrincipalBiblioteca\BibliotecaControles\ControlUsuario\obj\Debug\BibliotecaControles.csproj.CoreCompileInputs.cache
+C:\Users\frijo\Desktop\Biblioteca\ProyectoPrincipalBiblioteca\BibliotecaControles\ControlUsuario\obj\Debug\BibliotecaControles.dll
+C:\Users\frijo\Desktop\Biblioteca\ProyectoPrincipalBiblioteca\BibliotecaControles\ControlUsuario\obj\Debug\BibliotecaControles.pdb
