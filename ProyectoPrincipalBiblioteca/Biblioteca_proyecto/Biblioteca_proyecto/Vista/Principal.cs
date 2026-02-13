@@ -117,5 +117,11 @@ namespace Biblioteca_proyecto
         {
 
         }
+
+        private void toolStripTextBox1_Click(object sender, EventArgs e)
+        {
+            var form = Inicio.GetInstance();
+            InsertarFormulario(form);
+        }
     }
 }
