@@ -236,7 +236,8 @@ namespace Biblioteca_proyecto.Controlador
                 throw new Exception("Debes rellenar todos los datos");
             } else
             {
-                bool LibroExiste = repositorioUsuario.BuscarUsuarioPorID(id).Rows.Count > 0;
+                bool LibroExiste = repositorioLibro.BuscarLibroPorID(id).Rows.Count > 0;
+             
                 if (!LibroExiste)
                 {
                     throw new Exception("El libro no existe");

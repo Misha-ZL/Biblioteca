@@ -35,7 +35,7 @@
             this.TbTitulo = new System.Windows.Forms.TextBox();
             this.TbAnoEdicion = new System.Windows.Forms.TextBox();
             this.TbSinopsis = new System.Windows.Forms.TextBox();
-            this.BtnAddUsuario = new System.Windows.Forms.Button();
+            this.BtnEditarLibro = new System.Windows.Forms.Button();
             this.lEscritor = new System.Windows.Forms.Label();
             this.TbEscritor = new System.Windows.Forms.TextBox();
             this.ChkDisponible = new System.Windows.Forms.CheckBox();
@@ -55,7 +55,7 @@
             this.tableLayoutPanel1.Controls.Add(this.TbTitulo, 2, 1);
             this.tableLayoutPanel1.Controls.Add(this.TbAnoEdicion, 2, 3);
             this.tableLayoutPanel1.Controls.Add(this.TbSinopsis, 2, 4);
-            this.tableLayoutPanel1.Controls.Add(this.BtnAddUsuario, 2, 6);
+            this.tableLayoutPanel1.Controls.Add(this.BtnEditarLibro, 2, 6);
             this.tableLayoutPanel1.Controls.Add(this.lEscritor, 1, 2);
             this.tableLayoutPanel1.Controls.Add(this.TbEscritor, 2, 2);
             this.tableLayoutPanel1.Controls.Add(this.ChkDisponible, 2, 5);
@@ -127,7 +127,6 @@
             this.TbAnoEdicion.Name = "TbAnoEdicion";
             this.TbAnoEdicion.Size = new System.Drawing.Size(566, 20);
             this.TbAnoEdicion.TabIndex = 5;
-            this.TbAnoEdicion.TextChanged += new System.EventHandler(this.TbAnoEdicion_TextChanged);
             // 
             // TbSinopsis
             // 
@@ -138,19 +137,20 @@
             this.TbSinopsis.Size = new System.Drawing.Size(566, 20);
             this.TbSinopsis.TabIndex = 6;
             // 
-            // BtnAddUsuario
+            // BtnEditarLibro
             // 
-            this.BtnAddUsuario.BackColor = System.Drawing.Color.LimeGreen;
-            this.BtnAddUsuario.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.BtnAddUsuario.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.BtnAddUsuario.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnAddUsuario.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.BtnAddUsuario.Location = new System.Drawing.Point(136, 213);
-            this.BtnAddUsuario.Name = "BtnAddUsuario";
-            this.BtnAddUsuario.Size = new System.Drawing.Size(566, 73);
-            this.BtnAddUsuario.TabIndex = 8;
-            this.BtnAddUsuario.Text = "AÑADIR";
-            this.BtnAddUsuario.UseVisualStyleBackColor = false;
+            this.BtnEditarLibro.BackColor = System.Drawing.Color.LimeGreen;
+            this.BtnEditarLibro.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.BtnEditarLibro.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.BtnEditarLibro.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnEditarLibro.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.BtnEditarLibro.Location = new System.Drawing.Point(136, 213);
+            this.BtnEditarLibro.Name = "BtnEditarLibro";
+            this.BtnEditarLibro.Size = new System.Drawing.Size(566, 73);
+            this.BtnEditarLibro.TabIndex = 8;
+            this.BtnEditarLibro.Text = "EDITAR";
+            this.BtnEditarLibro.UseVisualStyleBackColor = false;
+            this.BtnEditarLibro.Click += new System.EventHandler(this.BtnEditarLibro_Click);
             // 
             // lEscritor
             // 
@@ -209,7 +209,7 @@
         private System.Windows.Forms.TextBox TbTitulo;
         private System.Windows.Forms.TextBox TbAnoEdicion;
         private System.Windows.Forms.TextBox TbSinopsis;
-        private System.Windows.Forms.Button BtnAddUsuario;
+        private System.Windows.Forms.Button BtnEditarLibro;
         private System.Windows.Forms.Label lEscritor;
         private System.Windows.Forms.TextBox TbEscritor;
         private System.Windows.Forms.CheckBox ChkDisponible;

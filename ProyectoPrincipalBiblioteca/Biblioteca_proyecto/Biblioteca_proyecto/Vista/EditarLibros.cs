@@ -63,11 +63,14 @@ namespace Biblioteca_proyecto.Vista
             ChkDisponible.Checked = disponible;
         }
 
+
+
         /// <summary>
         /// Maneja el evento de clic del botón "Editar Libro". Recoge los datos ingresados por el usuario, 
         /// llama al método ModificarLibro del controlador para actualizar la información del libro en la base de datos, 
         /// muestra un mensaje de confirmación y cierra el formulario. Si ocurre algún error durante el proceso, se muestra un mensaje de error.
         /// </summary>
+
         private void BtnEditarLibro_Click(object sender, EventArgs e)
         {
             try
@@ -75,7 +78,7 @@ namespace Biblioteca_proyecto.Vista
                 int ano = Convert.ToInt32(TbAnoEdicion.Text);
                 bool disponible = ChkDisponible.Checked;
 
-                ControladorModLibro.ModificarLibro( id, TbTitulo.Text, TbEscritor.Text, ano,  TbSinopsis.Text, disponible
+                ControladorModLibro.ModificarLibro(id, TbTitulo.Text, TbEscritor.Text, ano, TbSinopsis.Text, disponible
                 );
 
                 MessageBox.Show("Editando libro ID: " + id);
@@ -85,12 +88,7 @@ namespace Biblioteca_proyecto.Vista
             {
                 MessageBox.Show(ex.Message);
             }
-
         }
 
-        private void TbAnoEdicion_TextChanged(object sender, EventArgs e)
-        {
-
-        }
     }
 }

@@ -42,59 +42,37 @@ namespace Biblioteca_proyecto.Vista
            
         }
 
-        /// <summary>
-        /// Al haber una fila seleccionada recoge el ID de esa fila y lo guarda en la variable IdLibro.
-        /// </summary>
-        private void DgvLibro_SelectionChanged(object sender, EventArgs e)
-        {
-            if (DgvLibro.CurrentRow == null)
-            {
-                return;
-            }
-          
-
-            IdLibro = Convert.ToInt32(DgvLibro.CurrentRow.Cells["ID"].Value);
-
-        }
 
 
-        /// <summary>
-        /// Al haber una fila seleccionada recoge el ID de esa fila y lo guarda en la variable IdUsuario.
-        /// </summary>>
-        private void DgvUsuarios_SelectionChanged(object sender, EventArgs e)
-        {
-            if (DgvUsuarios.CurrentRow == null)
-            {
-                return;
-            }
-            
-
-            IdUsuario = Convert.ToInt32(DgvUsuarios.CurrentRow.Cells["ID"].Value);
-
-        }
 
         /// <summary>
         /// CargarDatos() se encarga de cargar los datos de los libros disponibles y los usuarios en los DataGridView correspondientes.
         /// </summary>
         public void CargarDatos()
         {
-            DgvLibro.AutoGenerateColumns = true;
-            DgvLibro.DataSource = ControladorEditarPrestamo.CargarLibrosDisponibles();
-            DgvLibro.Columns["Disponible"].Visible = true;
-            DgvLibro.Columns["ID"].Visible = false;
-            DgvLibro.Columns["Titulo"].Visible = true;
-            DgvLibro.Columns["Escritor"].Visible = true;
-            DgvLibro.Columns["Ano_Edicion"].Visible = true;
-            DgvLibro.Columns["Sinopsis"].Visible = false;
+            DgvLibros.AutoGenerateColumns = true;
+            DgvLibros.DataSource = ControladorEditarPrestamo.CargarLibros();
+
+
+            DgvLibros.Columns["Disponible"].Visible = true;
+            DgvLibros.Columns["ID"].Visible = false;
+            DgvLibros.Columns["Titulo"].Visible = true;
+            DgvLibros.Columns["Escritor"].Visible = true;
+            DgvLibros.Columns["Ano_Edicion"].Visible = true;
+            DgvLibros.Columns["Sinopsis"].Visible = false;
 
             DgvUsuarios.AutoGenerateColumns = true;
             DgvUsuarios.DataSource = ControladorEditarPrestamo.CargarUsuarios();
+
+
             DgvUsuarios.Columns["ID"].Visible = false;
             DgvUsuarios.Columns["Nombre"].Visible = true;
             DgvUsuarios.Columns["Apellido_1"].Visible = true;
             DgvUsuarios.Columns["Apellido_2"].Visible = true;
             DgvUsuarios.Columns["Telefono"].Visible = true;
+
            
+
 
         }
 
@@ -116,12 +94,14 @@ namespace Biblioteca_proyecto.Vista
 
             ///Se recorre cada fila del DataGridView de libros y usuarios para seleccionar la fila que corresponde al libro y
             ///usuario asociados al préstamo actual, utilizando los ID almacenados en las variables IdLibro e IdUsuario.
-            foreach (DataGridViewRow row in DgvLibro.Rows)
+            foreach (DataGridViewRow row in DgvLibros.Rows)
             {
                 if (Convert.ToInt32(row.Cells["ID"].Value) == IdLibro)
                 {
-                    DgvLibro.CurrentCell = row.Cells[1];
+                    DgvLibros.ClearSelection();
+                    DgvLibros.CurrentCell = row.Cells[1];
                     row.Selected = true;
+                    DgvLibros.CurrentCell = row.Cells["Titulo"];
                     break;
                 }
             }
@@ -131,9 +111,12 @@ namespace Biblioteca_proyecto.Vista
             {
                 if (Convert.ToInt32(fila.Cells["ID"].Value) == IdUsuario)
                 {
+                    DgvUsuarios.ClearSelection();
                     DgvUsuarios.CurrentCell = fila.Cells[1];
                     fila.Selected = true;
+                    DgvUsuarios.CurrentCell = fila.Cells["Nombre"];
                     break;
+
                 }
             }
 
@@ -148,10 +131,12 @@ namespace Biblioteca_proyecto.Vista
 
         private void EditarPrestamo_Load(object sender, EventArgs e)
         {
+            
+            
             CargarDatos();
             CargarPrestamoActual();
 
-            DgvLibro.SelectionChanged += DgvLibro_SelectionChanged;
+            DgvLibros.SelectionChanged += DgvLibros_SelectionChanged;
             DgvUsuarios.SelectionChanged += DgvUsuarios_SelectionChanged;
 
         }
@@ -159,10 +144,10 @@ namespace Biblioteca_proyecto.Vista
         private void RecargarLibrosYUsuarios()
         {
             //Borrar datos
-            DgvLibro.DataSource = null;
+            DgvLibros.DataSource = null;
 
             //se cargan los datos
-            DgvLibro.DataSource = ControladorEditarPrestamo.CargarLibrosDisponibles();
+            DgvLibros.DataSource = ControladorEditarPrestamo.CargarLibrosDisponibles();
 
             DgvUsuarios.DataSource = null;
             DgvUsuarios.DataSource = ControladorEditarPrestamo.CargarUsuarios();
@@ -201,8 +186,38 @@ namespace Biblioteca_proyecto.Vista
             }
         }
 
-        private void tableLayoutPanel1_Paint(object sender, PaintEventArgs e)
+
+        /// <summary>
+        /// Al haber una fila seleccionada recoge el ID de esa fila y lo guarda en la variable IdLibro.
+        /// </summary>
+         private void DgvLibros_SelectionChanged(object sender, EventArgs e)
         {
+            if (DgvLibros.CurrentRow == null)
+            {
+                return;
+            }
+
+
+            IdLibro = Convert.ToInt32(DgvLibros.CurrentRow.Cells["ID"].Value);
+
+
+        }
+
+
+        /// <summary>
+        /// Al haber una fila seleccionada recoge el ID de esa fila y lo guarda en la variable IdUsuario.
+        /// </summary>>
+
+
+        private void DgvUsuarios_SelectionChanged(object sender, EventArgs e)
+        {
+            if (DgvUsuarios.CurrentRow == null)
+            {
+                return;
+            }
+
+
+            IdUsuario = Convert.ToInt32(DgvUsuarios.CurrentRow.Cells["ID"].Value);
 
         }
     }
