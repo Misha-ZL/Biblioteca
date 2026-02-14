@@ -135,7 +135,7 @@ namespace ControlUsuario
         {
 
             DialogResult resultado = MessageBox.Show(
-               "¿Estás seguro de eliminar este libro?",
+               "¿Estás seguro de eliminar este usuario?",
                "Eliminar",
                MessageBoxButtons.OKCancel,
                MessageBoxIcon.Question);

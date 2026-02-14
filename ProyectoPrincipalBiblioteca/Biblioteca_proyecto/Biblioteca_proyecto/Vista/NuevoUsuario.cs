@@ -65,7 +65,7 @@ namespace Biblioteca_proyecto.Vista
                
                 if (!ok)
                 {
-                    throw new Exception("El teléfono debe ser numérico.");
+                    throw new Exception("El teléfono debe ser numérico, hasta 10 dígitos.");
                 } else
                 {
                     ControladorUsuario.NuevoUsuario(TbNombre.Text, TbAppellido1.Text, TbApellido2.Text, TelefonoInt);

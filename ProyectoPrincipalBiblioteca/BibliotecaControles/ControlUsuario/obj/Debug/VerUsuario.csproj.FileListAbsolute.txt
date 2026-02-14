@@ -7,3 +7,12 @@ C:\Users\misha\Desktop\proyecto_Biblioteca\Biblioteca\ProyectoPrincipalBibliotec
 C:\Users\misha\Desktop\proyecto_Biblioteca\Biblioteca\ProyectoPrincipalBiblioteca\ControlUsuario\obj\Debug\VerUsuario.dll
 C:\Users\misha\Desktop\proyecto_Biblioteca\Biblioteca\ProyectoPrincipalBiblioteca\ControlUsuario\obj\Debug\VerUsuario.pdb
 C:\Users\misha\Desktop\proyecto_Biblioteca\Biblioteca\ProyectoPrincipalBiblioteca\ControlUsuario\obj\Debug\ControlUsuario.Properties.Resources.resources
+C:\Users\adria\Desktop\Biblioteca\ProyectoPrincipalBiblioteca\BibliotecaControles\ControlUsuario\bin\Debug\VerUsuario.dll
+C:\Users\adria\Desktop\Biblioteca\ProyectoPrincipalBiblioteca\BibliotecaControles\ControlUsuario\bin\Debug\VerUsuario.pdb
+C:\Users\adria\Desktop\Biblioteca\ProyectoPrincipalBiblioteca\BibliotecaControles\ControlUsuario\obj\Debug\VerUsuario.csproj.AssemblyReference.cache
+C:\Users\adria\Desktop\Biblioteca\ProyectoPrincipalBiblioteca\BibliotecaControles\ControlUsuario\obj\Debug\ControlUsuario.Properties.Resources.resources
+C:\Users\adria\Desktop\Biblioteca\ProyectoPrincipalBiblioteca\BibliotecaControles\ControlUsuario\obj\Debug\ControlUsuario.VerUsuario.resources
+C:\Users\adria\Desktop\Biblioteca\ProyectoPrincipalBiblioteca\BibliotecaControles\ControlUsuario\obj\Debug\VerUsuario.csproj.GenerateResource.cache
+C:\Users\adria\Desktop\Biblioteca\ProyectoPrincipalBiblioteca\BibliotecaControles\ControlUsuario\obj\Debug\VerUsuario.csproj.CoreCompileInputs.cache
+C:\Users\adria\Desktop\Biblioteca\ProyectoPrincipalBiblioteca\BibliotecaControles\ControlUsuario\obj\Debug\VerUsuario.dll
+C:\Users\adria\Desktop\Biblioteca\ProyectoPrincipalBiblioteca\BibliotecaControles\ControlUsuario\obj\Debug\VerUsuario.pdb

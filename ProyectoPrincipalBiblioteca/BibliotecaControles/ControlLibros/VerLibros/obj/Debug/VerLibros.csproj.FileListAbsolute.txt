@@ -15,3 +15,12 @@ C:\Users\misha\Desktop\proyecto_Biblioteca\Biblioteca\ProyectoPrincipalBibliotec
 C:\Users\misha\Desktop\proyecto_Biblioteca\Biblioteca\ProyectoPrincipalBiblioteca\BibliotecaControles\ControlLibros\VerLibros\obj\Debug\VerLibros.csproj.CoreCompileInputs.cache
 C:\Users\misha\Desktop\proyecto_Biblioteca\Biblioteca\ProyectoPrincipalBiblioteca\BibliotecaControles\ControlLibros\VerLibros\obj\Debug\VerLibros.dll
 C:\Users\misha\Desktop\proyecto_Biblioteca\Biblioteca\ProyectoPrincipalBiblioteca\BibliotecaControles\ControlLibros\VerLibros\obj\Debug\VerLibros.pdb
+C:\Users\adria\Desktop\Biblioteca\ProyectoPrincipalBiblioteca\BibliotecaControles\ControlLibros\VerLibros\bin\Debug\VerLibros.dll
+C:\Users\adria\Desktop\Biblioteca\ProyectoPrincipalBiblioteca\BibliotecaControles\ControlLibros\VerLibros\bin\Debug\VerLibros.pdb
+C:\Users\adria\Desktop\Biblioteca\ProyectoPrincipalBiblioteca\BibliotecaControles\ControlLibros\VerLibros\obj\Debug\VerLibros.csproj.AssemblyReference.cache
+C:\Users\adria\Desktop\Biblioteca\ProyectoPrincipalBiblioteca\BibliotecaControles\ControlLibros\VerLibros\obj\Debug\VerLibros.Properties.Resources.resources
+C:\Users\adria\Desktop\Biblioteca\ProyectoPrincipalBiblioteca\BibliotecaControles\ControlLibros\VerLibros\obj\Debug\VerLibros.VerLibros.resources
+C:\Users\adria\Desktop\Biblioteca\ProyectoPrincipalBiblioteca\BibliotecaControles\ControlLibros\VerLibros\obj\Debug\VerLibros.csproj.GenerateResource.cache
+C:\Users\adria\Desktop\Biblioteca\ProyectoPrincipalBiblioteca\BibliotecaControles\ControlLibros\VerLibros\obj\Debug\VerLibros.csproj.CoreCompileInputs.cache
+C:\Users\adria\Desktop\Biblioteca\ProyectoPrincipalBiblioteca\BibliotecaControles\ControlLibros\VerLibros\obj\Debug\VerLibros.dll
+C:\Users\adria\Desktop\Biblioteca\ProyectoPrincipalBiblioteca\BibliotecaControles\ControlLibros\VerLibros\obj\Debug\VerLibros.pdb

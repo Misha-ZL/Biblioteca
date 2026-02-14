@@ -242,3 +242,9 @@ C:\Users\frijo\Desktop\Biblioteca\ProyectoPrincipalBiblioteca\Biblioteca_proyect
 C:\Users\misha\Desktop\proyecto_Biblioteca\Biblioteca\ProyectoPrincipalBiblioteca\Biblioteca_proyecto\Biblioteca_proyecto\obj\Debug\Biblioteca_proyecto.Modelo.Inicio.resources
 C:\Users\misha\Desktop\proyecto_Biblioteca\Biblioteca\ProyectoPrincipalBiblioteca\Biblioteca_proyecto\Biblioteca_proyecto\bin\Debug\VerUsuario.dll
 C:\Users\misha\Desktop\proyecto_Biblioteca\Biblioteca\ProyectoPrincipalBiblioteca\Biblioteca_proyecto\Biblioteca_proyecto\bin\Debug\VerUsuario.pdb
+C:\Users\adria\Desktop\Biblioteca\ProyectoPrincipalBiblioteca\Biblioteca_proyecto\Biblioteca_proyecto\bin\Debug\VerLibros.dll
+C:\Users\adria\Desktop\Biblioteca\ProyectoPrincipalBiblioteca\Biblioteca_proyecto\Biblioteca_proyecto\bin\Debug\VerUsuario.dll
+C:\Users\adria\Desktop\Biblioteca\ProyectoPrincipalBiblioteca\Biblioteca_proyecto\Biblioteca_proyecto\bin\Debug\VerLibros.pdb
+C:\Users\adria\Desktop\Biblioteca\ProyectoPrincipalBiblioteca\Biblioteca_proyecto\Biblioteca_proyecto\bin\Debug\VerUsuario.pdb
+C:\Users\adria\Desktop\Biblioteca\ProyectoPrincipalBiblioteca\Biblioteca_proyecto\Biblioteca_proyecto\obj\Debug\Biblioteca_proyecto.Modelo.Inicio.resources
+C:\Users\adria\Desktop\Biblioteca\ProyectoPrincipalBiblioteca\Biblioteca_proyecto\Biblioteca_proyecto\obj\Debug\Biblioteca_proyecto.Vista.EditarLibros.resources
