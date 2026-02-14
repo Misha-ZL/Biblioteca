@@ -79,7 +79,7 @@
             this.lFechaInicio.BackColor = System.Drawing.SystemColors.Control;
             this.lFechaInicio.Dock = System.Windows.Forms.DockStyle.Fill;
             this.lFechaInicio.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lFechaInicio.Location = new System.Drawing.Point(23, 32);
+            this.lFechaInicio.Location = new System.Drawing.Point(23, 31);
             this.lFechaInicio.Name = "lFechaInicio";
             this.lFechaInicio.Size = new System.Drawing.Size(87, 26);
             this.lFechaInicio.TabIndex = 4;
@@ -92,7 +92,7 @@
             this.lFechaFin.BackColor = System.Drawing.SystemColors.Control;
             this.lFechaFin.Dock = System.Windows.Forms.DockStyle.Fill;
             this.lFechaFin.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lFechaFin.Location = new System.Drawing.Point(23, 58);
+            this.lFechaFin.Location = new System.Drawing.Point(23, 57);
             this.lFechaFin.Name = "lFechaFin";
             this.lFechaFin.Size = new System.Drawing.Size(87, 26);
             this.lFechaFin.TabIndex = 5;
@@ -103,7 +103,7 @@
             // 
             this.TbIncio.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.TbIncio.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.TbIncio.Location = new System.Drawing.Point(116, 35);
+            this.TbIncio.Location = new System.Drawing.Point(116, 34);
             this.TbIncio.Name = "TbIncio";
             this.TbIncio.Size = new System.Drawing.Size(641, 20);
             this.TbIncio.TabIndex = 6;
@@ -112,7 +112,7 @@
             // 
             this.TbFin.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.TbFin.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.TbFin.Location = new System.Drawing.Point(116, 61);
+            this.TbFin.Location = new System.Drawing.Point(116, 60);
             this.TbFin.Name = "TbFin";
             this.TbFin.Size = new System.Drawing.Size(641, 20);
             this.TbFin.TabIndex = 7;
@@ -124,9 +124,9 @@
             this.BtnAddReserva.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.BtnAddReserva.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnAddReserva.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.BtnAddReserva.Location = new System.Drawing.Point(116, 277);
+            this.BtnAddReserva.Location = new System.Drawing.Point(116, 276);
             this.BtnAddReserva.Name = "BtnAddReserva";
-            this.BtnAddReserva.Size = new System.Drawing.Size(641, 108);
+            this.BtnAddReserva.Size = new System.Drawing.Size(641, 109);
             this.BtnAddReserva.TabIndex = 8;
             this.BtnAddReserva.Text = "EDITAR";
             this.BtnAddReserva.UseVisualStyleBackColor = false;
@@ -138,7 +138,7 @@
             this.Llibros.BackColor = System.Drawing.SystemColors.Control;
             this.Llibros.Dock = System.Windows.Forms.DockStyle.Fill;
             this.Llibros.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Llibros.Location = new System.Drawing.Point(23, 84);
+            this.Llibros.Location = new System.Drawing.Point(23, 83);
             this.Llibros.Name = "Llibros";
             this.Llibros.Size = new System.Drawing.Size(87, 95);
             this.Llibros.TabIndex = 10;
@@ -151,7 +151,7 @@
             this.lUsuario.BackColor = System.Drawing.SystemColors.Control;
             this.lUsuario.Dock = System.Windows.Forms.DockStyle.Fill;
             this.lUsuario.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lUsuario.Location = new System.Drawing.Point(23, 179);
+            this.lUsuario.Location = new System.Drawing.Point(23, 178);
             this.lUsuario.Name = "lUsuario";
             this.lUsuario.Size = new System.Drawing.Size(87, 95);
             this.lUsuario.TabIndex = 11;
@@ -160,24 +160,30 @@
             // 
             // DgvLibros
             // 
+            this.DgvLibros.AllowUserToAddRows = false;
+            this.DgvLibros.AllowUserToDeleteRows = false;
             this.DgvLibros.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.DgvLibros.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.DgvLibros.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.DgvLibros.Location = new System.Drawing.Point(116, 87);
+            this.DgvLibros.Location = new System.Drawing.Point(116, 86);
             this.DgvLibros.MultiSelect = false;
             this.DgvLibros.Name = "DgvLibros";
+            this.DgvLibros.ReadOnly = true;
             this.DgvLibros.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.DgvLibros.Size = new System.Drawing.Size(641, 89);
             this.DgvLibros.TabIndex = 12;
             // 
             // DgvUsuarios
             // 
+            this.DgvUsuarios.AllowUserToAddRows = false;
+            this.DgvUsuarios.AllowUserToDeleteRows = false;
             this.DgvUsuarios.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.DgvUsuarios.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.DgvUsuarios.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.DgvUsuarios.Location = new System.Drawing.Point(116, 182);
+            this.DgvUsuarios.Location = new System.Drawing.Point(116, 181);
             this.DgvUsuarios.MultiSelect = false;
             this.DgvUsuarios.Name = "DgvUsuarios";
+            this.DgvUsuarios.ReadOnly = true;
             this.DgvUsuarios.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.DgvUsuarios.Size = new System.Drawing.Size(641, 89);
             this.DgvUsuarios.TabIndex = 13;
