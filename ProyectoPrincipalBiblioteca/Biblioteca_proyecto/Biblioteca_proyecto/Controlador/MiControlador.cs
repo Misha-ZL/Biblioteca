@@ -228,7 +228,7 @@ namespace Biblioteca_proyecto.Controlador
         /// <param name="Sinopsis">Sinopsis a modificar</param>
         /// <param name="Disponible">Disponibilidad a modificar</param>
         /// <exception cref="Exception">Se lanza si cualquiera de los campos esta incompleto o no es valido</exception>
-        public void ModificarLibro(int id,string Titulo, string Escritor, int Ano, string Sinopsis, Boolean Disponible)
+        public void ModificarLibro(int id,string Titulo, string Escritor, int Ano, string Sinopsis, bool Disponible)
         {
             if (Titulo == "" || Escritor == "" || Ano <= 0 || Sinopsis == "")
             {
@@ -255,7 +255,7 @@ namespace Biblioteca_proyecto.Controlador
         /// <param name="fecha_inicio">Fecha inicial a modificar</param>
         /// <param name="fecha_fin">Fecha de termino a modificar</param>
         /// <exception cref="Exception"></exception>
-        public void ModificarPrestamo(int id,int Id_Libro, int Id_Usuario, String fecha_inicio, String fecha_fin)
+        public void ModificarPrestamo(int id,int Id_Libro, int Id_Usuario, string fecha_inicio, string fecha_fin)
         {
 
 

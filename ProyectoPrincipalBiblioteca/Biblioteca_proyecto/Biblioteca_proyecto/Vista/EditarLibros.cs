@@ -54,7 +54,7 @@ namespace Biblioteca_proyecto.Vista
             TbTitulo.Text = data.Rows[0]["Titulo"].ToString();
             TbEscritor.Text = data.Rows[0]["Escritor"].ToString();
             TbAnoEdicion.Text = data.Rows[0]["Ano_Edicion"].ToString();
-             TbSinopsis.Text = data.Rows[0]["Sinopsis"].ToString();
+            TbSinopsis.Text = data.Rows[0]["Sinopsis"].ToString();
 
             ///Se obtiene el valor de disponibilidad del libro y se asigna al CheckBox correspondiente,
             ///manejando tanto el caso en que el valor sea un booleano como un entero (1 para disponible, 0 para no disponible).
@@ -78,7 +78,7 @@ namespace Biblioteca_proyecto.Vista
                 ControladorModLibro.ModificarLibro( id, TbTitulo.Text, TbEscritor.Text, ano,  TbSinopsis.Text, disponible
                 );
 
-                MessageBox.Show("Editado libro ID: " + id);
+                MessageBox.Show("Editando libro ID: " + id);
                 this.Close();
             }
             catch (Exception ex)

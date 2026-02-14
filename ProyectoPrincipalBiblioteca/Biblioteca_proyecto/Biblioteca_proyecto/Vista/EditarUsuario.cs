@@ -69,7 +69,7 @@ namespace Biblioteca_proyecto.Vista
             {
               
                 ControladorModUsuario.ModificarUsuario(id, TbNombre.Text, TbAppellido1.Text, TbApellido2.Text, Convert.ToInt32(TbTelefono.Text));
-                MessageBox.Show("Editando ID: " + id);
+                MessageBox.Show("Editando usuario ID: " + id);
                 
 
                 this.Close();
