@@ -53,7 +53,7 @@
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 21.32213F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 40F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 35F));
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 24F));
             this.tableLayoutPanel1.Controls.Add(this.LAB_DNI, 3, 0);
             this.tableLayoutPanel1.Controls.Add(this.LAB_FDevolucion, 5, 0);
             this.tableLayoutPanel1.Controls.Add(this.btnEliminar, 6, 0);
@@ -75,7 +75,7 @@
             // 
             this.LAB_DNI.AutoSize = true;
             this.LAB_DNI.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.LAB_DNI.Location = new System.Drawing.Point(300, 0);
+            this.LAB_DNI.Location = new System.Drawing.Point(299, 0);
             this.LAB_DNI.Margin = new System.Windows.Forms.Padding(1, 0, 1, 0);
             this.LAB_DNI.Name = "LAB_DNI";
             this.LAB_DNI.Size = new System.Drawing.Size(166, 48);
@@ -87,7 +87,7 @@
             // 
             this.LAB_FDevolucion.AutoSize = true;
             this.LAB_FDevolucion.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.LAB_FDevolucion.Location = new System.Drawing.Point(636, 0);
+            this.LAB_FDevolucion.Location = new System.Drawing.Point(635, 0);
             this.LAB_FDevolucion.Margin = new System.Windows.Forms.Padding(1, 0, 1, 0);
             this.LAB_FDevolucion.Name = "LAB_FDevolucion";
             this.LAB_FDevolucion.Size = new System.Drawing.Size(166, 48);
@@ -100,7 +100,7 @@
             this.btnEliminar.Dock = System.Windows.Forms.DockStyle.Fill;
             this.btnEliminar.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnEliminar.Image = ((System.Drawing.Image)(resources.GetObject("btnEliminar.Image")));
-            this.btnEliminar.Location = new System.Drawing.Point(804, 1);
+            this.btnEliminar.Location = new System.Drawing.Point(803, 1);
             this.btnEliminar.Margin = new System.Windows.Forms.Padding(1);
             this.btnEliminar.Name = "btnEliminar";
             this.btnEliminar.Size = new System.Drawing.Size(38, 46);
@@ -114,7 +114,7 @@
             this.btnEditar.Dock = System.Windows.Forms.DockStyle.Fill;
             this.btnEditar.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnEditar.Image = ((System.Drawing.Image)(resources.GetObject("btnEditar.Image")));
-            this.btnEditar.Location = new System.Drawing.Point(844, 1);
+            this.btnEditar.Location = new System.Drawing.Point(843, 1);
             this.btnEditar.Margin = new System.Windows.Forms.Padding(1);
             this.btnEditar.Name = "btnEditar";
             this.btnEditar.Size = new System.Drawing.Size(33, 46);
@@ -126,7 +126,7 @@
             // 
             this.LAB_ISBN.AutoSize = true;
             this.LAB_ISBN.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.LAB_ISBN.Location = new System.Drawing.Point(134, 0);
+            this.LAB_ISBN.Location = new System.Drawing.Point(133, 0);
             this.LAB_ISBN.Name = "LAB_ISBN";
             this.LAB_ISBN.Size = new System.Drawing.Size(162, 48);
             this.LAB_ISBN.TabIndex = 5;
@@ -137,7 +137,7 @@
             // 
             this.LAB_FPrestamo.AutoSize = true;
             this.LAB_FPrestamo.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.LAB_FPrestamo.Location = new System.Drawing.Point(469, 0);
+            this.LAB_FPrestamo.Location = new System.Drawing.Point(468, 0);
             this.LAB_FPrestamo.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.LAB_FPrestamo.Name = "LAB_FPrestamo";
             this.LAB_FPrestamo.Size = new System.Drawing.Size(164, 48);
@@ -151,7 +151,7 @@
             this.LAB_ID.Dock = System.Windows.Forms.DockStyle.Fill;
             this.LAB_ID.Location = new System.Drawing.Point(18, 0);
             this.LAB_ID.Name = "LAB_ID";
-            this.LAB_ID.Size = new System.Drawing.Size(110, 48);
+            this.LAB_ID.Size = new System.Drawing.Size(109, 48);
             this.LAB_ID.TabIndex = 7;
             this.LAB_ID.Text = "IdPrestamo";
             this.LAB_ID.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;

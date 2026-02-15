@@ -53,7 +53,7 @@
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle());
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 40F));
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 35F));
-            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 34F));
+            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 35F));
             this.tableLayoutPanel2.Controls.Add(this.LAB_Escritor, 3, 0);
             this.tableLayoutPanel2.Controls.Add(this.btnEliminar, 6, 0);
             this.tableLayoutPanel2.Controls.Add(this.btnEditar, 7, 0);
@@ -63,12 +63,12 @@
             this.tableLayoutPanel2.Controls.Add(this.Chk_Disponible, 5, 0);
             this.tableLayoutPanel2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tableLayoutPanel2.Location = new System.Drawing.Point(0, 0);
-            this.tableLayoutPanel2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.tableLayoutPanel2.Margin = new System.Windows.Forms.Padding(2);
             this.tableLayoutPanel2.Name = "tableLayoutPanel2";
             this.tableLayoutPanel2.RowCount = 2;
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle());
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel2.Size = new System.Drawing.Size(796, 50);
+            this.tableLayoutPanel2.Size = new System.Drawing.Size(902, 50);
             this.tableLayoutPanel2.TabIndex = 5;
             // 
             // LAB_Escritor
@@ -76,10 +76,10 @@
             this.LAB_Escritor.AutoSize = true;
             this.LAB_Escritor.BackColor = System.Drawing.SystemColors.Control;
             this.LAB_Escritor.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.LAB_Escritor.Location = new System.Drawing.Point(303, 0);
+            this.LAB_Escritor.Location = new System.Drawing.Point(354, 0);
             this.LAB_Escritor.Margin = new System.Windows.Forms.Padding(1, 0, 1, 0);
             this.LAB_Escritor.Name = "LAB_Escritor";
-            this.LAB_Escritor.Size = new System.Drawing.Size(200, 48);
+            this.LAB_Escritor.Size = new System.Drawing.Size(236, 48);
             this.LAB_Escritor.TabIndex = 0;
             this.LAB_Escritor.Text = "Escritor";
             this.LAB_Escritor.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -88,7 +88,7 @@
             // 
             this.btnEliminar.Dock = System.Windows.Forms.DockStyle.Fill;
             this.btnEliminar.Image = ((System.Drawing.Image)(resources.GetObject("btnEliminar.Image")));
-            this.btnEliminar.Location = new System.Drawing.Point(687, 1);
+            this.btnEliminar.Location = new System.Drawing.Point(792, 1);
             this.btnEliminar.Margin = new System.Windows.Forms.Padding(1);
             this.btnEliminar.Name = "btnEliminar";
             this.btnEliminar.Size = new System.Drawing.Size(38, 46);
@@ -101,7 +101,7 @@
             this.btnEditar.BackColor = System.Drawing.SystemColors.Control;
             this.btnEditar.Dock = System.Windows.Forms.DockStyle.Fill;
             this.btnEditar.Image = ((System.Drawing.Image)(resources.GetObject("btnEditar.Image")));
-            this.btnEditar.Location = new System.Drawing.Point(727, 1);
+            this.btnEditar.Location = new System.Drawing.Point(832, 1);
             this.btnEditar.Margin = new System.Windows.Forms.Padding(1);
             this.btnEditar.Name = "btnEditar";
             this.btnEditar.Size = new System.Drawing.Size(33, 46);
@@ -114,9 +114,9 @@
             this.LAB_Titulo.AutoSize = true;
             this.LAB_Titulo.BackColor = System.Drawing.SystemColors.Control;
             this.LAB_Titulo.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.LAB_Titulo.Location = new System.Drawing.Point(103, 0);
+            this.LAB_Titulo.Location = new System.Drawing.Point(118, 0);
             this.LAB_Titulo.Name = "LAB_Titulo";
-            this.LAB_Titulo.Size = new System.Drawing.Size(196, 48);
+            this.LAB_Titulo.Size = new System.Drawing.Size(232, 48);
             this.LAB_Titulo.TabIndex = 5;
             this.LAB_Titulo.Text = "Titulo";
             this.LAB_Titulo.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -126,10 +126,10 @@
             this.LAB_AnoEdicion.AutoSize = true;
             this.LAB_AnoEdicion.BackColor = System.Drawing.SystemColors.Control;
             this.LAB_AnoEdicion.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.LAB_AnoEdicion.Location = new System.Drawing.Point(506, 0);
+            this.LAB_AnoEdicion.Location = new System.Drawing.Point(593, 0);
             this.LAB_AnoEdicion.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.LAB_AnoEdicion.Name = "LAB_AnoEdicion";
-            this.LAB_AnoEdicion.Size = new System.Drawing.Size(97, 48);
+            this.LAB_AnoEdicion.Size = new System.Drawing.Size(115, 48);
             this.LAB_AnoEdicion.TabIndex = 6;
             this.LAB_AnoEdicion.Text = "Año Edicion";
             this.LAB_AnoEdicion.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -141,7 +141,7 @@
             this.LAB_ID.Dock = System.Windows.Forms.DockStyle.Fill;
             this.LAB_ID.Location = new System.Drawing.Point(23, 0);
             this.LAB_ID.Name = "LAB_ID";
-            this.LAB_ID.Size = new System.Drawing.Size(74, 48);
+            this.LAB_ID.Size = new System.Drawing.Size(89, 48);
             this.LAB_ID.TabIndex = 7;
             this.LAB_ID.Text = "IdLibro";
             this.LAB_ID.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -153,7 +153,7 @@
             this.Chk_Disponible.AutoSize = true;
             this.Chk_Disponible.BackColor = System.Drawing.SystemColors.Control;
             this.Chk_Disponible.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.Chk_Disponible.Location = new System.Drawing.Point(608, 3);
+            this.Chk_Disponible.Location = new System.Drawing.Point(713, 3);
             this.Chk_Disponible.Name = "Chk_Disponible";
             this.Chk_Disponible.Size = new System.Drawing.Size(75, 42);
             this.Chk_Disponible.TabIndex = 8;
@@ -165,9 +165,9 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.tableLayoutPanel2);
-            this.MinimumSize = new System.Drawing.Size(796, 50);
+            this.MinimumSize = new System.Drawing.Size(902, 45);
             this.Name = "VerLibros";
-            this.Size = new System.Drawing.Size(796, 50);
+            this.Size = new System.Drawing.Size(902, 50);
             this.tableLayoutPanel2.ResumeLayout(false);
             this.tableLayoutPanel2.PerformLayout();
             this.ResumeLayout(false);

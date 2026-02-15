@@ -69,6 +69,7 @@ namespace Biblioteca_proyecto.Vista
                 } else
                 {
                     ControladorUsuario.NuevoUsuario(TbNombre.Text, TbAppellido1.Text, TbApellido2.Text, TelefonoInt);
+                    MessageBox.Show("Nuevo Usuario agregado con éxito.");
                 }
                 
                 LimpiarFormularioUsuario();

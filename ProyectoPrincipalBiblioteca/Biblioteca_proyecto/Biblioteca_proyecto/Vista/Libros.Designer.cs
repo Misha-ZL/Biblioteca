@@ -41,7 +41,7 @@
             this.tlpLibros.Name = "tlpLibros";
             this.tlpLibros.RowCount = 1;
             this.tlpLibros.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tlpLibros.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 462F));
+            this.tlpLibros.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 629F));
             this.tlpLibros.Size = new System.Drawing.Size(1088, 629);
             this.tlpLibros.TabIndex = 0;
             // 
@@ -51,10 +51,13 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
             this.ClientSize = new System.Drawing.Size(1088, 629);
+            this.ControlBox = false;
             this.Controls.Add(this.tlpLibros);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.MinimumSize = new System.Drawing.Size(1070, 600);
             this.Name = "FLibros";
+            this.ShowIcon = false;
+            this.ShowInTaskbar = false;
             this.Text = "Libros";
             this.ResumeLayout(false);
 

@@ -67,6 +67,7 @@ namespace Biblioteca_proyecto.Vista
                 } else
                 {
                     ControladorLibro.NuevoLibro(TbTitulo.Text, TbEscritor.Text, TelefonoInt, TbSinopsis.Text, ChkDisponible.Checked);
+                    MessageBox.Show("Nuevo libro agregado con éxito.");
                 } 
                
                 LimpiarFormularioLibro();

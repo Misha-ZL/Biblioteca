@@ -65,7 +65,7 @@
             this.tlpUsuario.Name = "tlpUsuario";
             this.tlpUsuario.RowCount = 1;
             this.tlpUsuario.RowStyles.Add(new System.Windows.Forms.RowStyle());
-            this.tlpUsuario.Size = new System.Drawing.Size(777, 36);
+            this.tlpUsuario.Size = new System.Drawing.Size(902, 45);
             this.tlpUsuario.TabIndex = 1;
             // 
             // btnEditar
@@ -73,10 +73,10 @@
             this.btnEditar.Dock = System.Windows.Forms.DockStyle.Fill;
             this.btnEditar.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnEditar.Image = ((System.Drawing.Image)(resources.GetObject("btnEditar.Image")));
-            this.btnEditar.Location = new System.Drawing.Point(647, 2);
+            this.btnEditar.Location = new System.Drawing.Point(772, 2);
             this.btnEditar.Margin = new System.Windows.Forms.Padding(2);
             this.btnEditar.Name = "btnEditar";
-            this.btnEditar.Size = new System.Drawing.Size(34, 32);
+            this.btnEditar.Size = new System.Drawing.Size(34, 41);
             this.btnEditar.TabIndex = 0;
             this.btnEditar.UseVisualStyleBackColor = true;
             this.btnEditar.Click += new System.EventHandler(this.btnEditar_Click);
@@ -86,10 +86,10 @@
             this.btnEliminar.Dock = System.Windows.Forms.DockStyle.Fill;
             this.btnEliminar.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnEliminar.Image = ((System.Drawing.Image)(resources.GetObject("btnEliminar.Image")));
-            this.btnEliminar.Location = new System.Drawing.Point(685, 2);
+            this.btnEliminar.Location = new System.Drawing.Point(810, 2);
             this.btnEliminar.Margin = new System.Windows.Forms.Padding(2);
             this.btnEliminar.Name = "btnEliminar";
-            this.btnEliminar.Size = new System.Drawing.Size(34, 32);
+            this.btnEliminar.Size = new System.Drawing.Size(34, 41);
             this.btnEliminar.TabIndex = 1;
             this.btnEliminar.UseVisualStyleBackColor = true;
             this.btnEliminar.Click += new System.EventHandler(this.btnEliminar_Click);
@@ -98,10 +98,10 @@
             // 
             this.lblApell1.AutoSize = true;
             this.lblApell1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lblApell1.Location = new System.Drawing.Point(143, 0);
+            this.lblApell1.Location = new System.Drawing.Point(168, 0);
             this.lblApell1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblApell1.Name = "lblApell1";
-            this.lblApell1.Size = new System.Drawing.Size(122, 36);
+            this.lblApell1.Size = new System.Drawing.Size(147, 45);
             this.lblApell1.TabIndex = 2;
             this.lblApell1.Text = "Apellido1";
             this.lblApell1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -110,10 +110,10 @@
             // 
             this.lblTelefono.AutoSize = true;
             this.lblTelefono.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lblTelefono.Location = new System.Drawing.Point(521, 0);
+            this.lblTelefono.Location = new System.Drawing.Point(621, 0);
             this.lblTelefono.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblTelefono.Name = "lblTelefono";
-            this.lblTelefono.Size = new System.Drawing.Size(122, 36);
+            this.lblTelefono.Size = new System.Drawing.Size(147, 45);
             this.lblTelefono.TabIndex = 3;
             this.lblTelefono.Text = "Telefono";
             this.lblTelefono.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -125,7 +125,7 @@
             this.lblUserid.Location = new System.Drawing.Point(17, 0);
             this.lblUserid.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblUserid.Name = "lblUserid";
-            this.lblUserid.Size = new System.Drawing.Size(122, 36);
+            this.lblUserid.Size = new System.Drawing.Size(147, 45);
             this.lblUserid.TabIndex = 4;
             this.lblUserid.Text = "IdUsuario";
             this.lblUserid.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -134,10 +134,10 @@
             // 
             this.lblApell2.AutoSize = true;
             this.lblApell2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lblApell2.Location = new System.Drawing.Point(269, 0);
+            this.lblApell2.Location = new System.Drawing.Point(319, 0);
             this.lblApell2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblApell2.Name = "lblApell2";
-            this.lblApell2.Size = new System.Drawing.Size(122, 36);
+            this.lblApell2.Size = new System.Drawing.Size(147, 45);
             this.lblApell2.TabIndex = 5;
             this.lblApell2.Text = "Apellido2";
             this.lblApell2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -146,10 +146,10 @@
             // 
             this.lblNombre.AutoSize = true;
             this.lblNombre.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lblNombre.Location = new System.Drawing.Point(395, 0);
+            this.lblNombre.Location = new System.Drawing.Point(470, 0);
             this.lblNombre.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblNombre.Name = "lblNombre";
-            this.lblNombre.Size = new System.Drawing.Size(122, 36);
+            this.lblNombre.Size = new System.Drawing.Size(147, 45);
             this.lblNombre.TabIndex = 6;
             this.lblNombre.Text = "Nombre";
             this.lblNombre.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -159,9 +159,9 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.tlpUsuario);
-            this.MinimumSize = new System.Drawing.Size(777, 36);
+            this.MinimumSize = new System.Drawing.Size(902, 45);
             this.Name = "VerUsuario";
-            this.Size = new System.Drawing.Size(777, 36);
+            this.Size = new System.Drawing.Size(902, 45);
             this.tlpUsuario.ResumeLayout(false);
             this.tlpUsuario.PerformLayout();
             this.ResumeLayout(false);

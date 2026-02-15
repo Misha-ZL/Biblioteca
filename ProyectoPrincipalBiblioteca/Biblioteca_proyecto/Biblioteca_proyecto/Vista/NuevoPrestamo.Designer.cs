@@ -77,13 +77,13 @@
             this.DgvUsuarios.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.DgvUsuarios.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.DgvUsuarios.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.DgvUsuarios.Location = new System.Drawing.Point(116, 264);
+            this.DgvUsuarios.Location = new System.Drawing.Point(116, 263);
             this.DgvUsuarios.MultiSelect = false;
             this.DgvUsuarios.Name = "DgvUsuarios";
             this.DgvUsuarios.ReadOnly = true;
             this.DgvUsuarios.RowHeadersWidth = 82;
             this.DgvUsuarios.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.DgvUsuarios.Size = new System.Drawing.Size(889, 151);
+            this.DgvUsuarios.Size = new System.Drawing.Size(889, 150);
             this.DgvUsuarios.TabIndex = 3;
             // 
             // lFechaInicio
@@ -135,9 +135,9 @@
             this.BtnEditarPrestamo.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.BtnEditarPrestamo.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnEditarPrestamo.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.BtnEditarPrestamo.Location = new System.Drawing.Point(116, 421);
+            this.BtnEditarPrestamo.Location = new System.Drawing.Point(116, 419);
             this.BtnEditarPrestamo.Name = "BtnEditarPrestamo";
-            this.BtnEditarPrestamo.Size = new System.Drawing.Size(889, 100);
+            this.BtnEditarPrestamo.Size = new System.Drawing.Size(889, 102);
             this.BtnEditarPrestamo.TabIndex = 8;
             this.BtnEditarPrestamo.Text = "AÑADIR";
             this.BtnEditarPrestamo.UseVisualStyleBackColor = false;
@@ -154,7 +154,7 @@
             this.DgvLibro.ReadOnly = true;
             this.DgvLibro.RowHeadersWidth = 82;
             this.DgvLibro.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.DgvLibro.Size = new System.Drawing.Size(889, 151);
+            this.DgvLibro.Size = new System.Drawing.Size(889, 150);
             this.DgvLibro.TabIndex = 9;
             // 
             // Llibros
@@ -164,7 +164,7 @@
             this.Llibros.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Llibros.Location = new System.Drawing.Point(23, 104);
             this.Llibros.Name = "Llibros";
-            this.Llibros.Size = new System.Drawing.Size(87, 157);
+            this.Llibros.Size = new System.Drawing.Size(87, 156);
             this.Llibros.TabIndex = 10;
             this.Llibros.Text = "Libros";
             this.Llibros.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -174,9 +174,9 @@
             this.lUsuario.AutoSize = true;
             this.lUsuario.Dock = System.Windows.Forms.DockStyle.Fill;
             this.lUsuario.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lUsuario.Location = new System.Drawing.Point(23, 261);
+            this.lUsuario.Location = new System.Drawing.Point(23, 260);
             this.lUsuario.Name = "lUsuario";
-            this.lUsuario.Size = new System.Drawing.Size(87, 157);
+            this.lUsuario.Size = new System.Drawing.Size(87, 156);
             this.lUsuario.TabIndex = 11;
             this.lUsuario.Text = "Usuarios";
             this.lUsuario.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -186,6 +186,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1028, 524);
+            this.ControlBox = false;
             this.Controls.Add(this.tableLayoutPanel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.MinimumSize = new System.Drawing.Size(609, 344);
