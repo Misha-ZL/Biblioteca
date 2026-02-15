@@ -124,9 +124,9 @@
             this.BtnAddReserva.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.BtnAddReserva.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnAddReserva.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.BtnAddReserva.Location = new System.Drawing.Point(116, 276);
+            this.BtnAddReserva.Location = new System.Drawing.Point(116, 274);
             this.BtnAddReserva.Name = "BtnAddReserva";
-            this.BtnAddReserva.Size = new System.Drawing.Size(641, 109);
+            this.BtnAddReserva.Size = new System.Drawing.Size(641, 111);
             this.BtnAddReserva.TabIndex = 8;
             this.BtnAddReserva.Text = "EDITAR";
             this.BtnAddReserva.UseVisualStyleBackColor = false;
@@ -140,7 +140,7 @@
             this.Llibros.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Llibros.Location = new System.Drawing.Point(23, 83);
             this.Llibros.Name = "Llibros";
-            this.Llibros.Size = new System.Drawing.Size(87, 95);
+            this.Llibros.Size = new System.Drawing.Size(87, 94);
             this.Llibros.TabIndex = 10;
             this.Llibros.Text = "Libros";
             this.Llibros.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -151,9 +151,9 @@
             this.lUsuario.BackColor = System.Drawing.SystemColors.Control;
             this.lUsuario.Dock = System.Windows.Forms.DockStyle.Fill;
             this.lUsuario.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lUsuario.Location = new System.Drawing.Point(23, 178);
+            this.lUsuario.Location = new System.Drawing.Point(23, 177);
             this.lUsuario.Name = "lUsuario";
-            this.lUsuario.Size = new System.Drawing.Size(87, 95);
+            this.lUsuario.Size = new System.Drawing.Size(87, 94);
             this.lUsuario.TabIndex = 11;
             this.lUsuario.Text = "Usuarios";
             this.lUsuario.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -170,7 +170,7 @@
             this.DgvLibros.Name = "DgvLibros";
             this.DgvLibros.ReadOnly = true;
             this.DgvLibros.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.DgvLibros.Size = new System.Drawing.Size(641, 89);
+            this.DgvLibros.Size = new System.Drawing.Size(641, 88);
             this.DgvLibros.TabIndex = 12;
             // 
             // DgvUsuarios
@@ -180,12 +180,12 @@
             this.DgvUsuarios.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.DgvUsuarios.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.DgvUsuarios.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.DgvUsuarios.Location = new System.Drawing.Point(116, 181);
+            this.DgvUsuarios.Location = new System.Drawing.Point(116, 180);
             this.DgvUsuarios.MultiSelect = false;
             this.DgvUsuarios.Name = "DgvUsuarios";
             this.DgvUsuarios.ReadOnly = true;
             this.DgvUsuarios.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.DgvUsuarios.Size = new System.Drawing.Size(641, 89);
+            this.DgvUsuarios.Size = new System.Drawing.Size(641, 88);
             this.DgvUsuarios.TabIndex = 13;
             // 
             // EditarPrestamo

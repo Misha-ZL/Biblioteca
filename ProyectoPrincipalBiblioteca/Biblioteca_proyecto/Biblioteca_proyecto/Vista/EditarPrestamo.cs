@@ -11,13 +11,22 @@ using Biblioteca_proyecto.Controlador;
 
 namespace Biblioteca_proyecto.Vista
 {
+
+ 
+
+
     /// <summary>
     /// Esta clase representa un formulario que permite editar los detalles de un préstamo existente en la biblioteca. 
     /// permitiendo modificar el ibro o usuarios asociados en un prestamo asi como las fechas de inicio y fin.
     /// eEl formulario se carga con los datos actuales del préstamo seleccionado.
     /// </summary>
     public partial class EditarPrestamo : Form
-    {
+    {   
+        
+        
+
+
+
         /// <summary>
         /// formulario para editar un préstamo existente. Permite modificar el libro, usuario, fecha de inicio y fecha de fin del préstamo seleccionado.
         /// </summary>
@@ -98,10 +107,11 @@ namespace Biblioteca_proyecto.Vista
             {
                 if (Convert.ToInt32(row.Cells["ID"].Value) == IdLibro)
                 {
+                    
                     DgvLibros.ClearSelection();
                     DgvLibros.CurrentCell = row.Cells[1];
+                    
                     row.Selected = true;
-                    DgvLibros.CurrentCell = row.Cells["Titulo"];
                     break;
                 }
             }
@@ -111,10 +121,11 @@ namespace Biblioteca_proyecto.Vista
             {
                 if (Convert.ToInt32(fila.Cells["ID"].Value) == IdUsuario)
                 {
+                    
                     DgvUsuarios.ClearSelection();
                     DgvUsuarios.CurrentCell = fila.Cells[1];
                     fila.Selected = true;
-                    DgvUsuarios.CurrentCell = fila.Cells["Nombre"];
+
                     break;
 
                 }
@@ -122,7 +133,7 @@ namespace Biblioteca_proyecto.Vista
 
         }
 
-
+  
 
         /// <summary>
         /// Cuando se carga el formulario, se llama a los métodos CargarDatos(), que carga los datos de  los libros y usuarios en los DataGridView correspondientes.
@@ -132,12 +143,13 @@ namespace Biblioteca_proyecto.Vista
         private void EditarPrestamo_Load(object sender, EventArgs e)
         {
             
-            
+           
             CargarDatos();
             CargarPrestamoActual();
 
             DgvLibros.SelectionChanged += DgvLibros_SelectionChanged;
             DgvUsuarios.SelectionChanged += DgvUsuarios_SelectionChanged;
+
 
         }
 
@@ -151,12 +163,14 @@ namespace Biblioteca_proyecto.Vista
 
             DgvUsuarios.DataSource = null;
             DgvUsuarios.DataSource = ControladorEditarPrestamo.CargarUsuarios();
+
         }
 
         //Cuando se vuelve a activar la ventana  hace estos
         protected override void OnActivated(EventArgs e)
         {
             base.OnActivated(e);
+
             RecargarLibrosYUsuarios();
         }
 

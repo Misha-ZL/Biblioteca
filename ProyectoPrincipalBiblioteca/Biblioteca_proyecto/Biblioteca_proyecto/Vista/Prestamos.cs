@@ -138,6 +138,9 @@ namespace Biblioteca_proyecto.Vista
         private void Control_EditarPrestamo(object sender, UserControl1.ClickarBotonIdEventArgs e)
         {
 
+           
+
+
             ///Se crea una instancia del formulario EditarPrestamo para editar el préstamo seleccionado.
             EditarPrestamo editarPrestamo = new EditarPrestamo();
             ///Se asigna el ID del préstamo seleccionado a la propiedad idPrestamo del formulario EditarPrestamo para que pueda cargar los datos correspondientes al préstamo que se desea editar.

@@ -127,7 +127,7 @@
             this.lblUserid.Name = "lblUserid";
             this.lblUserid.Size = new System.Drawing.Size(122, 36);
             this.lblUserid.TabIndex = 4;
-            this.lblUserid.Text = "idUsuario";
+            this.lblUserid.Text = "IdUsuario";
             this.lblUserid.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // lblApell2
